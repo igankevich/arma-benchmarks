@@ -33,7 +33,7 @@ build_arma() {
 }
 
 generate_input_files() {
-	out_grid="(200,40,40)"
+	out_grid="($1,40,40)"
 	cat >/tmp/velocity << EOF
 velocity_potential_solver = high_amplitude {
 	wnmax = from (0,0) to (0,0.25) npoints (2,2)
@@ -81,16 +81,17 @@ EOF
 
 run_benchmarks() {
 	framework=$1
+	nt=$2
 	echo "Running $framework benchmarks..."
 	root=$(pwd)
 	cd $framework
 	for model in ar ma lh
 	do
-		echo "Running model=$model,framework=$framework"
+		echo "Running model=$model,framework=$framework,nt=$nt"
 		cat /tmp/${model}_model /tmp/velocity > /tmp/input
 		ln -sfn $ROOT/mt.dat
-		mkdir -p $ROOT/output/$framework/$model
-		./src/arma /tmp/input >$ROOT/output/$framework/$model/$(date +%s%N).log 2>&1
+		mkdir -p $ROOT/output/$nt/$framework/$model
+		./src/arma /tmp/input >$ROOT/output/$nt/$framework/$model/$(date +%s%N).log 2>&1
 	done
 	cd $root
 }
@@ -98,6 +99,7 @@ run_benchmarks() {
 get_repository
 build_arma openmp
 build_arma opencl
-generate_input_files
-run_benchmarks openmp
-run_benchmarks opencl
+nt=1000
+generate_input_files $nt
+run_benchmarks openmp $nt
+run_benchmarks opencl $nt
