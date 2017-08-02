@@ -1,0 +1,17 @@
+OpenCL platform                = AMD Accelerated Parallel Processing
+OpenCL platform vendor         = Advanced Micro Devices, Inc.
+OpenCL device type             = GPU
+Input file                     = /tmp/input
+Output grid size               = (200,40,40)
+Output grid patch size         = (0.502513,10.2564,10.2564)
+Model                          = grid=(200,40,40):(100,400,400),spec_domain=from (0.3,-1.5708) to (1.5708,1.5708) npoints (40,40),spec_subdomain=(50,50),wave_height=4
+Velocity potential solver name = N4arma8velocity21High_amplitude_solverIdEE
+Velocity potential solver      = wnmax=from (0,0) to (0,0.25) npoints (2,2),depth=12,domain=from (10,-12) to (10,3) npoints (1,128)
+prfl deteremine_coefficients 2224500us
+Reuse OpenCL kernel /home/igankevich/.cache/arma/382804e53b854e56-2de16c0eb665b941-6de7ef775a6c294f-cd43f78e642b9243
+prfl generate_surface 1435797us
+prfl nit = 0us
+prfl window_function = 26352us
+prfl second_function = 186us
+prfl fft = 15920us
+prfl dev_to_host_copy = 0us
