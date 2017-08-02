@@ -4,7 +4,7 @@ set -e
 ROOT=$(pwd)
 
 get_repository() {
-	repo=git@github.com:igankevich/arma.git
+	repo=https://github.com/igankevich/arma
 	rev=1c4c387efcefa5d70bb8be07b0334e792c178e31
 	if ! test -d arma
 	then
@@ -86,13 +86,18 @@ run_benchmarks() {
 	echo "Running $framework benchmarks..."
 	root=$(pwd)
 	cd $framework
+	mkdir -p /var/tmp/arma
+	cd /var/tmp/arma
+	cp $ROOT/mt.dat .
 	for model in ar ma lh
 	do
 		echo "Running model=$model,framework=$framework,nt=$nt"
 		cat /tmp/${model}_model /tmp/velocity > /tmp/input
-		ln -sfn $ROOT/mt.dat
-		mkdir -p $ROOT/output/$host/$nt/$framework/$model
-		./src/arma /tmp/input >$ROOT/output/$host/$nt/$framework/$model/$(date +%s%N).log 2>&1
+		outdir="$ROOT/output/$host/$nt/$framework/$model"
+		outfile="$(date +%s%N).log"
+		mkdir -p $outdir
+		$ROOT/arma/$framework/src/arma /tmp/input >$outfile 2>&1
+		cp $outfile $outdir
 	done
 	cd $root
 }
