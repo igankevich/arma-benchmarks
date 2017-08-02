@@ -82,6 +82,7 @@ EOF
 run_benchmarks() {
 	framework=$1
 	nt=$2
+	host=$(hostname)
 	echo "Running $framework benchmarks..."
 	root=$(pwd)
 	cd $framework
@@ -90,8 +91,8 @@ run_benchmarks() {
 		echo "Running model=$model,framework=$framework,nt=$nt"
 		cat /tmp/${model}_model /tmp/velocity > /tmp/input
 		ln -sfn $ROOT/mt.dat
-		mkdir -p $ROOT/output/$nt/$framework/$model
-		./src/arma /tmp/input >$ROOT/output/$nt/$framework/$model/$(date +%s%N).log 2>&1
+		mkdir -p $ROOT/output/$host/$nt/$framework/$model
+		./src/arma /tmp/input >$ROOT/output/$host/$nt/$framework/$model/$(date +%s%N).log 2>&1
 	done
 	cd $root
 }
@@ -99,7 +100,7 @@ run_benchmarks() {
 get_repository
 build_arma openmp
 build_arma opencl
-nt=1000
+nt=10000
 generate_input_files $nt
 run_benchmarks openmp $nt
 run_benchmarks opencl $nt
