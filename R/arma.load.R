@@ -1,5 +1,5 @@
-arma.load <- function (hostname, nt, framework, model, tag, regex) {
-	dir <- file.path("output", hostname, nt, framework, model)
+arma.load <- function (outdir, hostname, nt, framework, model, tag, regex) {
+	dir <- file.path(outdir, hostname, nt, framework, model)
 	files <- sort(list.files(dir, pattern="\\.log$"))
 	message(paste("Reading", dir))
 	result <- c()
