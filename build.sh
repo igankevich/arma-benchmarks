@@ -89,12 +89,15 @@ run_benchmarks() {
 	mkdir -p /var/tmp/arma
 	cd /var/tmp/arma
 	cp $ROOT/mt.dat .
+	export XDG_CACHE_HOME=/tmp/arma-cache
+	export CLFFT_CACHE_PATH=/tmp/arma-cache
+	mkdir -p $XDG_CACHE_HOME $CLFFT_CACHE_PATH
 	for model in ar ma lh
 	do
 		echo "Running model=$model,framework=$framework,nt=$nt"
 		cat /tmp/${model}_model /tmp/velocity > /tmp/input
 		outdir="$ROOT/output/$host/$nt/$framework/$model"
-		outfile="$(date +%s%N).log"
+		outfile="$(date +%s).log"
 		mkdir -p $outdir
 		$ROOT/arma/$framework/src/arma /tmp/input >$outfile 2>&1
 		cp $outfile $outdir
