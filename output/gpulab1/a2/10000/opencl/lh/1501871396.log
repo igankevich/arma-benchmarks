@@ -1,0 +1,18 @@
+OpenCL platform                = NVIDIA CUDA
+OpenCL platform vendor         = NVIDIA Corporation
+OpenCL device type             = GPU
+Input file                     = /tmp/input
+Output grid size               = (10000,40,40)
+Output grid patch size         = (0.010001,10.2564,10.2564)
+Model                          = grid=(10000,40,40):(100,400,400),spec_domain=from (0.3,-1.5708) to (1.5708,1.5708) npoints (40,40),spec_subdomain=(50,50),wave_height=4
+Velocity potential solver name = N4arma8velocity21High_amplitude_solverIdEE
+Velocity potential solver      = wnmax=from (0,0) to (0,0.25) npoints (2,2),depth=12,domain=from (10,-12) to (10,3) npoints (1,128)
+prfl determine_coefficients 1186292us
+prfl generate_white_noise 132us
+Reuse OpenCL kernel /tmp/arma-cache/arma/5729c1640246bf7b-fd130b255ca936bf-c196d659dfa9bdf3-cd43f78e642b9243
+prfl generate_surface 25022684us
+prfl nit = 0us
+prfl window_function = 14050us
+prfl second_function = 113us
+prfl fft = 11127us
+prfl dev_to_host_copy = 0us

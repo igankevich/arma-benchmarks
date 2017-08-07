@@ -5,7 +5,7 @@ ROOT=$(pwd)
 
 get_repository() {
 	repo=https://github.com/igankevich/arma
-	rev=ec90a4e880425f610572b3cf7411f64143f3b125
+	rev=439732d9ba3c4a10832dce1cd922702946077b5c
 	if ! test -d arma
 	then
 		echo "Cloning repository..."
@@ -94,13 +94,18 @@ run_benchmarks() {
 	mkdir -p $XDG_CACHE_HOME $CLFFT_CACHE_PATH
 	for model in ar ma lh
 	do
-		echo "Running model=$model,framework=$framework,nt=$nt"
-		cat /tmp/${model}_model /tmp/velocity > /tmp/input
-		outdir="$ROOT/output/$host/$nt/$framework/$model"
-		outfile="$(date +%s).log"
-		mkdir -p $outdir
-		$ROOT/arma/$framework/src/arma /tmp/input >$outfile 2>&1
-		cp $outfile $outdir
+		if test "$model" = "ma" && test "$framework" = "opencl"
+		then
+			echo "Skipping model=$model,framework=$framework,nt=$nt"
+		else
+			echo "Running model=$model,framework=$framework,nt=$nt"
+			cat /tmp/${model}_model /tmp/velocity > /tmp/input
+			outdir="$ROOT/output/$host/$nt/$framework/$model"
+			outfile="$(date +%s).log"
+			mkdir -p $outdir
+			$ROOT/arma/$framework/src/arma /tmp/input >$outfile 2>&1
+			cp $outfile $outdir
+		fi
 	done
 	cd $root
 }
