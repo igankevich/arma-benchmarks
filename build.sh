@@ -58,9 +58,9 @@ model = MA {
 	out_grid = $out_grid
 	acf = {
 		func = propagating_wave
-		grid = (20,10,10) : (10,5,5)
+		grid = (7,7,7) : (10,5,5)
 	}
-	order = (20,10,10)
+	order = (7,7,7)
 	algorithm = fixed_point_iteration
 	max_iterations = 1000
 	eps = 1e-5
