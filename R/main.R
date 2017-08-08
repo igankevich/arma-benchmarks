@@ -11,12 +11,13 @@ tags <- list(
 	"generate_surface",
 #	"generate_white_noise",
 	"nit",
+	"write_all",
 	velocity=c("window_function", "second_function", "fft", "dev_to_host_copy")
 )
 param_tags <- list(
 	"Output grid size"
 )
-attempt <- "a2"
+attempt <- "a3"
 for (framework in frameworks) {
 	data <- data.frame()
 	for (m in models) {
