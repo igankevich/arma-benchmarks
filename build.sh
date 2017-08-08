@@ -5,7 +5,7 @@ ROOT=$(pwd)
 
 get_repository() {
 	repo=https://github.com/igankevich/arma
-	rev=439732d9ba3c4a10832dce1cd922702946077b5c
+	rev=13cdec1dc0eb49c426ab9e96e9f98e37a4540fc2
 	if ! test -d arma
 	then
 		echo "Cloning repository..."
@@ -41,9 +41,27 @@ velocity_potential_solver = high_amplitude {
 	domain = from (10,-12) to (10,3) npoints (1,128)
 }
 EOF
+	cat >/tmp/nit << EOF
+transform = nit {
+	distribution = gram_charlier {
+		skewness=3.25
+		kurtosis=2.4
+	}
+	interpolation_nodes = 100
+	max_interpolation_order = 10
+	max_expansion_order = 20
+	cdf_solver = {
+		interval = [-5,5]
+	}
+	acf_solver = {
+		interval = [-10,10]
+	}
+}
+EOF
 	cat >/tmp/ar_model << EOF
 model = AR {
 	out_grid = $out_grid
+	$(cat /tmp/nit)
 	acf = {
 		func = standing_wave
 		grid = (10,10,10) : (2.5,5,5)
@@ -56,6 +74,7 @@ EOF
 	cat >/tmp/ma_model << EOF
 model = MA {
 	out_grid = $out_grid
+	$(cat /tmp/nit)
 	acf = {
 		func = propagating_wave
 		grid = (7,7,7) : (10,5,5)
@@ -82,6 +101,7 @@ EOF
 run_benchmarks() {
 	framework=$1
 	nt=$2
+	attempt=$3
 	host=$(hostname)
 	echo "Running $framework benchmarks..."
 	root=$(pwd)
@@ -100,7 +120,7 @@ run_benchmarks() {
 		else
 			echo "Running model=$model,framework=$framework,nt=$nt"
 			cat /tmp/${model}_model /tmp/velocity > /tmp/input
-			outdir="$ROOT/output/$host/$nt/$framework/$model"
+			outdir="$ROOT/output/$host/$attempt/$nt/$framework/$model"
 			outfile="$(date +%s).log"
 			mkdir -p $outdir
 			$ROOT/arma/$framework/src/arma /tmp/input >$outfile 2>&1
@@ -114,6 +134,7 @@ get_repository
 build_arma openmp
 build_arma opencl
 nt=10000
+attempt=a3
 generate_input_files $nt
-run_benchmarks openmp $nt
-run_benchmarks opencl $nt
+run_benchmarks openmp $nt $attempt
+run_benchmarks opencl $nt $attempt
