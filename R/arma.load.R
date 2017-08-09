@@ -28,6 +28,9 @@ arma.load <- function (
 		lines <- gsub(regex, "\\1", lines, perl=TRUE)
 		if (args$numeric) {
 			lines <- as.numeric(lines)
+			if (length(tag) > 1 && length(lines) > 0) {
+				lines <- sum(lines)
+			}
 		}
 		if (length(lines) == 0) {
 			lines <- NA
