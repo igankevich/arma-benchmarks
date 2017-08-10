@@ -5,7 +5,7 @@ ROOT=$(pwd)
 
 get_repository() {
 	repo=https://github.com/igankevich/arma
-	rev=e2e970f163e37e1ebfff715546e0e80f484f89e4
+	rev=7ce9a8a79ce36ae2f4a2b3f42061dbcbbb8d5f1c
 	if ! test -d arma
 	then
 		echo "Cloning repository..."
