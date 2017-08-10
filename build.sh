@@ -134,7 +134,7 @@ get_repository
 build_arma openmp
 build_arma opencl
 nt=10000
-attempt=a3
+attempt=a4
 generate_input_files $nt
 run_benchmarks openmp $nt $attempt
 run_benchmarks opencl $nt $attempt
