@@ -5,7 +5,7 @@ ROOT=$(pwd)
 
 get_repository() {
 	repo=https://github.com/igankevich/arma
-	rev=13cdec1dc0eb49c426ab9e96e9f98e37a4540fc2
+	rev=e2e970f163e37e1ebfff715546e0e80f484f89e4
 	if ! test -d arma
 	then
 		echo "Cloning repository..."
@@ -68,7 +68,7 @@ model = AR {
 	}
 	least_squares = 0
 	order = (7,7,7)
-	output = surface
+	output = surface,binary
 }
 EOF
 	cat >/tmp/ma_model << EOF
@@ -84,7 +84,7 @@ model = MA {
 	max_iterations = 1000
 	eps = 1e-5
 	min_var_wn = 1e-6
-	output = surface
+	output = surface,binary
 }
 EOF
 	cat >/tmp/lh_model << EOF
@@ -93,7 +93,7 @@ model = LH {
 	spec_domain = from (0.3,-1.5708) to (1.5708,1.5708) npoints (40,40)
 	spec_subdomain = (50,50)
 	wave_height = 4
-	output = surface
+	output = surface,binary
 }
 EOF
 }
