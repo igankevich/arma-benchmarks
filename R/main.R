@@ -10,14 +10,14 @@ tags <- list(
 	"validate",
 	"generate_surface",
 #	"generate_white_noise",
-	"nit",
+	nit=c("nit_acf", "nit_realisation"),
 	"write_all",
 	velocity=c("window_function", "second_function", "fft", "dev_to_host_copy")
 )
 param_tags <- list(
 	"Output grid size"
 )
-attempt <- "a3"
+attempt <- "a4"
 for (framework in frameworks) {
 	data <- data.frame()
 	for (m in models) {
