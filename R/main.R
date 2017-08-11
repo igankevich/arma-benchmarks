@@ -11,8 +11,9 @@ tags <- list(
 	"generate_surface",
 #	"generate_white_noise",
 	nit=c("nit_acf", "nit_realisation"),
-	"write_all",
-	velocity=c("window_function", "second_function", "fft", "dev_to_host_copy")
+	"copy_to_host",
+	velocity=c("window_function", "second_function", "fft", "dev_to_host_copy"),
+	"write_all"
 )
 param_tags <- list(
 	"Output grid size"
@@ -52,8 +53,8 @@ for (framework in frameworks) {
 				".*=\\s+\\(([0-9,]+)\\).*",
 				numeric=FALSE
 			)
-			print(t)
-			print(unique(all_data))
+			#print(t)
+			#print(unique(all_data))
 		}
 	}
 
