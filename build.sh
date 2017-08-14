@@ -106,8 +106,9 @@ run_benchmarks() {
 	echo "Running $framework benchmarks..."
 	root=$(pwd)
 	cd $framework
-	mkdir -p /var/tmp/arma
-	cd /var/tmp/arma
+	workdir=$HOME/tmp/arma
+	mkdir -p $workdir
+	cd $workdir
 	cp $ROOT/mt.dat .
 	export XDG_CACHE_HOME=/tmp/arma-cache
 	export CLFFT_CACHE_PATH=/tmp/arma-cache
