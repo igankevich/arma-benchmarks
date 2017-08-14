@@ -5,7 +5,7 @@ ROOT=$(pwd)
 
 get_repository() {
 	repo=https://github.com/igankevich/arma
-	rev=a65f57c8df008d23216464008cc76b0e2fa71137
+	rev=8462e6e2c1ca6b7039feadf94619db16c0b8222e
 	if ! test -d arma
 	then
 		echo "Cloning repository..."
@@ -134,13 +134,17 @@ run_benchmarks() {
 
 get_repository
 build_arma openmp
-build_arma opencl
+#build_arma opencl
 nt=10000
-attempt=a5-xfs-seq
-workdir=/var/tmp/arma
+workdir_xfs=/var/tmp/arma
+workdir_nfs=$HOME/tmp/arma
+workdir_gfs=/gfs$HOME/tmp/arma
 generate_input_files $nt
-for i in $(seq 10)
+for fs in xfs nfs gfs
 do
+	attempt=a5-$fs-events
+	eval workdir="\$workdir_$fs"
+	echo "attempt=$attempt,workdir=$workdir"
 	run_benchmarks openmp $nt $attempt $workdir
-	#run_benchmarks opencl $nt $attempt
+	#run_benchmarks opencl $nt $attempt $workdir
 done
