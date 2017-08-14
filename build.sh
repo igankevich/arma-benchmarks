@@ -5,7 +5,7 @@ ROOT=$(pwd)
 
 get_repository() {
 	repo=https://github.com/igankevich/arma
-	rev=7ce9a8a79ce36ae2f4a2b3f42061dbcbbb8d5f1c
+	rev=a65f57c8df008d23216464008cc76b0e2fa71137
 	if ! test -d arma
 	then
 		echo "Cloning repository..."
@@ -102,18 +102,19 @@ run_benchmarks() {
 	framework=$1
 	nt=$2
 	attempt=$3
+	workdir=$4
 	host=$(hostname)
 	echo "Running $framework benchmarks..."
 	root=$(pwd)
 	cd $framework
-	workdir=$HOME/tmp/arma
 	mkdir -p $workdir
 	cd $workdir
 	cp $ROOT/mt.dat .
 	export XDG_CACHE_HOME=/tmp/arma-cache
 	export CLFFT_CACHE_PATH=/tmp/arma-cache
 	mkdir -p $XDG_CACHE_HOME $CLFFT_CACHE_PATH
-	for model in ar ma lh
+#	for model in ar ma lh
+	for model in ar
 	do
 		if test "$model" = "ma" && test "$framework" = "opencl"
 		then
@@ -135,7 +136,11 @@ get_repository
 build_arma openmp
 build_arma opencl
 nt=10000
-attempt=a4
+attempt=a5-xfs-seq
+workdir=/var/tmp/arma
 generate_input_files $nt
-run_benchmarks openmp $nt $attempt
-run_benchmarks opencl $nt $attempt
+for i in $(seq 10)
+do
+	run_benchmarks openmp $nt $attempt $workdir
+	#run_benchmarks opencl $nt $attempt
+done
