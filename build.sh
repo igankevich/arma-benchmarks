@@ -5,7 +5,7 @@ ROOT=$(pwd)
 
 get_repository() {
 	repo=https://github.com/igankevich/arma
-	rev=3a7c9f36abd7c520f8f1bf0a0facc27e1302c9ea
+	rev=d4bb06976bb09424e0bf41f20aca2d040e7a46d3
 	if ! test -d arma
 	then
 		echo "Cloning repository..."
@@ -21,24 +21,47 @@ get_repository() {
 
 build_arma() {
 	framework=$1
+	dir=$2
+	if test -z "$dir"
+	then
+		dir=$framework
+	fi
+	more_options=$3
 	echo "Building $framework source code..."
 	options="-Dreal_type=double -Dprofile=true -Dopencl_srcdir=$(pwd)/src/kernels"
-	if ! test -d $framework
+	if test -n "$more_options"
 	then
-		meson --buildtype=release . $framework
+		options="$options $more_options"
 	fi
-	mesonconf $framework $options -Dframework=$framework 
-	ninja -C $framework
-	ninja -C $framework test
+	if ! test -d $dir
+	then
+		meson --buildtype=release . $dir
+	fi
+	mesonconf $dir $options -Dframework=$framework 
+	ninja -C $dir
+	ninja -C $dir test
 }
 
 generate_input_files() {
-	out_grid="($1,40,40)"
+	nt=$1
+	m=$2
+	if test -z "$m"
+	then
+		m=128
+	fi
+	out_grid="($nt,40,40)"
 	cat >/tmp/velocity << EOF
 velocity_potential_solver = high_amplitude {
 	wnmax = from (0,0) to (0,0.25) npoints (2,2)
 	depth = 12
 	domain = from (10,-12) to (10,3) npoints (1,128)
+}
+EOF
+	cat >/tmp/velocity-realtime << EOF
+velocity_potential_solver = high_amplitude_realtime {
+	wnmax = from (0,0) to (0,0.25) npoints (2,2)
+	depth = 12
+	domain = from (10,-12) to (10,3) npoints (1,$m)
 }
 EOF
 	cat >/tmp/nit << EOF
@@ -132,13 +155,49 @@ run_benchmarks() {
 	cd $root
 }
 
+run_benchmarks_varying_size() {
+	framework=$1
+	nt=$2
+	attempt=$3
+	workdir=$4
+	dir=$5
+	model=lh
+	host=$(hostname)
+	echo "Running $dir benchmarks..."
+	root=$(pwd)
+	cd $dir
+	mkdir -p $workdir
+	cd $workdir
+	cp $ROOT/mt.dat .
+	export XDG_CACHE_HOME=/tmp/arma-cache
+	export CLFFT_CACHE_PATH=/tmp/arma-cache
+	mkdir -p $XDG_CACHE_HOME $CLFFT_CACHE_PATH
+	for m in 128 256 512 1024
+	do
+		echo "Running model=$model,framework=$framework,nt=$nt,m=$m"
+		generate_input_files $nt $m
+		cat /tmp/${model}_model /tmp/velocity-realtime > /tmp/input
+		outdir="$ROOT/output/$host/$attempt-$m/$nt/$framework/$model"
+		outfile="$(date +%s).log"
+		mkdir -p $outdir
+		$ROOT/arma/$dir/src/arma-realtime /tmp/input >$outfile 2>&1
+		cp $outfile $outdir
+	done
+	cd $root
+}
+
 get_repository
-build_arma openmp
+#build_arma openmp
 #build_arma opencl
-nt=10000
+build_arma opencl realtime "-Dwith_high_amplitude_realtime_solver=true"
+nt=200
 workdir_xfs=/var/tmp/arma
 workdir_nfs=$HOME/tmp/arma
 workdir_gfs=/gfs$HOME/tmp/arma
+attempt=a6
+run_benchmarks_varying_size opencl $nt $attempt $workdir_xfs realtime
+exit
+
 generate_input_files $nt
 for fs in xfs nfs gfs
 do
