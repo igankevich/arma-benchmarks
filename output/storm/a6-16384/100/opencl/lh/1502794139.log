@@ -1,0 +1,26 @@
+evnt main 0 strt programme 11us
+OpenCL platform                = AMD Accelerated Parallel Processing
+OpenCL platform vendor         = Advanced Micro Devices, Inc.
+OpenCL device type             = GPU
+Input file                     = /tmp/input
+Output grid size               = (100,40,40)
+Output grid patch size         = (1.0101,10.2564,10.2564)
+Model                          = grid=(100,40,40):(100,400,400),spec_domain=from (0.3,-1.5708) to (1.5708,1.5708) npoints (40,40),spec_subdomain=(50,50),wave_height=4
+Velocity potential solver name = N4arma8velocity30High_amplitude_realtime_solverIdEE
+Velocity potential solver      = wnmax=from (0,0) to (0,0.25) npoints (2,2),depth=12,domain=from (10,-12) to (10,3) npoints (1,16384)
+prfl determine_coefficients 1864972us
+prfl generate_white_noise 154us
+Reuse OpenCL kernel /tmp/arma-cache/arma/382804e53b854e56-2de16c0eb665b941-6de7ef775a6c294f-cd43f78e642b9243
+prfl generate_surface 41039us
+prfl setup 29212us
+Reuse OpenCL kernel /tmp/arma-cache/arma/382804e53b854e56-2de16c0eb665b941-6de7ef775a6c294f-b83c9ff473f84d43
+Reuse OpenCL kernel /tmp/arma-cache/arma/382804e53b854e56-2de16c0eb665b941-6de7ef775a6c294f-bccd678a383d6f5a
+Reuse OpenCL kernel /tmp/arma-cache/arma/382804e53b854e56-2de16c0eb665b941-6de7ef775a6c294f-0d9ab7064146f22d
+Reuse OpenCL kernel /tmp/arma-cache/arma/382804e53b854e56-2de16c0eb665b941-6de7ef775a6c294f-b35357b95b2a0a67
+prfl create_vector_field 1215us
+prfl write_surface = 0us
+prfl copy_to_host = 700583us
+prfl harts_g1 = 3712us
+prfl harts_g2 = 796358us
+prfl harts_fft = 359560us
+prfl harts_copy_to_host = 2682528us

@@ -54,7 +54,7 @@ generate_input_files() {
 velocity_potential_solver = high_amplitude {
 	wnmax = from (0,0) to (0,0.25) npoints (2,2)
 	depth = 12
-	domain = from (10,-12) to (10,3) npoints (1,128)
+	domain = from (10,-12) to (10,3) npoints (1,$m)
 }
 EOF
 	cat >/tmp/velocity-realtime << EOF
@@ -161,6 +161,11 @@ run_benchmarks_varying_size() {
 	attempt=$3
 	workdir=$4
 	dir=$5
+	suffix=$6
+	if test -n "$suffix"
+	then
+		suffix="-$suffix"
+	fi
 	model=lh
 	host=$(hostname)
 	echo "Running $dir benchmarks..."
@@ -172,30 +177,35 @@ run_benchmarks_varying_size() {
 	export XDG_CACHE_HOME=/tmp/arma-cache
 	export CLFFT_CACHE_PATH=/tmp/arma-cache
 	mkdir -p $XDG_CACHE_HOME $CLFFT_CACHE_PATH
-	for m in 128 256 512 1024
+	for m in 128 256 512 1024 2048 4096 8192 16384
 	do
 		echo "Running model=$model,framework=$framework,nt=$nt,m=$m"
 		generate_input_files $nt $m
-		cat /tmp/${model}_model /tmp/velocity-realtime > /tmp/input
+		cat /tmp/${model}_model /tmp/velocity$suffix > /tmp/input
 		outdir="$ROOT/output/$host/$attempt-$m/$nt/$framework/$model"
 		outfile="$(date +%s).log"
 		mkdir -p $outdir
-		$ROOT/arma/$dir/src/arma-realtime /tmp/input >$outfile 2>&1
+		$ROOT/arma/$dir/src/arma$suffix /tmp/input >$outfile 2>&1
 		cp $outfile $outdir
 	done
 	cd $root
 }
 
 get_repository
-#build_arma openmp
+build_arma openmp
 #build_arma opencl
 build_arma opencl realtime "-Dwith_high_amplitude_realtime_solver=true"
-nt=200
+nt=100
 workdir_xfs=/var/tmp/arma
 workdir_nfs=$HOME/tmp/arma
 workdir_gfs=/gfs$HOME/tmp/arma
 attempt=a6
-run_benchmarks_varying_size opencl $nt $attempt $workdir_xfs realtime
+for i in $(seq 9)
+do
+	echo "Iteration #$i"
+	run_benchmarks_varying_size opencl $nt $attempt $workdir_xfs realtime realtime
+	run_benchmarks_varying_size openmp $nt $attempt $workdir_xfs openmp
+done
 exit
 
 generate_input_files $nt
