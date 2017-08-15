@@ -28,12 +28,7 @@ for (framework in frameworks) {
 		idx <- 1
 		for (t in tags) {
 			all_data <- arma.load(
-				"output",
-				"gpulab1",
-				attempt,
-				10000,
-				framework,
-				m,
+				file.path("output", "gpulab1", attempt, 10000, framework, m),
 				t,
 				".*\\s+([0-9]+)us.*"
 			)
@@ -43,12 +38,7 @@ for (framework in frameworks) {
 		}
 		for (t in param_tags) {
 			all_data <- arma.load(
-				"output",
-				"gpulab1",
-				attempt,
-				10000,
-				framework,
-				m,
+				file.path("output", "gpulab1", attempt, 10000, framework, m),
 				t,
 				".*=\\s+\\(([0-9,]+)\\).*",
 				numeric=FALSE

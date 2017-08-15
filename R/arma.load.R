@@ -1,19 +1,8 @@
-arma.load <- function (
-	outdir,
-	hostname,
-	attempt,
-	nt,
-	framework,
-	model,
-	tag,
-	regex,
-	...
-) {
+arma.load <- function (dir, tag, regex, ...) {
 	args <- list(...)
 	if (!("numeric" %in% names(args))) {
 		args$numeric = TRUE
 	}
-	dir <- file.path(outdir, hostname, attempt, nt, framework, model)
 	files <- sort(list.files(dir, pattern="\\.log$"))
 	message(paste("Reading", dir))
 	result <- c()
