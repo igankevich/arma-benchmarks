@@ -1,0 +1,16 @@
+evnt main 0 strt programme 8us
+Input file                     = /home/igankevich/workspace/arma-data/input/plain_wave_high_amplitude_solver
+Output grid size               = (200,128,40)
+Output grid patch size         = (1,0.0629921,0.205128)
+Model                          = func=cos,waves=[(4,0.125,0,0.5,0)]
+Velocity potential solver name = N4arma8velocity21High_amplitude_solverIdEE
+Velocity potential solver      = wnmax=from (0,0) to (0,0.25) npoints (2,2),depth=12,domain=from (10,-12) to (10,4) npoints (1,128)
+prfl generate_surface 22393us
+prfl write_all 5474402us
+prfl write_surface = 0us
+prfl copy_to_host = 0us
+prfl harts_g1 = 87952us
+prfl harts_g2 = 515us
+prfl harts_fft = 55978us
+prfl harts_copy_to_host = 0us
+evnt main 0 end programme 5548013us

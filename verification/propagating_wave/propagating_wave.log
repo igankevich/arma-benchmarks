@@ -1,0 +1,26 @@
+evnt main 0 strt programme 6us
+Input file                     = /home/igankevich/workspace/arma-data/input/propagating_wave
+Output grid size               = (200,40,40)
+Output grid patch size         = (1,1,1)
+Model                          = grid=(200,40,40):(199,39,39),order=(20,10,10),output=waves,acf,csv,surface,acf.shape=(20,10,10),algorithm=fixed_point_iteration
+Velocity potential solver name = N4arma8velocity13Linear_solverIdEE
+Velocity potential solver      = wnmax=from (0,0) to (0,0.25) npoints (2,2),depth=12,domain=from (10,-12) to (10,4) npoints (1,128)
+prfl nit_acf 0us
+ACF variance                   = 1
+prfl determine_coefficients 296282us
+prfl validate 36811950us
+White noise variance           = 0.0680325
+prfl generate_white_noise 23703us
+this->_blocksize=(65,25,25)
+this->_padding=(20,10,10)
+all_parts=16
+prfl generate_surface 127492us
+prfl nit_realisation 0us
+prfl write_all 1764909us
+prfl write_surface = 0us
+prfl copy_to_host = 0us
+prfl harts_g1 = 32829us
+prfl harts_g2 = 20us
+prfl harts_fft = 19207us
+prfl harts_copy_to_host = 0us
+evnt main 0 end programme 39645660us

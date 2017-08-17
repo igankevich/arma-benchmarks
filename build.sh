@@ -5,7 +5,7 @@ ROOT=$(pwd)
 
 get_repository() {
 	repo=https://github.com/igankevich/arma
-	rev=d4bb06976bb09424e0bf41f20aca2d040e7a46d3
+	rev=cebf1f20abc57ce1031aea183b058ae2db3c4d07
 	if ! test -d arma
 	then
 		echo "Cloning repository..."
@@ -132,7 +132,7 @@ run_benchmarks() {
 	cd $framework
 	mkdir -p $workdir
 	cd $workdir
-	cp $ROOT/mt.dat .
+	cp $ROOT/input/mt.dat .
 	export XDG_CACHE_HOME=/tmp/arma-cache
 	export CLFFT_CACHE_PATH=/tmp/arma-cache
 	mkdir -p $XDG_CACHE_HOME $CLFFT_CACHE_PATH
@@ -173,7 +173,7 @@ run_benchmarks_varying_size() {
 	cd $dir
 	mkdir -p $workdir
 	cd $workdir
-	cp $ROOT/mt.dat .
+	cp $ROOT/input/mt.dat .
 	export XDG_CACHE_HOME=/tmp/arma-cache
 	export CLFFT_CACHE_PATH=/tmp/arma-cache
 	mkdir -p $XDG_CACHE_HOME $CLFFT_CACHE_PATH
@@ -191,10 +191,34 @@ run_benchmarks_varying_size() {
 	cd $root
 }
 
+produce_verification_data() {
+	dir=$1
+	root=$(pwd)
+	for testname in \
+		plain_wave_linear_solver \
+		plain_wave_high_amplitude_solver
+	do
+		echo "Running dir=$dir,input=$testname"
+		wd=$ROOT/verification/$testname
+		rm -rf $wd
+		mkdir -p $wd
+		cd $wd
+		ln -sfn $ROOT/input/mt.dat .
+		$ROOT/arma/$dir/src/arma $ROOT/input/$testname >$testname.log 2>&1
+		rm mt.dat
+	done
+	cd $root
+}
+
 get_repository
 build_arma openmp
 #build_arma opencl
-build_arma opencl realtime "-Dwith_high_amplitude_realtime_solver=true"
+#build_arma opencl realtime "-Dwith_high_amplitude_realtime_solver=true"
+
+
+produce_verification_data openmp
+exit
+
 nt=100
 workdir_xfs=/var/tmp/arma
 workdir_nfs=$HOME/tmp/arma
