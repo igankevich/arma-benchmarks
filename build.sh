@@ -5,7 +5,7 @@ ROOT=$(pwd)
 
 get_repository() {
 	repo=https://github.com/igankevich/arma
-	rev=cebf1f20abc57ce1031aea183b058ae2db3c4d07
+	rev=f20fb9686aa657f5234f6372d8c7c24a70cb7c4d
 	if ! test -d arma
 	then
 		echo "Cloning repository..."
@@ -195,6 +195,8 @@ produce_verification_data() {
 	dir=$1
 	root=$(pwd)
 	for testname in \
+		propagating_wave \
+		standing_wave \
 		plain_wave_linear_solver \
 		plain_wave_high_amplitude_solver
 	do
