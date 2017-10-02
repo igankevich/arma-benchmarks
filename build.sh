@@ -45,9 +45,14 @@ build_arma() {
 generate_input_files() {
 	nt=$1
 	m=$2
+	nit=$3
 	if test -z "$m"
 	then
 		m=128
+	fi
+	if test -z "$nit"
+	then
+		nit=1
 	fi
 	out_grid="($nt,40,40)"
 	cat >/tmp/velocity << EOF
@@ -64,6 +69,8 @@ velocity_potential_solver = high_amplitude_realtime {
 	domain = from (10,-12) to (10,3) npoints (1,$m)
 }
 EOF
+if test "$nit" = "1"
+then
 	cat >/tmp/nit << EOF
 transform = nit {
 	distribution = gram_charlier {
@@ -81,6 +88,9 @@ transform = nit {
 	}
 }
 EOF
+else
+	echo -n >/tmp/nit
+fi
 	cat >/tmp/ar_model << EOF
 model = AR {
 	out_grid = $out_grid
@@ -149,6 +159,11 @@ run_benchmarks() {
 			outfile="$(date +%s).log"
 			mkdir -p $outdir
 			$ROOT/arma/$framework/src/arma /tmp/input >$outfile 2>&1
+			status=$?
+			if test "$status" != "0"
+			then
+				echo "Exit status $status"
+			fi
 			cp $outfile $outdir
 		fi
 	done
@@ -225,13 +240,12 @@ benchmark_opencl_vs_openmp() {
 }
 
 benchmark_bscheduler_vs_openmp() {
-	nt=$1
-	attempt=$2
-	workdir=$3
-	generate_input_files $nt
-	for i in $(seq 9)
+	attempt=$1
+	workdir=$2
+	for nt in $(seq 12000 2000 20000)
 	do
-		echo "Iteration #$i"
+		echo "Iteration #$nt"
+		generate_input_files $nt 128 0
 		run_benchmarks bscheduler $nt $attempt $workdir
 		run_benchmarks openmp $nt $attempt $workdir
 	done
@@ -256,17 +270,17 @@ benchmark_file_systems() {
 
 get_repository
 #build_arma openmp
-build_arma bscheduler
+#build_arma bscheduler
 #build_arma opencl
 #build_arma opencl realtime "-Dwith_high_amplitude_realtime_solver=true"
 
 
-nt=100
+nt=10000
 workdir=/var/tmp/arma
 attempt=a6-bscheduler
 
 #produce_verification_data openmp
 #benchmark_opencl_vs_openmp $nt $attempt $workdir
-benchmark_bscheduler_vs_openmp $nt $attempt $workdir
+benchmark_bscheduler_vs_openmp $attempt $workdir
 #benchmark_file_systems $nt $attempt
 exit

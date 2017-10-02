@@ -1,0 +1,169 @@
+evnt main 0 strt programme 7us
+    upstrm: start
+    upstrm: start
+    upstrm: start
+    upstrm: start
+   dwnstrm: start
+   dwnstrm: start
+   dwnstrm: start
+   dwnstrm: start
+       tmr: start
+        io: start
+        io: start
+Input file                     = /tmp/input
+Output grid size               = (100,40,40)
+Output grid patch size         = (1,1,1)
+Model                          = grid=(100,40,40):(99,39,39),order=(7,7,7),output=binary,surface,acf.shape=(10,10,10),transform=dist=gram_charlier,skewness=0,kurtosis=0,cdf_solver=interval=[0,1],niterations=100,acf_solver=interval=[0,1],niterations=100,interpolation_nodes=100,max_interpolation_order=12,max_expansion_order=10,noseed=0
+Velocity potential solver name = N4arma8velocity21High_amplitude_solverIdEE
+Velocity potential solver      = wnmax=from (0,0) to (0,0.25) npoints (2,2),depth=12,domain=from (10,-12) to (10,3) npoints (1,128)
+prfl nit_acf 0us
+ACF variance                   = 1
+prfl determine_coefficients 44597us
+prfl validate 99370us
+Partition size                 = (14,10,10)
+No. of parts                   = (8,4,4)
+White noise variance           = 0.000519022
+generated part [1/128]
+generated part [2/128]
+generated part [3/128]
+generated part [4/128]
+generated part [5/128]
+generated part [6/128]
+generated part [7/128]
+generated part [8/128]
+generated part [9/128]
+generated part [10/128]
+generated part [11/128]
+generated part [12/128]
+generated part [13/128]
+generated part [14/128]
+generated part [15/128]
+generated part [16/128]
+generated part [17/128]
+generated part [18/128]
+generated part [19/128]
+generated part [20/128]
+generated part [21/128]
+generated part [22/128]
+generated part [23/128]
+generated part [24/128]
+generated part [25/128]
+generated part [26/128]
+generated part [27/128]
+generated part [28/128]
+generated part [29/128]
+generated part [30/128]
+generated part [31/128]
+generated part [32/128]
+generated part [33/128]
+generated part [34/128]
+generated part [35/128]
+generated part [36/128]
+generated part [37/128]
+generated part [38/128]
+generated part [39/128]
+generated part [40/128]
+generated part [41/128]
+generated part [42/128]
+generated part [43/128]
+generated part [44/128]
+generated part [45/128]
+generated part [46/128]
+generated part [47/128]
+generated part [48/128]
+generated part [49/128]
+generated part [50/128]
+generated part [51/128]
+generated part [52/128]
+generated part [53/128]
+generated part [54/128]
+generated part [55/128]
+generated part [56/128]
+generated part [57/128]
+generated part [58/128]
+generated part [59/128]
+generated part [60/128]
+generated part [61/128]
+generated part [62/128]
+generated part [63/128]
+generated part [64/128]
+generated part [65/128]
+generated part [66/128]
+generated part [67/128]
+generated part [68/128]
+generated part [69/128]
+generated part [70/128]
+generated part [71/128]
+generated part [72/128]
+generated part [73/128]
+generated part [74/128]
+generated part [75/128]
+generated part [76/128]
+generated part [77/128]
+generated part [78/128]
+generated part [79/128]
+generated part [80/128]
+generated part [81/128]
+generated part [82/128]
+generated part [83/128]
+generated part [84/128]
+generated part [85/128]
+generated part [86/128]
+generated part [87/128]
+generated part [88/128]
+generated part [89/128]
+generated part [90/128]
+generated part [91/128]
+generated part [92/128]
+generated part [93/128]
+generated part [94/128]
+generated part [95/128]
+generated part [96/128]
+generated part [97/128]
+generated part [98/128]
+generated part [99/128]
+generated part [100/128]
+generated part [101/128]
+generated part [102/128]
+generated part [103/128]
+generated part [104/128]
+generated part [105/128]
+generated part [106/128]
+generated part [107/128]
+generated part [108/128]
+generated part [109/128]
+generated part [110/128]
+generated part [111/128]
+generated part [112/128]
+generated part [113/128]
+generated part [114/128]
+generated part [115/128]
+generated part [116/128]
+generated part [117/128]
+generated part [118/128]
+generated part [119/128]
+generated part [120/128]
+generated part [121/128]
+generated part [122/128]
+generated part [123/128]
+generated part [124/128]
+generated part [125/128]
+generated part [126/128]
+generated part [127/128]
+generated part [128/128]
+prfl write_all 0us
+    upstrm: wait(): pid=17011
+   dwnstrm: wait(): pid=17011
+   dwnstrm: wait(): pid=17011
+   dwnstrm: wait(): pid=17011
+   dwnstrm: wait(): pid=17011
+       tmr: wait(): pid=17011
+        io: wait(): pid=17011
+      chld: wait(): pid=17011
+prfl write_surface = 0us
+prfl copy_to_host = 0us
+prfl harts_copy_to_host = 0us
+prfl harts_fft = 16263us
+prfl harts_g1 = 23947us
+prfl harts_g2 = 111us
+evnt main 0 end programme 245396us
