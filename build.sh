@@ -5,7 +5,7 @@ ROOT=$(pwd)
 
 get_repository() {
 	repo=https://github.com/igankevich/arma
-	rev=f20fb9686aa657f5234f6372d8c7c24a70cb7c4d
+	rev=7b84e0ca19fa735be7c3e0f902432b9f8c4b871e
 	if ! test -d arma
 	then
 		echo "Cloning repository..."
@@ -212,34 +212,61 @@ produce_verification_data() {
 	cd $root
 }
 
+benchmark_opencl_vs_openmp() {
+	nt=$1
+	attempt=$2
+	workdir=$3
+	for i in $(seq 9)
+	do
+		echo "Iteration #$i"
+		run_benchmarks_varying_size opencl $nt $attempt $workdir realtime realtime
+		run_benchmarks_varying_size openmp $nt $attempt $workdir openmp
+	done
+}
+
+benchmark_bscheduler_vs_openmp() {
+	nt=$1
+	attempt=$2
+	workdir=$3
+	generate_input_files $nt
+	for i in $(seq 9)
+	do
+		echo "Iteration #$i"
+		run_benchmarks bscheduler $nt $attempt $workdir
+		run_benchmarks openmp $nt $attempt $workdir
+	done
+}
+
+benchmark_file_systems() {
+	nt=$1
+	attempt=$2
+	workdir_xfs=/var/tmp/arma
+	workdir_nfs=$HOME/tmp/arma
+	workdir_gfs=/gfs$HOME/tmp/arma
+	generate_input_files $nt
+	for fs in xfs nfs gfs
+	do
+		attempt=a5-$fs-events
+		eval workdir="\$workdir_$fs"
+		echo "attempt=$attempt,workdir=$workdir"
+		run_benchmarks openmp $nt $attempt $workdir
+		#run_benchmarks opencl $nt $attempt $workdir
+	done
+}
+
 get_repository
-build_arma openmp
+#build_arma openmp
+build_arma bscheduler
 #build_arma opencl
 #build_arma opencl realtime "-Dwith_high_amplitude_realtime_solver=true"
 
 
-produce_verification_data openmp
-exit
-
 nt=100
-workdir_xfs=/var/tmp/arma
-workdir_nfs=$HOME/tmp/arma
-workdir_gfs=/gfs$HOME/tmp/arma
-attempt=a6
-for i in $(seq 9)
-do
-	echo "Iteration #$i"
-	run_benchmarks_varying_size opencl $nt $attempt $workdir_xfs realtime realtime
-	run_benchmarks_varying_size openmp $nt $attempt $workdir_xfs openmp
-done
-exit
+workdir=/var/tmp/arma
+attempt=a6-bscheduler
 
-generate_input_files $nt
-for fs in xfs nfs gfs
-do
-	attempt=a5-$fs-events
-	eval workdir="\$workdir_$fs"
-	echo "attempt=$attempt,workdir=$workdir"
-	run_benchmarks openmp $nt $attempt $workdir
-	#run_benchmarks opencl $nt $attempt $workdir
-done
+#produce_verification_data openmp
+#benchmark_opencl_vs_openmp $nt $attempt $workdir
+benchmark_bscheduler_vs_openmp $nt $attempt $workdir
+#benchmark_file_systems $nt $attempt
+exit
