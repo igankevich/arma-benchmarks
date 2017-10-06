@@ -5,7 +5,10 @@ ROOT=$(pwd)
 
 get_repository() {
 	repo=https://github.com/igankevich/arma
-	rev=7b84e0ca19fa735be7c3e0f902432b9f8c4b871e
+	# revision for distributed Bscheduler benchmark
+	rev=f50dc7eccb99104dbeb63549ac014a1e89285e23
+	# revision for OpenMP vs Bscheduler benchmark
+	#rev=7b84e0ca19fa735be7c3e0f902432b9f8c4b871e
 	if ! test -d arma
 	then
 		echo "Cloning repository..."
@@ -38,7 +41,7 @@ build_arma() {
 		meson --buildtype=release . $dir
 	fi
 	mesonconf $dir $options -Dframework=$framework 
-	ninja -C $dir
+	ninja -C $dir -v
 	ninja -C $dir test
 }
 
@@ -101,7 +104,7 @@ model = AR {
 	}
 	least_squares = 0
 	order = (7,7,7)
-	output = surface,binary
+	output = none
 }
 EOF
 	cat >/tmp/ma_model << EOF
@@ -158,11 +161,14 @@ run_benchmarks() {
 			outdir="$ROOT/output/$host/$attempt/$nt/$framework/$model"
 			outfile="$(date +%s).log"
 			mkdir -p $outdir
+			set +e
 			$ROOT/arma/$framework/src/arma /tmp/input >$outfile 2>&1
 			status=$?
+			set -e
 			if test "$status" != "0"
 			then
 				echo "Exit status $status"
+				exit 1
 			fi
 			cp $outfile $outdir
 		fi
@@ -242,7 +248,7 @@ benchmark_opencl_vs_openmp() {
 benchmark_bscheduler_vs_openmp() {
 	attempt=$1
 	workdir=$2
-	for nt in $(seq 12000 2000 20000)
+	for nt in $(seq 10000 2500 30000)
 	do
 		echo "Iteration #$nt"
 		generate_input_files $nt 128 0
@@ -277,10 +283,13 @@ get_repository
 
 nt=10000
 workdir=/var/tmp/arma
-attempt=a6-bscheduler
+attempt=a8-bscheduler
 
 #produce_verification_data openmp
 #benchmark_opencl_vs_openmp $nt $attempt $workdir
-benchmark_bscheduler_vs_openmp $attempt $workdir
+for i in $(seq 10)
+do
+	benchmark_bscheduler_vs_openmp $attempt $workdir
+done
 #benchmark_file_systems $nt $attempt
 exit
