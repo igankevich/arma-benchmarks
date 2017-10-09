@@ -6,7 +6,7 @@ ROOT=$(pwd)
 get_repository() {
 	repo=https://github.com/igankevich/arma
 	# revision for distributed Bscheduler benchmark
-	rev=f50dc7eccb99104dbeb63549ac014a1e89285e23
+	rev=d9e7123974dd49af6ec622dc8f356827e121c8cd
 	# revision for OpenMP vs Bscheduler benchmark
 	#rev=7b84e0ca19fa735be7c3e0f902432b9f8c4b871e
 	if ! test -d arma
@@ -139,6 +139,7 @@ run_benchmarks() {
 	nt=$2
 	attempt=$3
 	workdir=$4
+	mode=$5
 	host=$(hostname)
 	echo "Running $framework benchmarks..."
 	root=$(pwd)
@@ -161,16 +162,26 @@ run_benchmarks() {
 			outdir="$ROOT/output/$host/$attempt/$nt/$framework/$model"
 			outfile="$(date +%s).log"
 			mkdir -p $outdir
-			set +e
-			$ROOT/arma/$framework/src/arma /tmp/input >$outfile 2>&1
-			status=$?
-			set -e
-			if test "$status" != "0"
+			if test "$mode" = "bsub"
 			then
-				echo "Exit status $status"
-				exit 1
+				bsub $ROOT/arma/$framework/src/arma /tmp/input >/tmp/appid 2>&1
+				app=$(cat /tmp/appid | sed -rne 's/.*\s+([0-9]+)\s*$/\1/p')
+				echo "Application ID: $app"
+				echo "Press any key when arma finishes."
+				read anykey
+				cp -v "/var/log/bscheduler/$app.err" $outdir/$app.log
+			else
+				set +e
+				$ROOT/arma/$framework/src/arma /tmp/input >$outfile 2>&1
+				status=$?
+				set -e
+				if test "$status" != "0"
+				then
+					echo "Exit status $status"
+					exit 1
+				fi
+				cp $outfile $outdir
 			fi
-			cp $outfile $outdir
 		fi
 	done
 	cd $root
@@ -257,6 +268,17 @@ benchmark_bscheduler_vs_openmp() {
 	done
 }
 
+benchmark_bscheduler_single_node() {
+	attempt=$1
+	workdir=$2
+	for nt in $(seq 10000 2500 30000)
+	do
+		echo "nt=$nt"
+		generate_input_files $nt 128 0
+		run_benchmarks bscheduler $nt $attempt $workdir bsub
+	done
+}
+
 benchmark_file_systems() {
 	nt=$1
 	attempt=$2
@@ -283,13 +305,14 @@ get_repository
 
 nt=10000
 workdir=/var/tmp/arma
-attempt=a8-bscheduler
+attempt=a9-single-node
 
 #produce_verification_data openmp
 #benchmark_opencl_vs_openmp $nt $attempt $workdir
-for i in $(seq 10)
-do
-	benchmark_bscheduler_vs_openmp $attempt $workdir
-done
+#for i in $(seq 10)
+#do
+#	benchmark_bscheduler_vs_openmp $attempt $workdir
+#done
+benchmark_bscheduler_single_node $attempt $workdir
 #benchmark_file_systems $nt $attempt
 exit

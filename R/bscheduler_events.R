@@ -10,15 +10,20 @@ all_data = data.frame(
 	size=rep(NA,0),
 	t=rep(NA,0)
 )
+all_test_cases <- list(c("a8", "openmp"),
+					   c("a8", "bscheduler"),
+					   c("a9-single-node", "bscheduler"))
 row <- 1
 for (size in seq(10000, 30000, 2500)) {
-	for (framework in c("openmp", "bscheduler")) {
+	for (test_case in all_test_cases) {
+		attempt <- test_case[[1]]
+		framework <- test_case[[2]]
 		data <- arma.load_events(
 			file.path("output", hostname, attempt, size, framework, "ar"),
 			c("programme")
 		)
 		ev_prog <- data[data$event == "programme",]
-		all_data[row, 'framework'] <- framework
+		all_data[row, 'framework'] <- paste(attempt, framework, sep="-")
 		all_data[row, 'size'] <- size
 		all_data[row, 't'] <- mean(ev_prog$t1 - ev_prog$t0)*1e-6
 		row <- row + 1
@@ -29,18 +34,25 @@ plot.new()
 plot.window(xlim=range(all_data$size), ylim=range(0,all_data$t))
 conf <- list(
 	a=list(
-		framework='openmp',
+		framework='a8-openmp',
 		color='#000000',
 		lty="solid",
 		lwd=3,
 		name="OpenMP"
 	),
 	b=list(
-		framework='bscheduler',
+		framework='a8-bscheduler',
 		color='#f00000',
 		lty="solid",
 		lwd=3,
-		name="Bscheduler"
+		name="Bscheduler (local)"
+	),
+	c=list(
+		framework='a9-single-node-bscheduler',
+		color='#0000f0',
+		lty="solid",
+		lwd=3,
+		name="Bscheduler (single node)"
 	)
 )
 for (c in conf) {
