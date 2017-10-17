@@ -2,22 +2,23 @@
 source(file.path("R", "arma.load_events.R"))
 #pdf(width=10,height=5)
 
-#attempt <- "a9-bscheduler-fast"
-attempt <- "a8-bscheduler"
-hostname <- "gpulab1"
 all_data = data.frame(
 	framework=rep(NA,0),
 	size=rep(NA,0),
 	t=rep(NA,0)
 )
-all_test_cases <- list(c("a8", "openmp"),
-					   c("a8", "bscheduler"),
-					   c("a9-single-node", "bscheduler"))
+#all_test_cases <- list(c("a8", "openmp", "gpulab1"),
+#					   c("a8", "bscheduler", "gpulab1"),
+#					   c("a9-single-node", "bscheduler", "gpulab1"))
+all_test_cases <- list(c("a9-single-node", "openmp", "m1"),
+					   c("a9-single-node", "bscheduler", "m1"),
+					   c("a9-two-nodes", "bscheduler", "m1"))
 row <- 1
 for (size in seq(10000, 30000, 2500)) {
 	for (test_case in all_test_cases) {
 		attempt <- test_case[[1]]
 		framework <- test_case[[2]]
+		hostname <- test_case[[3]]
 		data <- arma.load_events(
 			file.path("output", hostname, attempt, size, framework, "ar"),
 			c("programme")
@@ -34,25 +35,25 @@ plot.new()
 plot.window(xlim=range(all_data$size), ylim=range(0,all_data$t))
 conf <- list(
 	a=list(
-		framework='a8-openmp',
+		framework='a9-single-node-openmp',
 		color='#000000',
 		lty="solid",
 		lwd=3,
 		name="OpenMP"
 	),
 	b=list(
-		framework='a8-bscheduler',
-		color='#f00000',
-		lty="solid",
-		lwd=3,
-		name="Bscheduler (local)"
-	),
-	c=list(
 		framework='a9-single-node-bscheduler',
 		color='#0000f0',
 		lty="solid",
 		lwd=3,
 		name="Bscheduler (single node)"
+	),
+	c=list(
+		framework='a9-two-nodes-bscheduler',
+		color='#f00000',
+		lty="solid",
+		lwd=3,
+		name="Bscheduler (two nodes)"
 	)
 )
 for (c in conf) {

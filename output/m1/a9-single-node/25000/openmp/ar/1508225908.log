@@ -1,0 +1,2125 @@
+evnt main 0 strt programme 7us
+Input file                     = /tmp/input
+Output grid size               = (25000,40,40)
+Output grid patch size         = (1,1,1)
+Model                          = grid=(25000,40,40):(24999,39,39),order=(7,7,7),output=none,acf.shape=(10,10,10),transform=dist=gram_charlier,skewness=0,kurtosis=0,cdf_solver=interval=[0,1],niterations=100,acf_solver=interval=[0,1],niterations=100,interpolation_nodes=100,max_interpolation_order=12,max_expansion_order=10,noseed=0
+Velocity potential solver name = N4arma8velocity21High_amplitude_solverIdEE
+Velocity potential solver      = wnmax=from (0,0) to (0,0.25) npoints (2,2),depth=12,domain=from (10,-12) to (10,3) npoints (1,128)
+prfl nit_acf 0us
+ACF variance                   = 1
+prfl determine_coefficients 20593us
+prfl validate 121179us
+White noise variance           = 0.000519022
+Partition size                 = (900,8,8)
+evnt omp 6 strt generate_surface 145050us
+evnt omp 6 end generate_surface 178055us
+generated part [1/700]
+evnt omp 6 strt generate_surface 178245us
+evnt omp 2 strt generate_surface 178311us
+evnt omp 3 strt generate_surface 178382us
+evnt omp 6 end generate_surface 211153us
+generated part [2/700]
+evnt omp 6 strt generate_surface 211266us
+evnt omp 3 end generate_surface 214900us
+generated part [3/700]
+evnt omp 3 strt generate_surface 215038us
+evnt omp 7 strt generate_surface 215069us
+evnt omp 2 end generate_surface 225899us
+generated part [4/700]
+evnt omp 2 strt generate_surface 226038us
+evnt omp 4 strt generate_surface 226074us
+evnt omp 1 strt generate_surface 226199us
+evnt omp 6 end generate_surface 244362us
+generated part [5/700]
+evnt omp 6 strt generate_surface 244466us
+evnt omp 7 end generate_surface 248686us
+generated part [6/700]
+evnt omp 7 strt generate_surface 248975us
+evnt omp 3 end generate_surface 249089us
+generated part [7/700]
+evnt omp 5 strt generate_surface 249205us
+evnt omp 3 strt generate_surface 253137us
+evnt omp 4 end generate_surface 272562us
+generated part [8/700]
+evnt omp 4 strt generate_surface 272809us
+evnt omp 1 end generate_surface 273610us
+generated part [9/700]
+evnt omp 0 strt generate_surface 273682us
+evnt omp 6 end generate_surface 277977us
+generated part [10/700]
+evnt omp 6 strt generate_surface 278070us
+evnt omp 2 end generate_surface 281254us
+generated part [11/700]
+evnt omp 2 strt generate_surface 281372us
+evnt omp 7 end generate_surface 282445us
+generated part [12/700]
+evnt omp 7 strt generate_surface 282575us
+evnt omp 5 end generate_surface 283402us
+generated part [13/700]
+evnt omp 5 strt generate_surface 283458us
+evnt omp 1 strt generate_surface 286100us
+evnt omp 3 end generate_surface 287090us
+generated part [14/700]
+evnt omp 3 strt generate_surface 287186us
+evnt omp 6 end generate_surface 311362us
+generated part [15/700]
+evnt omp 6 strt generate_surface 311443us
+evnt omp 4 end generate_surface 318395us
+generated part [16/700]
+evnt omp 4 strt generate_surface 318522us
+evnt omp 3 end generate_surface 320801us
+generated part [17/700]
+evnt omp 3 strt generate_surface 320922us
+evnt omp 2 end generate_surface 331956us
+generated part [18/700]
+evnt omp 2 strt generate_surface 332010us
+evnt omp 0 end generate_surface 333304us
+generated part [19/700]
+evnt omp 0 strt generate_surface 333406us
+evnt omp 5 end generate_surface 333728us
+generated part [20/700]
+evnt omp 5 strt generate_surface 333856us
+evnt omp 7 end generate_surface 333905us
+generated part [21/700]
+evnt omp 7 strt generate_surface 333962us
+evnt omp 1 end generate_surface 342221us
+generated part [22/700]
+evnt omp 1 strt generate_surface 342347us
+evnt omp 6 end generate_surface 345608us
+generated part [23/700]
+evnt omp 6 strt generate_surface 345659us
+evnt omp 3 end generate_surface 358382us
+generated part [24/700]
+evnt omp 3 strt generate_surface 358490us
+evnt omp 4 end generate_surface 367092us
+generated part [25/700]
+evnt omp 4 strt generate_surface 367205us
+evnt omp 0 end generate_surface 367330us
+generated part [26/700]
+evnt omp 0 strt generate_surface 367387us
+evnt omp 2 end generate_surface 381785us
+generated part [27/700]
+evnt omp 2 strt generate_surface 381894us
+evnt omp 7 end generate_surface 383454us
+generated part [28/700]
+evnt omp 7 strt generate_surface 383582us
+evnt omp 5 end generate_surface 383911us
+generated part [29/700]
+evnt omp 5 strt generate_surface 383967us
+evnt omp 1 end generate_surface 392519us
+generated part [30/700]
+evnt omp 1 strt generate_surface 392645us
+evnt omp 6 end generate_surface 395272us
+generated part [31/700]
+evnt omp 6 strt generate_surface 395324us
+evnt omp 4 end generate_surface 401062us
+generated part [32/700]
+evnt omp 4 strt generate_surface 401191us
+evnt omp 3 end generate_surface 404092us
+generated part [33/700]
+evnt omp 3 strt generate_surface 404200us
+evnt omp 0 end generate_surface 416560us
+generated part [34/700]
+evnt omp 0 strt generate_surface 416654us
+evnt omp 2 end generate_surface 431816us
+generated part [35/700]
+evnt omp 2 strt generate_surface 431924us
+evnt omp 7 end generate_surface 433232us
+generated part [36/700]
+evnt omp 7 strt generate_surface 433360us
+evnt omp 5 end generate_surface 433947us
+generated part [37/700]
+evnt omp 5 strt generate_surface 434002us
+evnt omp 1 end generate_surface 442342us
+generated part [38/700]
+evnt omp 1 strt generate_surface 442465us
+evnt omp 6 end generate_surface 444542us
+generated part [39/700]
+evnt omp 6 strt generate_surface 444592us
+evnt omp 4 end generate_surface 454045us
+generated part [40/700]
+evnt omp 4 strt generate_surface 454184us
+evnt omp 3 end generate_surface 456596us
+generated part [41/700]
+evnt omp 3 strt generate_surface 456706us
+evnt omp 0 end generate_surface 461604us
+generated part [42/700]
+evnt omp 0 strt generate_surface 461698us
+evnt omp 2 end generate_surface 466062us
+generated part [43/700]
+evnt omp 2 strt generate_surface 466166us
+evnt omp 7 end generate_surface 483094us
+generated part [44/700]
+evnt omp 7 strt generate_surface 483216us
+evnt omp 5 end generate_surface 484093us
+generated part [45/700]
+evnt omp 5 strt generate_surface 484150us
+evnt omp 1 end generate_surface 491898us
+generated part [46/700]
+evnt omp 1 strt generate_surface 492006us
+evnt omp 6 end generate_surface 493301us
+generated part [47/700]
+evnt omp 6 strt generate_surface 493351us
+evnt omp 4 end generate_surface 507805us
+generated part [48/700]
+evnt omp 4 strt generate_surface 507927us
+evnt omp 3 end generate_surface 509899us
+generated part [49/700]
+evnt omp 3 strt generate_surface 510021us
+evnt omp 0 end generate_surface 511133us
+generated part [50/700]
+evnt omp 0 strt generate_surface 511225us
+evnt omp 2 end generate_surface 516013us
+generated part [51/700]
+evnt omp 2 strt generate_surface 516118us
+evnt omp 5 end generate_surface 518174us
+generated part [52/700]
+evnt omp 5 strt generate_surface 518312us
+evnt omp 7 end generate_surface 529436us
+generated part [53/700]
+evnt omp 7 strt generate_surface 529495us
+evnt omp 1 end generate_surface 541425us
+generated part [54/700]
+evnt omp 1 strt generate_surface 541548us
+evnt omp 6 end generate_surface 541999us
+generated part [55/700]
+evnt omp 6 strt generate_surface 542051us
+evnt omp 5 end generate_surface 551759us
+generated part [56/700]
+evnt omp 5 strt generate_surface 551853us
+evnt omp 0 end generate_surface 560645us
+generated part [57/700]
+evnt omp 0 strt generate_surface 560767us
+evnt omp 4 end generate_surface 562503us
+generated part [58/700]
+evnt omp 4 strt generate_surface 562559us
+evnt omp 3 end generate_surface 566515us
+generated part [59/700]
+evnt omp 3 strt generate_surface 566645us
+evnt omp 2 end generate_surface 566830us
+generated part [60/700]
+evnt omp 2 strt generate_surface 566889us
+evnt omp 7 end generate_surface 578772us
+generated part [61/700]
+evnt omp 7 strt generate_surface 578878us
+evnt omp 5 end generate_surface 585642us
+generated part [62/700]
+evnt omp 5 strt generate_surface 585693us
+evnt omp 1 end generate_surface 587071us
+generated part [63/700]
+evnt omp 1 strt generate_surface 587234us
+evnt omp 6 end generate_surface 591538us
+generated part [64/700]
+evnt omp 6 strt generate_surface 591590us
+evnt omp 4 end generate_surface 598076us
+generated part [65/700]
+evnt omp 4 strt generate_surface 598218us
+evnt omp 0 end generate_surface 607157us
+generated part [66/700]
+evnt omp 0 strt generate_surface 607241us
+evnt omp 2 end generate_surface 617803us
+generated part [67/700]
+evnt omp 2 strt generate_surface 617922us
+evnt omp 3 end generate_surface 619502us
+generated part [68/700]
+evnt omp 3 strt generate_surface 619555us
+evnt omp 7 end generate_surface 628539us
+generated part [69/700]
+evnt omp 7 strt generate_surface 628647us
+evnt omp 4 end generate_surface 631757us
+generated part [70/700]
+evnt omp 4 strt generate_surface 631865us
+evnt omp 5 end generate_surface 635183us
+generated part [71/700]
+evnt omp 5 strt generate_surface 635287us
+evnt omp 6 end generate_surface 636008us
+generated part [72/700]
+evnt omp 6 strt generate_surface 636158us
+evnt omp 1 end generate_surface 636939us
+generated part [73/700]
+evnt omp 1 strt generate_surface 636996us
+evnt omp 0 end generate_surface 656714us
+generated part [74/700]
+evnt omp 0 strt generate_surface 656795us
+evnt omp 2 end generate_surface 664769us
+generated part [75/700]
+evnt omp 2 strt generate_surface 664893us
+evnt omp 4 end generate_surface 666402us
+generated part [76/700]
+evnt omp 4 strt generate_surface 666490us
+evnt omp 6 end generate_surface 670578us
+generated part [77/700]
+evnt omp 6 strt generate_surface 670710us
+evnt omp 3 end generate_surface 670853us
+generated part [78/700]
+evnt omp 3 strt generate_surface 670944us
+evnt omp 7 end generate_surface 674874us
+generated part [79/700]
+evnt omp 7 strt generate_surface 674998us
+evnt omp 5 end generate_surface 686068us
+generated part [80/700]
+evnt omp 5 strt generate_surface 686135us
+evnt omp 1 end generate_surface 687025us
+generated part [81/700]
+evnt omp 1 strt generate_surface 687142us
+evnt omp 3 end generate_surface 706037us
+generated part [82/700]
+evnt omp 3 strt generate_surface 706160us
+evnt omp 0 end generate_surface 706717us
+generated part [83/700]
+evnt omp 0 strt generate_surface 706836us
+evnt omp 2 end generate_surface 714783us
+generated part [84/700]
+evnt omp 2 strt generate_surface 714871us
+evnt omp 6 end generate_surface 717042us
+generated part [85/700]
+evnt omp 6 strt generate_surface 717176us
+evnt omp 4 end generate_surface 717937us
+generated part [86/700]
+evnt omp 4 strt generate_surface 718026us
+evnt omp 7 end generate_surface 724459us
+generated part [87/700]
+evnt omp 7 strt generate_surface 724583us
+evnt omp 5 end generate_surface 736174us
+generated part [88/700]
+evnt omp 5 strt generate_surface 736230us
+evnt omp 1 end generate_surface 737338us
+generated part [89/700]
+evnt omp 1 strt generate_surface 737438us
+evnt omp 3 end generate_surface 739894us
+generated part [90/700]
+evnt omp 3 strt generate_surface 740000us
+evnt omp 0 end generate_surface 756279us
+generated part [91/700]
+evnt omp 0 strt generate_surface 756380us
+evnt omp 6 end generate_surface 764433us
+generated part [92/700]
+evnt omp 6 strt generate_surface 764543us
+evnt omp 2 end generate_surface 764677us
+generated part [93/700]
+evnt omp 2 strt generate_surface 764797us
+evnt omp 4 end generate_surface 770077us
+generated part [94/700]
+evnt omp 4 strt generate_surface 770185us
+evnt omp 7 end generate_surface 774731us
+generated part [95/700]
+evnt omp 7 strt generate_surface 774853us
+evnt omp 3 end generate_surface 786183us
+generated part [96/700]
+evnt omp 3 strt generate_surface 786283us
+evnt omp 5 end generate_surface 786319us
+generated part [97/700]
+evnt omp 5 strt generate_surface 786409us
+evnt omp 1 end generate_surface 787458us
+generated part [98/700]
+evnt omp 1 strt generate_surface 787561us
+evnt omp 6 end generate_surface 798632us
+generated part [99/700]
+evnt omp 6 strt generate_surface 798688us
+evnt omp 0 end generate_surface 805876us
+generated part [100/700]
+evnt omp 0 strt generate_surface 805986us
+evnt omp 2 end generate_surface 814666us
+generated part [101/700]
+evnt omp 2 strt generate_surface 814776us
+evnt omp 4 end generate_surface 820001us
+generated part [102/700]
+evnt omp 4 strt generate_surface 820107us
+evnt omp 7 end generate_surface 824400us
+generated part [103/700]
+evnt omp 7 strt generate_surface 824518us
+evnt omp 3 end generate_surface 836113us
+generated part [104/700]
+evnt omp 3 strt generate_surface 836238us
+evnt omp 5 end generate_surface 836508us
+generated part [105/700]
+evnt omp 5 strt generate_surface 836596us
+evnt omp 1 end generate_surface 837774us
+generated part [106/700]
+evnt omp 1 strt generate_surface 837892us
+evnt omp 6 end generate_surface 843855us
+generated part [107/700]
+evnt omp 6 strt generate_surface 843908us
+evnt omp 2 end generate_surface 848716us
+generated part [108/700]
+evnt omp 2 strt generate_surface 848806us
+evnt omp 0 end generate_surface 855434us
+generated part [109/700]
+evnt omp 0 strt generate_surface 855549us
+evnt omp 4 end generate_surface 869838us
+generated part [110/700]
+evnt omp 4 strt generate_surface 869897us
+evnt omp 7 end generate_surface 874135us
+generated part [111/700]
+evnt omp 7 strt generate_surface 874250us
+evnt omp 3 end generate_surface 885599us
+generated part [112/700]
+evnt omp 3 strt generate_surface 885709us
+evnt omp 5 end generate_surface 886609us
+generated part [113/700]
+evnt omp 5 strt generate_surface 886701us
+evnt omp 1 end generate_surface 887525us
+generated part [114/700]
+evnt omp 1 strt generate_surface 887637us
+evnt omp 0 end generate_surface 889355us
+generated part [115/700]
+evnt omp 0 strt generate_surface 889463us
+evnt omp 6 end generate_surface 892694us
+generated part [116/700]
+evnt omp 6 strt generate_surface 892784us
+evnt omp 2 end generate_surface 893533us
+generated part [117/700]
+evnt omp 2 strt generate_surface 893634us
+evnt omp 4 end generate_surface 915697us
+generated part [118/700]
+evnt omp 4 strt generate_surface 915789us
+evnt omp 5 end generate_surface 920517us
+generated part [119/700]
+evnt omp 5 strt generate_surface 920644us
+evnt omp 7 end generate_surface 924118us
+generated part [120/700]
+evnt omp 7 strt generate_surface 924175us
+evnt omp 0 end generate_surface 931706us
+generated part [121/700]
+evnt omp 0 strt generate_surface 931786us
+evnt omp 3 end generate_surface 935222us
+generated part [122/700]
+evnt omp 3 strt generate_surface 935332us
+evnt omp 6 end generate_surface 942330us
+generated part [123/700]
+evnt omp 6 strt generate_surface 942445us
+evnt omp 1 end generate_surface 948951us
+generated part [124/700]
+evnt omp 1 strt generate_surface 949019us
+evnt omp 2 end generate_surface 951264us
+generated part [125/700]
+evnt omp 2 strt generate_surface 951352us
+evnt omp 7 end generate_surface 957892us
+generated part [126/700]
+evnt omp 7 strt generate_surface 958016us
+evnt omp 4 end generate_surface 965011us
+generated part [127/700]
+evnt omp 4 strt generate_surface 965155us
+evnt omp 5 end generate_surface 966586us
+generated part [128/700]
+evnt omp 5 strt generate_surface 966673us
+evnt omp 6 end generate_surface 975974us
+generated part [129/700]
+evnt omp 6 strt generate_surface 976132us
+evnt omp 0 end generate_surface 978024us
+generated part [130/700]
+evnt omp 0 strt generate_surface 978158us
+evnt omp 3 end generate_surface 984780us
+generated part [131/700]
+evnt omp 3 strt generate_surface 984896us
+evnt omp 1 end generate_surface 1002871us
+generated part [132/700]
+evnt omp 1 strt generate_surface 1002982us
+evnt omp 2 end generate_surface 1005730us
+generated part [133/700]
+evnt omp 2 strt generate_surface 1005826us
+evnt omp 7 end generate_surface 1007917us
+generated part [134/700]
+evnt omp 7 strt generate_surface 1008046us
+evnt omp 0 end generate_surface 1011898us
+generated part [135/700]
+evnt omp 0 strt generate_surface 1012023us
+evnt omp 4 end generate_surface 1015742us
+generated part [136/700]
+evnt omp 4 strt generate_surface 1015799us
+evnt omp 5 end generate_surface 1017589us
+generated part [137/700]
+evnt omp 5 strt generate_surface 1017675us
+evnt omp 6 end generate_surface 1021688us
+generated part [138/700]
+evnt omp 6 strt generate_surface 1021800us
+evnt omp 3 end generate_surface 1034695us
+generated part [139/700]
+evnt omp 3 strt generate_surface 1034799us
+evnt omp 0 end generate_surface 1046950us
+generated part [140/700]
+evnt omp 0 strt generate_surface 1047058us
+evnt omp 1 end generate_surface 1055157us
+generated part [141/700]
+evnt omp 1 strt generate_surface 1055275us
+evnt omp 7 end generate_surface 1060101us
+generated part [142/700]
+evnt omp 7 strt generate_surface 1060251us
+evnt omp 2 end generate_surface 1061954us
+generated part [143/700]
+evnt omp 2 strt generate_surface 1062059us
+evnt omp 4 end generate_surface 1066185us
+generated part [144/700]
+evnt omp 4 strt generate_surface 1066281us
+evnt omp 5 end generate_surface 1068610us
+generated part [145/700]
+evnt omp 5 strt generate_surface 1068694us
+evnt omp 6 end generate_surface 1071521us
+generated part [146/700]
+evnt omp 6 strt generate_surface 1071614us
+evnt omp 3 end generate_surface 1079767us
+generated part [147/700]
+evnt omp 3 strt generate_surface 1079861us
+evnt omp 0 end generate_surface 1080666us
+generated part [148/700]
+evnt omp 0 strt generate_surface 1080759us
+evnt omp 1 end generate_surface 1105430us
+generated part [149/700]
+evnt omp 1 strt generate_surface 1105532us
+evnt omp 7 end generate_surface 1110672us
+generated part [150/700]
+evnt omp 7 strt generate_surface 1110793us
+evnt omp 2 end generate_surface 1112168us
+generated part [151/700]
+evnt omp 2 strt generate_surface 1112279us
+evnt omp 4 end generate_surface 1116810us
+generated part [152/700]
+evnt omp 4 strt generate_surface 1116929us
+evnt omp 5 end generate_surface 1119724us
+generated part [153/700]
+evnt omp 5 strt generate_surface 1119808us
+evnt omp 6 end generate_surface 1121550us
+generated part [154/700]
+evnt omp 6 strt generate_surface 1121642us
+evnt omp 0 end generate_surface 1126493us
+generated part [155/700]
+evnt omp 0 strt generate_surface 1126592us
+evnt omp 3 end generate_surface 1129436us
+generated part [156/700]
+evnt omp 3 strt generate_surface 1129531us
+evnt omp 2 end generate_surface 1146520us
+generated part [157/700]
+evnt omp 2 strt generate_surface 1146583us
+evnt omp 1 end generate_surface 1155702us
+generated part [158/700]
+evnt omp 1 strt generate_surface 1155816us
+evnt omp 7 end generate_surface 1160463us
+generated part [159/700]
+evnt omp 7 strt generate_surface 1160583us
+evnt omp 4 end generate_surface 1163953us
+generated part [160/700]
+evnt omp 4 strt generate_surface 1164069us
+evnt omp 5 end generate_surface 1170548us
+generated part [161/700]
+evnt omp 5 strt generate_surface 1170632us
+evnt omp 6 end generate_surface 1172133us
+generated part [162/700]
+evnt omp 6 strt generate_surface 1172223us
+evnt omp 0 end generate_surface 1176243us
+generated part [163/700]
+evnt omp 0 strt generate_surface 1176328us
+evnt omp 3 end generate_surface 1178829us
+generated part [164/700]
+evnt omp 3 strt generate_surface 1178936us
+evnt omp 2 end generate_surface 1191288us
+generated part [165/700]
+evnt omp 2 strt generate_surface 1191346us
+evnt omp 4 end generate_surface 1197958us
+generated part [166/700]
+evnt omp 4 strt generate_surface 1198051us
+evnt omp 1 end generate_surface 1206295us
+generated part [167/700]
+evnt omp 1 strt generate_surface 1206407us
+evnt omp 7 end generate_surface 1210435us
+generated part [168/700]
+evnt omp 7 strt generate_surface 1210553us
+evnt omp 5 end generate_surface 1220721us
+generated part [169/700]
+evnt omp 5 strt generate_surface 1220776us
+evnt omp 6 end generate_surface 1222059us
+generated part [170/700]
+evnt omp 6 strt generate_surface 1222180us
+evnt omp 0 end generate_surface 1225737us
+generated part [171/700]
+evnt omp 0 strt generate_surface 1225836us
+evnt omp 3 end generate_surface 1228390us
+generated part [172/700]
+evnt omp 3 strt generate_surface 1228509us
+evnt omp 4 end generate_surface 1231971us
+generated part [173/700]
+evnt omp 4 strt generate_surface 1232052us
+evnt omp 2 end generate_surface 1240877us
+generated part [174/700]
+evnt omp 2 strt generate_surface 1240965us
+evnt omp 1 end generate_surface 1253529us
+generated part [175/700]
+evnt omp 1 strt generate_surface 1253650us
+evnt omp 6 end generate_surface 1255769us
+generated part [176/700]
+evnt omp 6 strt generate_surface 1255821us
+evnt omp 7 end generate_surface 1261115us
+generated part [177/700]
+evnt omp 7 strt generate_surface 1261238us
+evnt omp 4 end generate_surface 1268297us
+generated part [178/700]
+evnt omp 4 strt generate_surface 1268403us
+evnt omp 5 end generate_surface 1270942us
+generated part [179/700]
+evnt omp 5 strt generate_surface 1271053us
+evnt omp 0 end generate_surface 1275555us
+generated part [180/700]
+evnt omp 0 strt generate_surface 1275652us
+evnt omp 3 end generate_surface 1279898us
+generated part [181/700]
+evnt omp 3 strt generate_surface 1280018us
+evnt omp 2 end generate_surface 1290563us
+generated part [182/700]
+evnt omp 2 strt generate_surface 1290657us
+evnt omp 7 end generate_surface 1295162us
+generated part [183/700]
+evnt omp 7 strt generate_surface 1295256us
+evnt omp 6 end generate_surface 1301076us
+generated part [184/700]
+evnt omp 6 strt generate_surface 1301210us
+evnt omp 1 end generate_surface 1303450us
+generated part [185/700]
+evnt omp 1 strt generate_surface 1303500us
+evnt omp 3 end generate_surface 1313440us
+generated part [186/700]
+evnt omp 3 strt generate_surface 1313539us
+evnt omp 4 end generate_surface 1315017us
+generated part [187/700]
+evnt omp 4 strt generate_surface 1315147us
+evnt omp 5 end generate_surface 1322204us
+generated part [188/700]
+evnt omp 5 strt generate_surface 1322309us
+evnt omp 0 end generate_surface 1325446us
+generated part [189/700]
+evnt omp 0 strt generate_surface 1325529us
+evnt omp 7 end generate_surface 1328861us
+generated part [190/700]
+evnt omp 7 strt generate_surface 1328944us
+evnt omp 2 end generate_surface 1340618us
+generated part [191/700]
+evnt omp 2 strt generate_surface 1340715us
+evnt omp 6 end generate_surface 1345912us
+generated part [192/700]
+evnt omp 6 strt generate_surface 1346033us
+evnt omp 1 end generate_surface 1353281us
+generated part [193/700]
+evnt omp 1 strt generate_surface 1353334us
+evnt omp 7 end generate_surface 1362634us
+generated part [194/700]
+evnt omp 7 strt generate_surface 1362737us
+evnt omp 3 end generate_surface 1368403us
+generated part [195/700]
+evnt omp 3 strt generate_surface 1368510us
+evnt omp 4 end generate_surface 1370485us
+generated part [196/700]
+evnt omp 4 strt generate_surface 1370605us
+evnt omp 0 end generate_surface 1371348us
+generated part [197/700]
+evnt omp 0 strt generate_surface 1371401us
+evnt omp 5 end generate_surface 1373473us
+generated part [198/700]
+evnt omp 5 strt generate_surface 1373560us
+evnt omp 6 end generate_surface 1380171us
+generated part [199/700]
+evnt omp 6 strt generate_surface 1380276us
+evnt omp 2 end generate_surface 1390331us
+generated part [200/700]
+evnt omp 2 strt generate_surface 1390422us
+evnt omp 7 end generate_surface 1396376us
+generated part [201/700]
+evnt omp 7 strt generate_surface 1396471us
+evnt omp 1 end generate_surface 1403492us
+generated part [202/700]
+evnt omp 1 strt generate_surface 1403597us
+evnt omp 0 end generate_surface 1420755us
+generated part [203/700]
+evnt omp 0 strt generate_surface 1420866us
+evnt omp 3 end generate_surface 1422871us
+generated part [204/700]
+evnt omp 3 strt generate_surface 1422978us
+evnt omp 2 end generate_surface 1424349us
+generated part [205/700]
+evnt omp 2 strt generate_surface 1424402us
+evnt omp 5 end generate_surface 1425895us
+generated part [206/700]
+evnt omp 5 strt generate_surface 1426020us
+evnt omp 6 end generate_surface 1426247us
+generated part [207/700]
+evnt omp 4 end generate_surface 1426338us
+generated part [208/700]
+evnt omp 6 strt generate_surface 1426434us
+evnt omp 4 strt generate_surface 1426493us
+evnt omp 7 end generate_surface 1442711us
+generated part [209/700]
+evnt omp 7 strt generate_surface 1442796us
+evnt omp 1 end generate_surface 1453840us
+generated part [210/700]
+evnt omp 1 strt generate_surface 1453940us
+evnt omp 2 end generate_surface 1459515us
+generated part [211/700]
+evnt omp 2 strt generate_surface 1459621us
+evnt omp 0 end generate_surface 1470805us
+generated part [212/700]
+evnt omp 0 strt generate_surface 1470918us
+evnt omp 5 end generate_surface 1478394us
+generated part [213/700]
+evnt omp 5 strt generate_surface 1478504us
+evnt omp 3 end generate_surface 1479135us
+generated part [214/700]
+evnt omp 3 strt generate_surface 1479221us
+evnt omp 6 end generate_surface 1479898us
+generated part [215/700]
+evnt omp 6 strt generate_surface 1479999us
+evnt omp 4 end generate_surface 1482528us
+generated part [216/700]
+evnt omp 4 strt generate_surface 1482636us
+evnt omp 7 end generate_surface 1487697us
+generated part [217/700]
+evnt omp 7 strt generate_surface 1487779us
+evnt omp 2 end generate_surface 1493567us
+generated part [218/700]
+evnt omp 2 strt generate_surface 1493653us
+evnt omp 1 end generate_surface 1504286us
+generated part [219/700]
+evnt omp 1 strt generate_surface 1504380us
+evnt omp 0 end generate_surface 1520727us
+generated part [220/700]
+evnt omp 0 strt generate_surface 1520838us
+evnt omp 5 end generate_surface 1529129us
+generated part [221/700]
+evnt omp 5 strt generate_surface 1529233us
+evnt omp 3 end generate_surface 1531025us
+generated part [222/700]
+evnt omp 6 end generate_surface 1531149us
+generated part [223/700]
+evnt omp 6 strt generate_surface 1531272us
+evnt omp 4 end generate_surface 1534966us
+generated part [224/700]
+evnt omp 4 strt generate_surface 1535110us
+evnt omp 7 end generate_surface 1537191us
+generated part [225/700]
+evnt omp 7 strt generate_surface 1537282us
+evnt omp 2 end generate_surface 1539613us
+generated part [226/700]
+evnt omp 2 strt generate_surface 1539700us
+evnt omp 3 strt generate_surface 1539741us
+evnt omp 0 end generate_surface 1554254us
+generated part [227/700]
+evnt omp 0 strt generate_surface 1554341us
+evnt omp 1 end generate_surface 1554724us
+generated part [228/700]
+evnt omp 1 strt generate_surface 1554820us
+evnt omp 5 end generate_surface 1579335us
+generated part [229/700]
+evnt omp 5 strt generate_surface 1579449us
+evnt omp 6 end generate_surface 1581769us
+generated part [230/700]
+evnt omp 6 strt generate_surface 1581864us
+evnt omp 7 end generate_surface 1586805us
+generated part [231/700]
+evnt omp 7 strt generate_surface 1586894us
+evnt omp 4 end generate_surface 1587902us
+generated part [232/700]
+evnt omp 4 strt generate_surface 1588005us
+evnt omp 3 end generate_surface 1588720us
+generated part [233/700]
+evnt omp 3 strt generate_surface 1588838us
+evnt omp 2 end generate_surface 1590124us
+generated part [234/700]
+evnt omp 2 strt generate_surface 1590175us
+evnt omp 0 end generate_surface 1596897us
+generated part [235/700]
+evnt omp 0 strt generate_surface 1596976us
+evnt omp 1 end generate_surface 1615319us
+generated part [236/700]
+evnt omp 1 strt generate_surface 1615406us
+evnt omp 5 end generate_surface 1625653us
+generated part [237/700]
+evnt omp 5 strt generate_surface 1625768us
+evnt omp 4 end generate_surface 1629306us
+generated part [238/700]
+evnt omp 4 strt generate_surface 1629427us
+evnt omp 6 end generate_surface 1631709us
+generated part [239/700]
+evnt omp 6 strt generate_surface 1631796us
+evnt omp 7 end generate_surface 1636780us
+generated part [240/700]
+evnt omp 7 strt generate_surface 1636866us
+evnt omp 2 end generate_surface 1640627us
+generated part [241/700]
+evnt omp 2 strt generate_surface 1640746us
+evnt omp 3 end generate_surface 1641656us
+generated part [242/700]
+evnt omp 3 strt generate_surface 1641715us
+evnt omp 0 end generate_surface 1647626us
+generated part [243/700]
+evnt omp 0 strt generate_surface 1647714us
+evnt omp 5 end generate_surface 1660011us
+generated part [244/700]
+evnt omp 5 strt generate_surface 1660121us
+evnt omp 1 end generate_surface 1665851us
+generated part [245/700]
+evnt omp 1 strt generate_surface 1665969us
+evnt omp 3 end generate_surface 1677672us
+generated part [246/700]
+evnt omp 3 strt generate_surface 1677779us
+evnt omp 6 end generate_surface 1679593us
+generated part [247/700]
+evnt omp 6 strt generate_surface 1679681us
+evnt omp 4 end generate_surface 1681535us
+generated part [248/700]
+evnt omp 4 strt generate_surface 1681642us
+evnt omp 7 end generate_surface 1686385us
+generated part [249/700]
+evnt omp 7 strt generate_surface 1686490us
+evnt omp 2 end generate_surface 1691545us
+generated part [250/700]
+evnt omp 2 strt generate_surface 1691632us
+evnt omp 0 end generate_surface 1697211us
+generated part [251/700]
+evnt omp 0 strt generate_surface 1697296us
+evnt omp 1 end generate_surface 1700099us
+generated part [252/700]
+evnt omp 1 strt generate_surface 1700198us
+evnt omp 5 end generate_surface 1710242us
+generated part [253/700]
+evnt omp 5 strt generate_surface 1710336us
+evnt omp 3 end generate_surface 1712435us
+generated part [254/700]
+evnt omp 3 strt generate_surface 1712527us
+evnt omp 6 end generate_surface 1726769us
+generated part [255/700]
+evnt omp 6 strt generate_surface 1726864us
+evnt omp 4 end generate_surface 1733906us
+generated part [256/700]
+evnt omp 4 strt generate_surface 1734014us
+evnt omp 7 end generate_surface 1736655us
+generated part [257/700]
+evnt omp 7 strt generate_surface 1736755us
+evnt omp 1 end generate_surface 1739049us
+generated part [258/700]
+evnt omp 1 strt generate_surface 1739153us
+evnt omp 2 end generate_surface 1741346us
+generated part [259/700]
+evnt omp 2 strt generate_surface 1741452us
+evnt omp 3 end generate_surface 1745661us
+generated part [260/700]
+evnt omp 3 strt generate_surface 1745715us
+evnt omp 0 end generate_surface 1751350us
+generated part [261/700]
+evnt omp 0 strt generate_surface 1751442us
+evnt omp 5 end generate_surface 1760365us
+generated part [262/700]
+evnt omp 5 strt generate_surface 1760456us
+evnt omp 6 end generate_surface 1771504us
+generated part [263/700]
+evnt omp 6 strt generate_surface 1771600us
+evnt omp 3 end generate_surface 1782695us
+generated part [264/700]
+evnt omp 4 end generate_surface 1783955us
+generated part [265/700]
+evnt omp 4 strt generate_surface 1784072us
+evnt omp 7 end generate_surface 1788240us
+generated part [266/700]
+evnt omp 7 strt generate_surface 1788346us
+evnt omp 2 end generate_surface 1794814us
+generated part [267/700]
+evnt omp 2 strt generate_surface 1794898us
+evnt omp 3 strt generate_surface 1794938us
+evnt omp 1 end generate_surface 1797491us
+generated part [268/700]
+evnt omp 1 strt generate_surface 1797608us
+evnt omp 0 end generate_surface 1801947us
+generated part [269/700]
+evnt omp 0 strt generate_surface 1802039us
+evnt omp 6 end generate_surface 1805253us
+generated part [270/700]
+evnt omp 6 strt generate_surface 1805343us
+evnt omp 5 end generate_surface 1810377us
+generated part [271/700]
+evnt omp 5 strt generate_surface 1810470us
+evnt omp 4 end generate_surface 1833934us
+generated part [272/700]
+evnt omp 4 strt generate_surface 1834024us
+evnt omp 7 end generate_surface 1837959us
+generated part [273/700]
+evnt omp 7 strt generate_surface 1838056us
+evnt omp 6 end generate_surface 1838651us
+generated part [274/700]
+evnt omp 6 strt generate_surface 1838756us
+evnt omp 3 end generate_surface 1844617us
+generated part [275/700]
+evnt omp 3 strt generate_surface 1844733us
+evnt omp 2 end generate_surface 1851856us
+generated part [276/700]
+evnt omp 2 strt generate_surface 1851915us
+evnt omp 5 end generate_surface 1860422us
+generated part [277/700]
+evnt omp 5 strt generate_surface 1860512us
+evnt omp 0 end generate_surface 1861128us
+generated part [278/700]
+evnt omp 1 end generate_surface 1861243us
+generated part [279/700]
+evnt omp 0 strt generate_surface 1861322us
+evnt omp 1 strt generate_surface 1861376us
+evnt omp 6 end generate_surface 1872320us
+generated part [280/700]
+evnt omp 6 strt generate_surface 1872370us
+evnt omp 4 end generate_surface 1880362us
+generated part [281/700]
+evnt omp 4 strt generate_surface 1880478us
+evnt omp 7 end generate_surface 1887810us
+generated part [282/700]
+evnt omp 7 strt generate_surface 1887911us
+evnt omp 3 end generate_surface 1890451us
+generated part [283/700]
+evnt omp 3 strt generate_surface 1890564us
+evnt omp 2 end generate_surface 1901477us
+generated part [284/700]
+evnt omp 2 strt generate_surface 1901533us
+evnt omp 0 end generate_surface 1905190us
+generated part [285/700]
+evnt omp 0 strt generate_surface 1905288us
+evnt omp 5 end generate_surface 1910922us
+generated part [286/700]
+evnt omp 5 strt generate_surface 1911017us
+evnt omp 4 end generate_surface 1914292us
+generated part [287/700]
+evnt omp 4 strt generate_surface 1914382us
+evnt omp 6 end generate_surface 1922400us
+generated part [288/700]
+evnt omp 1 end generate_surface 1922503us
+generated part [289/700]
+evnt omp 1 strt generate_surface 1922561us
+evnt omp 6 strt generate_surface 1922600us
+evnt omp 3 end generate_surface 1935401us
+generated part [290/700]
+evnt omp 3 strt generate_surface 1935503us
+evnt omp 7 end generate_surface 1937703us
+generated part [291/700]
+evnt omp 7 strt generate_surface 1937830us
+evnt omp 2 end generate_surface 1951262us
+generated part [292/700]
+evnt omp 2 strt generate_surface 1951345us
+evnt omp 0 end generate_surface 1951638us
+generated part [293/700]
+evnt omp 0 strt generate_surface 1951751us
+evnt omp 6 end generate_surface 1956710us
+generated part [294/700]
+evnt omp 6 strt generate_surface 1956821us
+evnt omp 5 end generate_surface 1961566us
+generated part [295/700]
+evnt omp 5 strt generate_surface 1961658us
+evnt omp 4 end generate_surface 1964755us
+generated part [296/700]
+evnt omp 4 strt generate_surface 1964834us
+evnt omp 1 end generate_surface 1972373us
+generated part [297/700]
+evnt omp 1 strt generate_surface 1972461us
+evnt omp 3 end generate_surface 1985338us
+generated part [298/700]
+evnt omp 3 strt generate_surface 1985444us
+evnt omp 7 end generate_surface 1987379us
+generated part [299/700]
+evnt omp 7 strt generate_surface 1987476us
+evnt omp 2 end generate_surface 2001180us
+generated part [300/700]
+evnt omp 2 strt generate_surface 2001264us
+evnt omp 0 end generate_surface 2001319us
+generated part [301/700]
+evnt omp 0 strt generate_surface 2001430us
+evnt omp 6 end generate_surface 2002281us
+generated part [302/700]
+evnt omp 6 strt generate_surface 2002383us
+evnt omp 5 end generate_surface 2012414us
+generated part [303/700]
+evnt omp 5 strt generate_surface 2012504us
+evnt omp 4 end generate_surface 2014871us
+generated part [304/700]
+evnt omp 4 strt generate_surface 2014950us
+evnt omp 1 end generate_surface 2022728us
+generated part [305/700]
+evnt omp 1 strt generate_surface 2022812us
+evnt omp 3 end generate_surface 2034943us
+generated part [306/700]
+evnt omp 3 strt generate_surface 2035048us
+evnt omp 2 end generate_surface 2035290us
+generated part [307/700]
+evnt omp 2 strt generate_surface 2035343us
+evnt omp 7 end generate_surface 2037014us
+generated part [308/700]
+evnt omp 7 strt generate_surface 2037131us
+evnt omp 0 end generate_surface 2051123us
+generated part [309/700]
+evnt omp 0 strt generate_surface 2051231us
+evnt omp 6 end generate_surface 2051900us
+generated part [310/700]
+evnt omp 6 strt generate_surface 2052000us
+evnt omp 5 end generate_surface 2063562us
+generated part [311/700]
+evnt omp 5 strt generate_surface 2063659us
+evnt omp 4 end generate_surface 2065344us
+generated part [312/700]
+evnt omp 4 strt generate_surface 2065421us
+evnt omp 2 end generate_surface 2069909us
+generated part [313/700]
+evnt omp 2 strt generate_surface 2070027us
+evnt omp 1 end generate_surface 2072700us
+generated part [314/700]
+evnt omp 1 strt generate_surface 2072788us
+evnt omp 3 end generate_surface 2082659us
+generated part [315/700]
+evnt omp 3 strt generate_surface 2082735us
+evnt omp 7 end generate_surface 2086911us
+generated part [316/700]
+evnt omp 7 strt generate_surface 2087019us
+evnt omp 0 end generate_surface 2101052us
+generated part [317/700]
+evnt omp 0 strt generate_surface 2101164us
+evnt omp 6 end generate_surface 2101886us
+generated part [318/700]
+evnt omp 6 strt generate_surface 2101981us
+evnt omp 2 end generate_surface 2108862us
+generated part [319/700]
+evnt omp 2 strt generate_surface 2108959us
+evnt omp 5 end generate_surface 2111063us
+generated part [320/700]
+evnt omp 5 strt generate_surface 2111191us
+evnt omp 4 end generate_surface 2116011us
+generated part [321/700]
+evnt omp 4 strt generate_surface 2116103us
+evnt omp 7 end generate_surface 2120579us
+generated part [322/700]
+evnt omp 7 strt generate_surface 2120659us
+evnt omp 1 end generate_surface 2126918us
+generated part [323/700]
+evnt omp 1 strt generate_surface 2127012us
+evnt omp 3 end generate_surface 2132062us
+generated part [324/700]
+evnt omp 3 strt generate_surface 2132165us
+evnt omp 2 end generate_surface 2142674us
+generated part [325/700]
+evnt omp 2 strt generate_surface 2142731us
+evnt omp 0 end generate_surface 2150974us
+generated part [326/700]
+evnt omp 0 strt generate_surface 2151103us
+evnt omp 6 end generate_surface 2152114us
+generated part [327/700]
+evnt omp 6 strt generate_surface 2152206us
+evnt omp 7 end generate_surface 2153867us
+generated part [328/700]
+evnt omp 7 strt generate_surface 2153997us
+evnt omp 5 end generate_surface 2161261us
+generated part [329/700]
+evnt omp 5 strt generate_surface 2161312us
+evnt omp 4 end generate_surface 2162308us
+generated part [330/700]
+evnt omp 4 strt generate_surface 2162417us
+evnt omp 1 end generate_surface 2176886us
+generated part [331/700]
+evnt omp 1 strt generate_surface 2176978us
+evnt omp 3 end generate_surface 2181542us
+generated part [332/700]
+evnt omp 3 strt generate_surface 2181651us
+evnt omp 0 end generate_surface 2184823us
+generated part [333/700]
+evnt omp 0 strt generate_surface 2184917us
+evnt omp 7 end generate_surface 2187531us
+generated part [334/700]
+evnt omp 7 strt generate_surface 2187627us
+evnt omp 2 end generate_surface 2188743us
+generated part [335/700]
+evnt omp 2 strt generate_surface 2188822us
+evnt omp 6 end generate_surface 2202401us
+generated part [336/700]
+evnt omp 6 strt generate_surface 2202505us
+evnt omp 5 end generate_surface 2212627us
+generated part [337/700]
+evnt omp 5 strt generate_surface 2212711us
+evnt omp 4 end generate_surface 2213180us
+generated part [338/700]
+evnt omp 4 strt generate_surface 2213276us
+evnt omp 0 end generate_surface 2218132us
+generated part [339/700]
+evnt omp 0 strt generate_surface 2218187us
+evnt omp 7 end generate_surface 2221226us
+generated part [340/700]
+evnt omp 7 strt generate_surface 2221301us
+evnt omp 1 end generate_surface 2222357us
+generated part [341/700]
+evnt omp 1 strt generate_surface 2222459us
+evnt omp 3 end generate_surface 2231014us
+generated part [342/700]
+evnt omp 3 strt generate_surface 2231137us
+evnt omp 2 end generate_surface 2238586us
+generated part [343/700]
+evnt omp 2 strt generate_surface 2238642us
+evnt omp 6 end generate_surface 2248591us
+generated part [344/700]
+evnt omp 6 strt generate_surface 2248685us
+evnt omp 0 end generate_surface 2252275us
+generated part [345/700]
+evnt omp 0 strt generate_surface 2252379us
+evnt omp 7 end generate_surface 2258149us
+generated part [346/700]
+evnt omp 7 strt generate_surface 2258255us
+evnt omp 4 end generate_surface 2264027us
+generated part [347/700]
+evnt omp 4 strt generate_surface 2264118us
+evnt omp 5 end generate_surface 2265026us
+generated part [348/700]
+evnt omp 5 strt generate_surface 2265150us
+evnt omp 1 end generate_surface 2276944us
+generated part [349/700]
+evnt omp 1 strt generate_surface 2277040us
+evnt omp 3 end generate_surface 2280554us
+generated part [350/700]
+evnt omp 3 strt generate_surface 2280663us
+evnt omp 2 end generate_surface 2283394us
+generated part [351/700]
+evnt omp 2 strt generate_surface 2283447us
+evnt omp 6 end generate_surface 2298531us
+evnt omp 4 end generate_surface 2298586us
+generated part [352/700]
+evnt omp 6 strt generate_surface 2298736us
+generated part [353/700]
+evnt omp 4 strt generate_surface 2298826us
+evnt omp 0 end generate_surface 2302206us
+generated part [354/700]
+evnt omp 0 strt generate_surface 2302259us
+evnt omp 7 end generate_surface 2303939us
+generated part [355/700]
+evnt omp 7 strt generate_surface 2304051us
+evnt omp 5 end generate_surface 2316531us
+generated part [356/700]
+evnt omp 5 strt generate_surface 2316587us
+evnt omp 1 end generate_surface 2327283us
+generated part [357/700]
+evnt omp 1 strt generate_surface 2327375us
+evnt omp 3 end generate_surface 2331890us
+generated part [358/700]
+evnt omp 3 strt generate_surface 2331992us
+evnt omp 2 end generate_surface 2332983us
+generated part [359/700]
+evnt omp 2 strt generate_surface 2333033us
+evnt omp 4 end generate_surface 2335565us
+generated part [360/700]
+evnt omp 4 strt generate_surface 2335673us
+evnt omp 6 end generate_surface 2351621us
+generated part [361/700]
+evnt omp 6 strt generate_surface 2351708us
+evnt omp 0 end generate_surface 2351755us
+generated part [362/700]
+evnt omp 0 strt generate_surface 2351843us
+evnt omp 7 end generate_surface 2353693us
+generated part [363/700]
+evnt omp 7 strt generate_surface 2353792us
+evnt omp 5 end generate_surface 2360790us
+generated part [364/700]
+evnt omp 5 strt generate_surface 2360840us
+evnt omp 1 end generate_surface 2377593us
+generated part [365/700]
+evnt omp 1 strt generate_surface 2377718us
+evnt omp 2 end generate_surface 2383301us
+generated part [366/700]
+evnt omp 4 end generate_surface 2386136us
+generated part [367/700]
+evnt omp 4 strt generate_surface 2386269us
+evnt omp 2 strt generate_surface 2386303us
+evnt omp 3 end generate_surface 2386602us
+generated part [368/700]
+evnt omp 3 strt generate_surface 2386653us
+evnt omp 0 end generate_surface 2401789us
+generated part [369/700]
+evnt omp 0 strt generate_surface 2401854us
+evnt omp 6 end generate_surface 2402096us
+generated part [370/700]
+evnt omp 6 strt generate_surface 2402204us
+evnt omp 7 end generate_surface 2402852us
+generated part [371/700]
+evnt omp 7 strt generate_surface 2402948us
+evnt omp 5 end generate_surface 2409940us
+generated part [372/700]
+evnt omp 5 strt generate_surface 2409991us
+evnt omp 1 end generate_surface 2411345us
+generated part [373/700]
+evnt omp 1 strt generate_surface 2411422us
+evnt omp 2 end generate_surface 2433439us
+generated part [374/700]
+evnt omp 2 strt generate_surface 2433551us
+evnt omp 4 end generate_surface 2444562us
+generated part [375/700]
+evnt omp 4 strt generate_surface 2444668us
+evnt omp 3 end generate_surface 2444845us
+generated part [376/700]
+evnt omp 1 end generate_surface 2444930us
+generated part [377/700]
+evnt omp 3 strt generate_surface 2445020us
+evnt omp 1 strt generate_surface 2445071us
+evnt omp 0 end generate_surface 2451712us
+generated part [378/700]
+evnt omp 0 strt generate_surface 2451782us
+evnt omp 7 end generate_surface 2451928us
+generated part [379/700]
+evnt omp 7 strt generate_surface 2452035us
+evnt omp 6 end generate_surface 2452794us
+generated part [380/700]
+evnt omp 6 strt generate_surface 2452869us
+evnt omp 5 end generate_surface 2459034us
+generated part [381/700]
+evnt omp 5 strt generate_surface 2459131us
+evnt omp 1 end generate_surface 2478843us
+generated part [382/700]
+evnt omp 2 end generate_surface 2478919us
+generated part [383/700]
+evnt omp 1 strt generate_surface 2479005us
+evnt omp 2 strt generate_surface 2479124us
+evnt omp 7 end generate_surface 2498656us
+generated part [384/700]
+evnt omp 7 strt generate_surface 2498764us
+evnt omp 3 end generate_surface 2501014us
+generated part [385/700]
+evnt omp 3 strt generate_surface 2501112us
+evnt omp 0 end generate_surface 2501262us
+generated part [386/700]
+evnt omp 0 strt generate_surface 2501370us
+evnt omp 4 end generate_surface 2502825us
+generated part [387/700]
+evnt omp 4 strt generate_surface 2502877us
+evnt omp 6 end generate_surface 2504170us
+generated part [388/700]
+evnt omp 6 strt generate_surface 2504259us
+evnt omp 5 end generate_surface 2509141us
+generated part [389/700]
+evnt omp 5 strt generate_surface 2509217us
+evnt omp 1 end generate_surface 2519551us
+generated part [390/700]
+evnt omp 1 strt generate_surface 2519624us
+evnt omp 2 end generate_surface 2531746us
+generated part [391/700]
+evnt omp 2 strt generate_surface 2531843us
+evnt omp 0 end generate_surface 2547869us
+generated part [392/700]
+evnt omp 0 strt generate_surface 2547969us
+evnt omp 7 end generate_surface 2548356us
+generated part [393/700]
+evnt omp 7 strt generate_surface 2548462us
+evnt omp 1 end generate_surface 2553640us
+generated part [394/700]
+evnt omp 1 strt generate_surface 2553746us
+evnt omp 3 end generate_surface 2554719us
+generated part [395/700]
+evnt omp 3 strt generate_surface 2554830us
+evnt omp 6 end generate_surface 2557959us
+generated part [396/700]
+evnt omp 6 strt generate_surface 2558029us
+evnt omp 4 end generate_surface 2559941us
+generated part [397/700]
+evnt omp 4 strt generate_surface 2560017us
+evnt omp 5 end generate_surface 2560452us
+generated part [398/700]
+evnt omp 5 strt generate_surface 2560527us
+evnt omp 2 end generate_surface 2565359us
+generated part [399/700]
+evnt omp 2 strt generate_surface 2565435us
+evnt omp 0 end generate_surface 2593687us
+generated part [400/700]
+evnt omp 0 strt generate_surface 2593784us
+evnt omp 7 end generate_surface 2598117us
+generated part [401/700]
+evnt omp 7 strt generate_surface 2598220us
+evnt omp 2 end generate_surface 2599007us
+generated part [402/700]
+evnt omp 2 strt generate_surface 2599124us
+evnt omp 1 end generate_surface 2604366us
+generated part [403/700]
+evnt omp 1 strt generate_surface 2604476us
+evnt omp 3 end generate_surface 2604559us
+generated part [404/700]
+evnt omp 3 strt generate_surface 2604630us
+evnt omp 6 end generate_surface 2611558us
+generated part [405/700]
+evnt omp 6 strt generate_surface 2611627us
+evnt omp 5 end generate_surface 2613098us
+generated part [406/700]
+evnt omp 5 strt generate_surface 2613173us
+evnt omp 4 end generate_surface 2613564us
+generated part [407/700]
+evnt omp 4 strt generate_surface 2613644us
+evnt omp 2 end generate_surface 2632807us
+generated part [408/700]
+evnt omp 2 strt generate_surface 2632900us
+evnt omp 0 end generate_surface 2638882us
+generated part [409/700]
+evnt omp 0 strt generate_surface 2638974us
+evnt omp 7 end generate_surface 2647984us
+generated part [410/700]
+evnt omp 7 strt generate_surface 2648080us
+evnt omp 1 end generate_surface 2654701us
+generated part [411/700]
+evnt omp 3 end generate_surface 2654823us
+generated part [412/700]
+evnt omp 1 strt generate_surface 2654905us
+evnt omp 3 strt generate_surface 2654955us
+evnt omp 6 end generate_surface 2664786us
+generated part [413/700]
+evnt omp 6 strt generate_surface 2664858us
+evnt omp 5 end generate_surface 2665464us
+generated part [414/700]
+evnt omp 5 strt generate_surface 2665538us
+evnt omp 2 end generate_surface 2666234us
+generated part [415/700]
+evnt omp 2 strt generate_surface 2666304us
+evnt omp 4 end generate_surface 2667183us
+generated part [416/700]
+evnt omp 4 strt generate_surface 2667283us
+evnt omp 0 end generate_surface 2685360us
+generated part [417/700]
+evnt omp 0 strt generate_surface 2685424us
+evnt omp 7 end generate_surface 2697679us
+generated part [418/700]
+evnt omp 7 strt generate_surface 2697773us
+evnt omp 2 end generate_surface 2700416us
+generated part [419/700]
+evnt omp 2 strt generate_surface 2700514us
+evnt omp 3 end generate_surface 2704320us
+generated part [420/700]
+evnt omp 1 end generate_surface 2705858us
+generated part [421/700]
+evnt omp 1 strt generate_surface 2705980us
+evnt omp 3 strt generate_surface 2706025us
+evnt omp 5 end generate_surface 2716914us
+generated part [422/700]
+evnt omp 6 end generate_surface 2717341us
+generated part [423/700]
+evnt omp 6 strt generate_surface 2717421us
+evnt omp 4 end generate_surface 2720157us
+generated part [424/700]
+evnt omp 4 strt generate_surface 2720265us
+evnt omp 2 end generate_surface 2734274us
+generated part [425/700]
+evnt omp 2 strt generate_surface 2734398us
+evnt omp 5 strt generate_surface 2734430us
+evnt omp 0 end generate_surface 2734935us
+generated part [426/700]
+evnt omp 0 strt generate_surface 2735008us
+evnt omp 7 end generate_surface 2744096us
+generated part [427/700]
+evnt omp 7 strt generate_surface 2744183us
+evnt omp 3 end generate_surface 2756023us
+generated part [428/700]
+evnt omp 3 strt generate_surface 2756114us
+evnt omp 1 end generate_surface 2756926us
+generated part [429/700]
+evnt omp 1 strt generate_surface 2757027us
+evnt omp 2 end generate_surface 2767954us
+generated part [430/700]
+evnt omp 2 strt generate_surface 2768034us
+evnt omp 6 end generate_surface 2768205us
+generated part [431/700]
+evnt omp 6 strt generate_surface 2768274us
+evnt omp 4 end generate_surface 2771411us
+generated part [432/700]
+evnt omp 4 strt generate_surface 2771515us
+evnt omp 5 end generate_surface 2780412us
+generated part [433/700]
+evnt omp 5 strt generate_surface 2780510us
+evnt omp 0 end generate_surface 2784655us
+generated part [434/700]
+evnt omp 0 strt generate_surface 2784756us
+evnt omp 7 end generate_surface 2793733us
+generated part [435/700]
+evnt omp 7 strt generate_surface 2793805us
+evnt omp 3 end generate_surface 2801667us
+generated part [436/700]
+evnt omp 2 end generate_surface 2801798us
+generated part [437/700]
+evnt omp 3 strt generate_surface 2801860us
+evnt omp 2 strt generate_surface 2801900us
+evnt omp 4 end generate_surface 2806123us
+generated part [438/700]
+evnt omp 4 strt generate_surface 2806214us
+evnt omp 1 end generate_surface 2806993us
+generated part [439/700]
+evnt omp 1 strt generate_surface 2807110us
+evnt omp 6 end generate_surface 2818372us
+generated part [440/700]
+evnt omp 6 strt generate_surface 2818440us
+evnt omp 5 end generate_surface 2830329us
+generated part [441/700]
+evnt omp 5 strt generate_surface 2830425us
+evnt omp 0 end generate_surface 2834618us
+generated part [442/700]
+evnt omp 0 strt generate_surface 2834704us
+evnt omp 7 end generate_surface 2843343us
+generated part [443/700]
+evnt omp 7 strt generate_surface 2843415us
+evnt omp 4 end generate_surface 2844893us
+generated part [444/700]
+evnt omp 4 strt generate_surface 2844962us
+evnt omp 2 end generate_surface 2849461us
+generated part [445/700]
+evnt omp 2 strt generate_surface 2849561us
+evnt omp 1 end generate_surface 2854914us
+generated part [446/700]
+evnt omp 1 strt generate_surface 2855020us
+evnt omp 3 end generate_surface 2857485us
+generated part [447/700]
+evnt omp 3 strt generate_surface 2857555us
+evnt omp 6 end generate_surface 2868192us
+generated part [448/700]
+evnt omp 6 strt generate_surface 2868263us
+evnt omp 4 end generate_surface 2879122us
+generated part [449/700]
+evnt omp 4 strt generate_surface 2879213us
+evnt omp 5 end generate_surface 2880464us
+generated part [450/700]
+evnt omp 5 strt generate_surface 2880563us
+evnt omp 2 end generate_surface 2883549us
+generated part [451/700]
+evnt omp 2 strt generate_surface 2883640us
+evnt omp 0 end generate_surface 2884321us
+generated part [452/700]
+evnt omp 0 strt generate_surface 2884390us
+evnt omp 7 end generate_surface 2893025us
+generated part [453/700]
+evnt omp 7 strt generate_surface 2893103us
+evnt omp 1 end generate_surface 2904954us
+generated part [454/700]
+evnt omp 1 strt generate_surface 2905054us
+evnt omp 3 end generate_surface 2906808us
+generated part [455/700]
+evnt omp 3 strt generate_surface 2906892us
+evnt omp 2 end generate_surface 2917163us
+generated part [456/700]
+evnt omp 2 strt generate_surface 2917220us
+evnt omp 6 end generate_surface 2918190us
+generated part [457/700]
+evnt omp 6 strt generate_surface 2918261us
+evnt omp 4 end generate_surface 2925674us
+generated part [458/700]
+evnt omp 4 strt generate_surface 2925781us
+evnt omp 0 end generate_surface 2930735us
+generated part [459/700]
+evnt omp 0 strt generate_surface 2930787us
+evnt omp 5 end generate_surface 2931818us
+generated part [460/700]
+evnt omp 5 strt generate_surface 2931916us
+evnt omp 7 end generate_surface 2942684us
+generated part [461/700]
+evnt omp 7 strt generate_surface 2942742us
+evnt omp 2 end generate_surface 2950870us
+generated part [462/700]
+evnt omp 2 strt generate_surface 2950964us
+evnt omp 1 end generate_surface 2955118us
+generated part [463/700]
+evnt omp 1 strt generate_surface 2955218us
+evnt omp 3 end generate_surface 2956246us
+generated part [464/700]
+evnt omp 3 strt generate_surface 2956314us
+evnt omp 6 end generate_surface 2967831us
+generated part [465/700]
+evnt omp 6 strt generate_surface 2967899us
+evnt omp 0 end generate_surface 2975358us
+generated part [466/700]
+evnt omp 4 end generate_surface 2975462us
+generated part [467/700]
+evnt omp 4 strt generate_surface 2975520us
+evnt omp 0 strt generate_surface 2975559us
+evnt omp 5 end generate_surface 2982061us
+generated part [468/700]
+evnt omp 5 strt generate_surface 2982177us
+evnt omp 2 end generate_surface 2986857us
+generated part [469/700]
+evnt omp 2 strt generate_surface 2986952us
+evnt omp 7 end generate_surface 2992534us
+generated part [470/700]
+evnt omp 7 strt generate_surface 2992613us
+evnt omp 3 end generate_surface 3006652us
+generated part [471/700]
+evnt omp 1 end generate_surface 3006933us
+generated part [472/700]
+evnt omp 1 strt generate_surface 3007043us
+evnt omp 6 end generate_surface 3017451us
+generated part [473/700]
+evnt omp 6 strt generate_surface 3017522us
+evnt omp 2 end generate_surface 3020419us
+generated part [474/700]
+evnt omp 2 strt generate_surface 3020495us
+evnt omp 3 strt generate_surface 3020536us
+evnt omp 0 end generate_surface 3021846us
+generated part [475/700]
+evnt omp 0 strt generate_surface 3021954us
+evnt omp 4 end generate_surface 3025165us
+generated part [476/700]
+evnt omp 4 strt generate_surface 3025216us
+evnt omp 5 end generate_surface 3032401us
+generated part [477/700]
+evnt omp 5 strt generate_surface 3032546us
+evnt omp 7 end generate_surface 3042468us
+generated part [478/700]
+evnt omp 7 strt generate_surface 3042521us
+evnt omp 2 end generate_surface 3054957us
+generated part [479/700]
+evnt omp 2 strt generate_surface 3055051us
+evnt omp 1 end generate_surface 3057212us
+generated part [480/700]
+evnt omp 1 strt generate_surface 3057315us
+evnt omp 6 end generate_surface 3067157us
+generated part [481/700]
+evnt omp 6 strt generate_surface 3067215us
+evnt omp 0 end generate_surface 3071684us
+generated part [482/700]
+evnt omp 0 strt generate_surface 3071787us
+evnt omp 3 end generate_surface 3072001us
+generated part [483/700]
+evnt omp 3 strt generate_surface 3072095us
+evnt omp 4 end generate_surface 3079054us
+generated part [484/700]
+evnt omp 4 strt generate_surface 3079132us
+evnt omp 5 end generate_surface 3082793us
+generated part [485/700]
+evnt omp 5 strt generate_surface 3082888us
+evnt omp 7 end generate_surface 3092387us
+generated part [486/700]
+evnt omp 7 strt generate_surface 3092441us
+evnt omp 1 end generate_surface 3096446us
+generated part [487/700]
+evnt omp 1 strt generate_surface 3096551us
+evnt omp 6 end generate_surface 3100677us
+generated part [488/700]
+evnt omp 6 strt generate_surface 3100731us
+evnt omp 2 end generate_surface 3106694us
+generated part [489/700]
+evnt omp 2 strt generate_surface 3106794us
+evnt omp 3 end generate_surface 3121519us
+generated part [490/700]
+evnt omp 0 end generate_surface 3121575us
+generated part [491/700]
+evnt omp 3 strt generate_surface 3121684us
+evnt omp 0 strt generate_surface 3121740us
+evnt omp 4 end generate_surface 3129160us
+generated part [492/700]
+evnt omp 4 strt generate_surface 3129211us
+evnt omp 1 end generate_surface 3131515us
+generated part [493/700]
+evnt omp 1 strt generate_surface 3131615us
+evnt omp 5 end generate_surface 3133112us
+generated part [494/700]
+evnt omp 5 strt generate_surface 3133208us
+evnt omp 7 end generate_surface 3142980us
+generated part [495/700]
+evnt omp 7 strt generate_surface 3143038us
+evnt omp 6 end generate_surface 3146749us
+generated part [496/700]
+evnt omp 6 strt generate_surface 3146820us
+evnt omp 2 end generate_surface 3156229us
+generated part [497/700]
+evnt omp 2 strt generate_surface 3156318us
+evnt omp 1 end generate_surface 3165537us
+generated part [498/700]
+evnt omp 1 strt generate_surface 3165612us
+evnt omp 3 end generate_surface 3166458us
+generated part [499/700]
+evnt omp 3 strt generate_surface 3166528us
+evnt omp 0 end generate_surface 3172023us
+generated part [500/700]
+evnt omp 0 strt generate_surface 3172154us
+evnt omp 7 end generate_surface 3176939us
+generated part [501/700]
+evnt omp 7 strt generate_surface 3177034us
+evnt omp 4 end generate_surface 3179339us
+generated part [502/700]
+evnt omp 4 strt generate_surface 3179405us
+evnt omp 5 end generate_surface 3183257us
+generated part [503/700]
+evnt omp 5 strt generate_surface 3183323us
+evnt omp 6 end generate_surface 3196286us
+generated part [504/700]
+evnt omp 6 strt generate_surface 3196374us
+evnt omp 2 end generate_surface 3205583us
+generated part [505/700]
+evnt omp 2 strt generate_surface 3205670us
+evnt omp 7 end generate_surface 3210366us
+generated part [506/700]
+evnt omp 7 strt generate_surface 3210460us
+evnt omp 1 end generate_surface 3210660us
+generated part [507/700]
+evnt omp 1 strt generate_surface 3210730us
+evnt omp 3 end generate_surface 3215220us
+generated part [508/700]
+evnt omp 3 strt generate_surface 3215287us
+evnt omp 0 end generate_surface 3222309us
+generated part [509/700]
+evnt omp 0 strt generate_surface 3222405us
+evnt omp 5 end generate_surface 3229130us
+generated part [510/700]
+evnt omp 5 strt generate_surface 3229200us
+evnt omp 4 end generate_surface 3229347us
+generated part [511/700]
+evnt omp 4 strt generate_surface 3229411us
+evnt omp 6 end generate_surface 3245635us
+generated part [512/700]
+evnt omp 6 strt generate_surface 3245715us
+evnt omp 7 end generate_surface 3247419us
+generated part [513/700]
+evnt omp 7 strt generate_surface 3247491us
+evnt omp 2 end generate_surface 3254752us
+generated part [514/700]
+evnt omp 2 strt generate_surface 3254863us
+evnt omp 3 end generate_surface 3263966us
+generated part [515/700]
+evnt omp 3 strt generate_surface 3264015us
+evnt omp 1 end generate_surface 3265092us
+generated part [516/700]
+evnt omp 1 strt generate_surface 3265164us
+evnt omp 0 end generate_surface 3267340us
+generated part [517/700]
+evnt omp 0 strt generate_surface 3267434us
+evnt omp 5 end generate_surface 3279850us
+generated part [518/700]
+evnt omp 5 strt generate_surface 3279925us
+evnt omp 7 end generate_surface 3280263us
+generated part [519/700]
+evnt omp 4 end generate_surface 3280318us
+generated part [520/700]
+evnt omp 7 strt generate_surface 3280379us
+evnt omp 4 strt generate_surface 3280426us
+evnt omp 6 end generate_surface 3294732us
+generated part [521/700]
+evnt omp 6 strt generate_surface 3294801us
+evnt omp 2 end generate_surface 3303958us
+generated part [522/700]
+evnt omp 3 end generate_surface 3312633us
+generated part [523/700]
+evnt omp 3 strt generate_surface 3312701us
+evnt omp 4 end generate_surface 3315107us
+generated part [524/700]
+evnt omp 4 strt generate_surface 3315223us
+evnt omp 2 strt generate_surface 3315268us
+evnt omp 1 end generate_surface 3322074us
+generated part [525/700]
+evnt omp 1 strt generate_surface 3322167us
+evnt omp 0 end generate_surface 3323902us
+generated part [526/700]
+evnt omp 0 strt generate_surface 3323964us
+evnt omp 7 end generate_surface 3326585us
+generated part [527/700]
+evnt omp 7 strt generate_surface 3326689us
+evnt omp 5 end generate_surface 3331216us
+generated part [528/700]
+evnt omp 5 strt generate_surface 3331266us
+evnt omp 6 end generate_surface 3343693us
+generated part [529/700]
+evnt omp 6 strt generate_surface 3343762us
+evnt omp 4 end generate_surface 3354483us
+generated part [530/700]
+evnt omp 4 strt generate_surface 3354564us
+evnt omp 2 end generate_surface 3362540us
+generated part [531/700]
+evnt omp 2 strt generate_surface 3362645us
+evnt omp 3 end generate_surface 3368245us
+generated part [532/700]
+evnt omp 3 strt generate_surface 3368298us
+evnt omp 7 end generate_surface 3380428us
+generated part [533/700]
+evnt omp 7 strt generate_surface 3380540us
+evnt omp 5 end generate_surface 3380578us
+generated part [534/700]
+evnt omp 5 strt generate_surface 3380629us
+evnt omp 0 end generate_surface 3381141us
+generated part [535/700]
+evnt omp 0 strt generate_surface 3381227us
+evnt omp 1 end generate_surface 3383514us
+generated part [536/700]
+evnt omp 1 strt generate_surface 3383611us
+evnt omp 4 end generate_surface 3388123us
+generated part [537/700]
+evnt omp 4 strt generate_surface 3388184us
+evnt omp 6 end generate_surface 3389161us
+generated part [538/700]
+evnt omp 6 strt generate_surface 3389226us
+evnt omp 2 end generate_surface 3412223us
+generated part [539/700]
+evnt omp 2 strt generate_surface 3412319us
+evnt omp 3 end generate_surface 3414126us
+generated part [540/700]
+evnt omp 3 strt generate_surface 3414178us
+evnt omp 0 end generate_surface 3419235us
+generated part [541/700]
+evnt omp 0 strt generate_surface 3419338us
+evnt omp 5 end generate_surface 3430105us
+generated part [542/700]
+evnt omp 5 strt generate_surface 3430197us
+evnt omp 7 end generate_surface 3431042us
+generated part [543/700]
+evnt omp 7 strt generate_surface 3431109us
+evnt omp 1 end generate_surface 3439374us
+generated part [544/700]
+evnt omp 1 strt generate_surface 3439477us
+evnt omp 4 end generate_surface 3440867us
+generated part [545/700]
+evnt omp 4 strt generate_surface 3440943us
+evnt omp 6 end generate_surface 3441203us
+generated part [546/700]
+evnt omp 6 strt generate_surface 3441262us
+evnt omp 3 end generate_surface 3449232us
+generated part [547/700]
+evnt omp 3 strt generate_surface 3449324us
+evnt omp 2 end generate_surface 3457841us
+generated part [548/700]
+evnt omp 2 strt generate_surface 3457891us
+evnt omp 0 end generate_surface 3469148us
+generated part [549/700]
+evnt omp 0 strt generate_surface 3469234us
+evnt omp 5 end generate_surface 3480250us
+generated part [550/700]
+evnt omp 5 strt generate_surface 3480351us
+evnt omp 7 end generate_surface 3480570us
+generated part [551/700]
+evnt omp 7 strt generate_surface 3480620us
+evnt omp 3 end generate_surface 3482959us
+generated part [552/700]
+evnt omp 3 strt generate_surface 3483037us
+evnt omp 1 end generate_surface 3484859us
+generated part [553/700]
+evnt omp 1 strt generate_surface 3484960us
+evnt omp 4 end generate_surface 3493370us
+generated part [554/700]
+evnt omp 4 strt generate_surface 3493452us
+evnt omp 6 end generate_surface 3493908us
+generated part [555/700]
+evnt omp 6 strt generate_surface 3493969us
+evnt omp 2 end generate_surface 3507408us
+generated part [556/700]
+evnt omp 2 strt generate_surface 3507488us
+evnt omp 3 end generate_surface 3517028us
+generated part [557/700]
+evnt omp 3 strt generate_surface 3517091us
+evnt omp 0 end generate_surface 3519004us
+generated part [558/700]
+evnt omp 0 strt generate_surface 3519098us
+evnt omp 5 end generate_surface 3530421us
+generated part [559/700]
+evnt omp 5 strt generate_surface 3530521us
+evnt omp 7 end generate_surface 3530807us
+generated part [560/700]
+evnt omp 7 strt generate_surface 3530858us
+evnt omp 1 end generate_surface 3535523us
+generated part [561/700]
+evnt omp 1 strt generate_surface 3535619us
+evnt omp 4 end generate_surface 3540822us
+generated part [562/700]
+evnt omp 4 strt generate_surface 3540896us
+evnt omp 6 end generate_surface 3546376us
+generated part [563/700]
+evnt omp 6 strt generate_surface 3546438us
+evnt omp 3 end generate_surface 3550319us
+generated part [564/700]
+evnt omp 3 strt generate_surface 3550405us
+evnt omp 2 end generate_surface 3557016us
+generated part [565/700]
+evnt omp 2 strt generate_surface 3557066us
+evnt omp 0 end generate_surface 3568813us
+generated part [566/700]
+evnt omp 0 strt generate_surface 3568897us
+evnt omp 7 end generate_surface 3577216us
+generated part [567/700]
+evnt omp 7 strt generate_surface 3577320us
+evnt omp 5 end generate_surface 3580705us
+generated part [568/700]
+evnt omp 5 strt generate_surface 3580755us
+evnt omp 3 end generate_surface 3584018us
+generated part [569/700]
+evnt omp 3 strt generate_surface 3584112us
+evnt omp 1 end generate_surface 3585871us
+generated part [570/700]
+evnt omp 1 strt generate_surface 3585965us
+evnt omp 4 end generate_surface 3590481us
+generated part [571/700]
+evnt omp 4 strt generate_surface 3590577us
+evnt omp 6 end generate_surface 3596259us
+generated part [572/700]
+evnt omp 6 strt generate_surface 3596323us
+evnt omp 0 end generate_surface 3602394us
+generated part [573/700]
+evnt omp 0 strt generate_surface 3602467us
+evnt omp 2 end generate_surface 3606522us
+generated part [574/700]
+evnt omp 2 strt generate_surface 3606597us
+evnt omp 3 end generate_surface 3617979us
+generated part [575/700]
+evnt omp 3 strt generate_surface 3618035us
+evnt omp 7 end generate_surface 3626762us
+generated part [576/700]
+evnt omp 7 strt generate_surface 3626859us
+evnt omp 5 end generate_surface 3630751us
+generated part [577/700]
+evnt omp 5 strt generate_surface 3630807us
+evnt omp 0 end generate_surface 3635763us
+generated part [578/700]
+evnt omp 0 strt generate_surface 3635850us
+evnt omp 1 end generate_surface 3636273us
+generated part [579/700]
+evnt omp 1 strt generate_surface 3636371us
+evnt omp 4 end generate_surface 3640299us
+generated part [580/700]
+evnt omp 4 strt generate_surface 3640358us
+evnt omp 6 end generate_surface 3642307us
+generated part [581/700]
+evnt omp 6 strt generate_surface 3642368us
+evnt omp 2 end generate_surface 3656243us
+generated part [582/700]
+evnt omp 2 strt generate_surface 3656338us
+evnt omp 5 end generate_surface 3664479us
+generated part [583/700]
+evnt omp 3 end generate_surface 3664588us
+generated part [584/700]
+evnt omp 5 strt generate_surface 3664657us
+evnt omp 3 strt generate_surface 3664705us
+evnt omp 7 end generate_surface 3676588us
+generated part [585/700]
+evnt omp 7 strt generate_surface 3676648us
+evnt omp 0 end generate_surface 3678515us
+generated part [586/700]
+evnt omp 0 strt generate_surface 3678602us
+evnt omp 4 end generate_surface 3691629us
+generated part [587/700]
+evnt omp 4 strt generate_surface 3691687us
+evnt omp 6 end generate_surface 3693762us
+generated part [588/700]
+evnt omp 6 strt generate_surface 3693856us
+evnt omp 1 end generate_surface 3697062us
+generated part [589/700]
+evnt omp 1 strt generate_surface 3697125us
+evnt omp 5 end generate_surface 3698162us
+generated part [590/700]
+evnt omp 5 strt generate_surface 3698243us
+evnt omp 2 end generate_surface 3701814us
+generated part [591/700]
+evnt omp 2 strt generate_surface 3701906us
+evnt omp 0 end generate_surface 3712700us
+generated part [592/700]
+evnt omp 0 strt generate_surface 3712785us
+evnt omp 3 end generate_surface 3714327us
+generated part [593/700]
+evnt omp 3 strt generate_surface 3714390us
+evnt omp 7 end generate_surface 3726227us
+generated part [594/700]
+evnt omp 7 strt generate_surface 3726307us
+evnt omp 5 end generate_surface 3731697us
+generated part [595/700]
+evnt omp 5 strt generate_surface 3731749us
+evnt omp 4 end generate_surface 3739357us
+generated part [596/700]
+evnt omp 4 strt generate_surface 3739440us
+evnt omp 6 end generate_surface 3745318us
+generated part [597/700]
+evnt omp 6 strt generate_surface 3745412us
+evnt omp 1 end generate_surface 3747573us
+generated part [598/700]
+evnt omp 1 strt generate_surface 3747625us
+evnt omp 3 end generate_surface 3748198us
+generated part [599/700]
+evnt omp 3 strt generate_surface 3748286us
+evnt omp 2 end generate_surface 3751704us
+generated part [600/700]
+evnt omp 2 strt generate_surface 3751755us
+evnt omp 0 end generate_surface 3757856us
+generated part [601/700]
+evnt omp 0 strt generate_surface 3757924us
+evnt omp 7 end generate_surface 3775903us
+generated part [602/700]
+evnt omp 7 strt generate_surface 3776001us
+evnt omp 5 end generate_surface 3781868us
+generated part [603/700]
+evnt omp 5 strt generate_surface 3781927us
+evnt omp 3 end generate_surface 3783049us
+generated part [604/700]
+evnt omp 3 strt generate_surface 3783153us
+evnt omp 4 end generate_surface 3788923us
+generated part [605/700]
+evnt omp 4 strt generate_surface 3789008us
+evnt omp 1 end generate_surface 3794068us
+generated part [606/700]
+evnt omp 1 strt generate_surface 3794181us
+evnt omp 6 end generate_surface 3795277us
+generated part [607/700]
+evnt omp 6 strt generate_surface 3795325us
+evnt omp 2 end generate_surface 3803003us
+generated part [608/700]
+evnt omp 2 strt generate_surface 3803072us
+evnt omp 0 end generate_surface 3807448us
+generated part [609/700]
+evnt omp 0 strt generate_surface 3807515us
+evnt omp 3 end generate_surface 3816800us
+generated part [610/700]
+evnt omp 3 strt generate_surface 3816863us
+evnt omp 7 end generate_surface 3822289us
+generated part [611/700]
+evnt omp 7 strt generate_surface 3822392us
+evnt omp 5 end generate_surface 3832046us
+generated part [612/700]
+evnt omp 5 strt generate_surface 3832112us
+evnt omp 4 end generate_surface 3838662us
+generated part [613/700]
+evnt omp 4 strt generate_surface 3838745us
+evnt omp 1 end generate_surface 3844020us
+generated part [614/700]
+evnt omp 1 strt generate_surface 3844140us
+evnt omp 6 end generate_surface 3845137us
+generated part [615/700]
+evnt omp 6 strt generate_surface 3845188us
+evnt omp 2 end generate_surface 3852830us
+generated part [616/700]
+evnt omp 2 strt generate_surface 3852916us
+evnt omp 0 end generate_surface 3856924us
+generated part [617/700]
+evnt omp 0 strt generate_surface 3856989us
+evnt omp 3 end generate_surface 3861783us
+generated part [618/700]
+evnt omp 3 strt generate_surface 3861843us
+evnt omp 7 end generate_surface 3871918us
+generated part [619/700]
+evnt omp 7 strt generate_surface 3872013us
+evnt omp 5 end generate_surface 3882136us
+generated part [620/700]
+evnt omp 5 strt generate_surface 3882191us
+evnt omp 4 end generate_surface 3888550us
+generated part [621/700]
+evnt omp 4 strt generate_surface 3888634us
+evnt omp 6 end generate_surface 3891159us
+generated part [622/700]
+evnt omp 6 strt generate_surface 3891256us
+evnt omp 1 end generate_surface 3894277us
+generated part [623/700]
+evnt omp 1 strt generate_surface 3894327us
+evnt omp 2 end generate_surface 3902726us
+generated part [624/700]
+evnt omp 2 strt generate_surface 3902816us
+evnt omp 0 end generate_surface 3906587us
+generated part [625/700]
+evnt omp 0 strt generate_surface 3906649us
+evnt omp 3 end generate_surface 3911413us
+generated part [626/700]
+evnt omp 3 strt generate_surface 3911495us
+evnt omp 5 end generate_surface 3915741us
+generated part [627/700]
+evnt omp 5 strt generate_surface 3915839us
+evnt omp 7 end generate_surface 3921637us
+generated part [628/700]
+evnt omp 7 strt generate_surface 3921689us
+evnt omp 4 end generate_surface 3939784us
+generated part [629/700]
+evnt omp 4 strt generate_surface 3939869us
+evnt omp 6 end generate_surface 3942237us
+generated part [630/700]
+evnt omp 6 strt generate_surface 3942331us
+evnt omp 1 end generate_surface 3944385us
+generated part [631/700]
+evnt omp 1 strt generate_surface 3944435us
+evnt omp 2 end generate_surface 3948339us
+generated part [632/700]
+evnt omp 2 strt generate_surface 3948436us
+evnt omp 5 end generate_surface 3949356us
+generated part [633/700]
+evnt omp 5 strt generate_surface 3949436us
+evnt omp 0 end generate_surface 3956239us
+generated part [634/700]
+evnt omp 0 strt generate_surface 3956317us
+evnt omp 3 end generate_surface 3961031us
+generated part [635/700]
+evnt omp 3 strt generate_surface 3961103us
+evnt omp 7 end generate_surface 3971289us
+generated part [636/700]
+evnt omp 7 strt generate_surface 3971357us
+evnt omp 4 end generate_surface 3987368us
+generated part [637/700]
+evnt omp 4 strt generate_surface 3987441us
+evnt omp 0 end generate_surface 3989820us
+generated part [638/700]
+evnt omp 0 strt generate_surface 3989869us
+evnt omp 6 end generate_surface 3993617us
+generated part [639/700]
+evnt omp 6 strt generate_surface 3993709us
+evnt omp 5 end generate_surface 3994116us
+generated part [640/700]
+evnt omp 5 strt generate_surface 3994192us
+evnt omp 1 end generate_surface 3995805us
+generated part [641/700]
+evnt omp 1 strt generate_surface 3995864us
+evnt omp 2 end generate_surface 3999939us
+generated part [642/700]
+evnt omp 2 strt generate_surface 4000046us
+evnt omp 3 end generate_surface 4010449us
+generated part [643/700]
+evnt omp 3 strt generate_surface 4010500us
+evnt omp 7 end generate_surface 4020994us
+generated part [644/700]
+evnt omp 7 strt generate_surface 4021096us
+evnt omp 1 end generate_surface 4022100us
+generated part [645/700]
+evnt omp 1 strt generate_surface 4022193us
+evnt omp 0 end generate_surface 4022985us
+generated part [646/700]
+evnt omp 0 strt generate_surface 4023057us
+evnt omp 4 end generate_surface 4036240us
+generated part [647/700]
+evnt omp 4 strt generate_surface 4036292us
+evnt omp 5 end generate_surface 4040427us
+generated part [648/700]
+evnt omp 5 strt generate_surface 4040498us
+evnt omp 6 end generate_surface 4043654us
+generated part [649/700]
+evnt omp 6 strt generate_surface 4043713us
+evnt omp 2 end generate_surface 4049765us
+generated part [650/700]
+evnt omp 2 strt generate_surface 4049853us
+evnt omp 1 end generate_surface 4059243us
+generated part [651/700]
+evnt omp 1 strt generate_surface 4059306us
+evnt omp 3 end generate_surface 4060025us
+generated part [652/700]
+evnt omp 3 strt generate_surface 4060097us
+evnt omp 0 end generate_surface 4064737us
+generated part [653/700]
+evnt omp 0 strt generate_surface 4064812us
+evnt omp 7 end generate_surface 4074500us
+generated part [654/700]
+evnt omp 7 strt generate_surface 4074587us
+evnt omp 4 end generate_surface 4085539us
+generated part [655/700]
+evnt omp 4 strt generate_surface 4085615us
+evnt omp 3 end generate_surface 4086353us
+generated part [656/700]
+evnt omp 3 strt generate_surface 4086426us
+evnt omp 5 end generate_surface 4090498us
+generated part [657/700]
+evnt omp 5 strt generate_surface 4090563us
+evnt omp 6 end generate_surface 4093528us
+generated part [658/700]
+evnt omp 2 end generate_surface 4099761us
+generated part [659/700]
+evnt omp 2 strt generate_surface 4099828us
+evnt omp 0 end generate_surface 4100728us
+generated part [660/700]
+evnt omp 0 strt generate_surface 4100800us
+evnt omp 6 strt generate_surface 4100843us
+evnt omp 1 end generate_surface 4104561us
+generated part [661/700]
+evnt omp 1 strt generate_surface 4104612us
+evnt omp 3 end generate_surface 4118988us
+generated part [662/700]
+evnt omp 3 strt generate_surface 4119052us
+evnt omp 7 end generate_surface 4123945us
+generated part [663/700]
+evnt omp 7 strt generate_surface 4124064us
+evnt omp 6 end generate_surface 4136602us
+generated part [664/700]
+evnt omp 6 strt generate_surface 4136697us
+evnt omp 0 end generate_surface 4139442us
+generated part [665/700]
+evnt omp 0 strt generate_surface 4139530us
+evnt omp 4 end generate_surface 4142350us
+generated part [666/700]
+evnt omp 4 strt generate_surface 4142399us
+evnt omp 5 end generate_surface 4142606us
+generated part [667/700]
+evnt omp 5 strt generate_surface 4142671us
+evnt omp 2 end generate_surface 4150055us
+generated part [668/700]
+evnt omp 2 strt generate_surface 4150160us
+evnt omp 1 end generate_surface 4154989us
+generated part [669/700]
+evnt omp 1 strt generate_surface 4155051us
+evnt omp 6 end generate_surface 4163178us
+generated part [670/700]
+evnt omp 6 strt generate_surface 4163230us
+evnt omp 3 end generate_surface 4164138us
+generated part [671/700]
+evnt omp 3 strt generate_surface 4164200us
+evnt omp 7 end generate_surface 4173392us
+generated part [672/700]
+evnt omp 7 strt generate_surface 4173470us
+evnt omp 0 end generate_surface 4177972us
+generated part [673/700]
+evnt omp 0 strt generate_surface 4178057us
+evnt omp 2 end generate_surface 4188913us
+generated part [674/700]
+evnt omp 2 strt generate_surface 4188986us
+evnt omp 4 end generate_surface 4193155us
+generated part [675/700]
+evnt omp 5 end generate_surface 4194273us
+generated part [676/700]
+evnt omp 5 strt generate_surface 4194354us
+evnt omp 6 end generate_surface 4198495us
+generated part [677/700]
+evnt omp 6 strt generate_surface 4198594us
+evnt omp 4 strt generate_surface 4198636us
+evnt omp 1 end generate_surface 4205124us
+generated part [678/700]
+evnt omp 1 strt generate_surface 4205179us
+evnt omp 3 end generate_surface 4213723us
+generated part [679/700]
+evnt omp 3 strt generate_surface 4213794us
+evnt omp 0 end generate_surface 4216723us
+generated part [680/700]
+evnt omp 0 strt generate_surface 4216784us
+evnt omp 7 end generate_surface 4222880us
+generated part [681/700]
+evnt omp 2 end generate_surface 4227491us
+generated part [682/700]
+evnt omp 2 strt generate_surface 4227560us
+evnt omp 4 end generate_surface 4235759us
+generated part [683/700]
+evnt omp 6 end generate_surface 4239770us
+generated part [684/700]
+evnt omp 6 strt generate_surface 4239868us
+evnt omp 4 strt generate_surface 4239914us
+evnt omp 5 end generate_surface 4244610us
+generated part [685/700]
+evnt omp 1 end generate_surface 4255296us
+generated part [686/700]
+evnt omp 0 end generate_surface 4255371us
+generated part [687/700]
+evnt omp 1 strt generate_surface 4255457us
+evnt omp 3 end generate_surface 4263016us
+generated part [688/700]
+evnt omp 3 strt generate_surface 4263139us
+evnt omp 2 end generate_surface 4266072us
+generated part [689/700]
+evnt omp 2 strt generate_surface 4266145us
+evnt omp 4 end generate_surface 4280383us
+generated part [690/700]
+evnt omp 6 end generate_surface 4281162us
+generated part [691/700]
+evnt omp 6 strt generate_surface 4281254us
+evnt omp 0 strt generate_surface 4281310us
+evnt omp 1 end generate_surface 4305383us
+generated part [692/700]
+evnt omp 2 end generate_surface 4305992us
+generated part [693/700]
+evnt omp 3 end generate_surface 4313885us
+generated part [694/700]
+evnt omp 3 strt generate_surface 4313976us
+evnt omp 0 end generate_surface 4318890us
+generated part [695/700]
+evnt omp 6 end generate_surface 4320213us
+generated part [696/700]
+evnt omp 6 strt generate_surface 4320285us
+evnt omp 4 strt generate_surface 4320341us
+evnt omp 4 end generate_surface 4360107us
+generated part [697/700]
+evnt omp 6 end generate_surface 4360972us
+generated part [698/700]
+evnt omp 3 end generate_surface 4362445us
+generated part [699/700]
+evnt omp 3 strt generate_surface 4362532us
+evnt omp 3 end generate_surface 4400930us
+generated part [700/700]
+prfl generate_surface 4257981us
+prfl nit_realisation 0us
+prfl write_all 1us
+prfl bsc_marshalling = 0us
+prfl bsc_copy = 0us
+prfl harts_g2 = 185us
+prfl harts_g1 = 29810us
+prfl harts_fft = 36050us
+prfl harts_copy_to_host = 0us
+prfl copy_to_host = 0us
+prfl write_surface = 0us
+evnt main 0 end programme 4956373us
