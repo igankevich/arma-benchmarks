@@ -6,7 +6,7 @@ ROOT=$(pwd)
 get_repository() {
 	repo=https://github.com/igankevich/arma
 	# revision for distributed Bscheduler benchmark
-	rev=d9e7123974dd49af6ec622dc8f356827e121c8cd
+	rev=ea297a2ada32407a4b7e1e40182b9245f42461dc
 	# revision for OpenMP vs Bscheduler benchmark
 	#rev=7b84e0ca19fa735be7c3e0f902432b9f8c4b871e
 	if ! test -d arma
@@ -105,6 +105,7 @@ model = AR {
 	least_squares = 0
 	order = (7,7,7)
 	output = none
+	partition = (1000,8,8)
 }
 EOF
 	cat >/tmp/ma_model << EOF
@@ -164,8 +165,9 @@ run_benchmarks() {
 			mkdir -p $outdir
 			if test "$mode" = "bsub"
 			then
-				bsub $ROOT/arma/$framework/src/arma /tmp/input >/tmp/appid 2>&1
-				app=$(cat /tmp/appid | sed -rne 's/.*\s+([0-9]+)\s*$/\1/p')
+				cp /tmp/input .
+				bsub $ROOT/arma/$framework/src/arma input >/tmp/appid 2>&1
+				app=$(cat /tmp/appid | sed -rne 's/.*submitted\s+([0-9]+)\s*$/\1/p')
 				echo "Application ID: $app"
 				echo "Press any key when arma finishes."
 				read anykey
@@ -264,7 +266,7 @@ benchmark_bscheduler_vs_openmp() {
 		echo "Iteration #$nt"
 		generate_input_files $nt 128 0
 		run_benchmarks bscheduler $nt $attempt $workdir
-		run_benchmarks openmp $nt $attempt $workdir
+#		run_benchmarks openmp $nt $attempt $workdir
 	done
 }
 
@@ -296,7 +298,8 @@ benchmark_file_systems() {
 	done
 }
 
-get_repository
+cd arma
+#get_repository
 #build_arma openmp
 #build_arma bscheduler
 #build_arma opencl
@@ -305,14 +308,17 @@ get_repository
 
 nt=10000
 workdir=/var/tmp/arma
-attempt=a9-single-node
+workdir_gfs=/gfs$HOME/tmp/arma
+attempt=a9-two-nodes
+#attempt=a9-single-node
 
 #produce_verification_data openmp
 #benchmark_opencl_vs_openmp $nt $attempt $workdir
 #for i in $(seq 10)
 #do
-#	benchmark_bscheduler_vs_openmp $attempt $workdir
+#benchmark_bscheduler_vs_openmp $attempt $workdir
 #done
-benchmark_bscheduler_single_node $attempt $workdir
+#benchmark_bscheduler_single_node $attempt $workdir
+benchmark_bscheduler_single_node $attempt $workdir_gfs
 #benchmark_file_systems $nt $attempt
 exit
