@@ -10,9 +10,9 @@ all_data = data.frame(
 #all_test_cases <- list(c("a8", "openmp", "gpulab1"),
 #					   c("a8", "bscheduler", "gpulab1"),
 #					   c("a9-single-node", "bscheduler", "gpulab1"))
-all_test_cases <- list(c("a9-single-node", "openmp", "m1"),
-					   c("a9-single-node", "bscheduler", "m1"),
-					   c("a9-two-nodes", "bscheduler", "m1"))
+all_test_cases <- list(c("a9-single-node-direct", "openmp", "m1"),
+					   c("a9-single-node-direct", "bscheduler", "m1"),
+					   c("a9-two-nodes-direct", "bscheduler", "m1"))
 row <- 1
 for (size in seq(10000, 30000, 2500)) {
 	for (test_case in all_test_cases) {
@@ -35,21 +35,21 @@ plot.new()
 plot.window(xlim=range(all_data$size), ylim=range(0,all_data$t))
 conf <- list(
 	a=list(
-		framework='a9-single-node-openmp',
+		framework='a9-single-node-direct-openmp',
 		color='#000000',
 		lty="solid",
 		lwd=3,
 		name="OpenMP"
 	),
 	b=list(
-		framework='a9-single-node-bscheduler',
+		framework='a9-single-node-direct-bscheduler',
 		color='#0000f0',
 		lty="solid",
 		lwd=3,
 		name="Bscheduler (single node)"
 	),
 	c=list(
-		framework='a9-two-nodes-bscheduler',
+		framework='a9-two-nodes-direct-bscheduler',
 		color='#f00000',
 		lty="solid",
 		lwd=3,

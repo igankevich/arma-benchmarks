@@ -265,8 +265,8 @@ benchmark_bscheduler_vs_openmp() {
 	do
 		echo "Iteration #$nt"
 		generate_input_files $nt 128 0
-		run_benchmarks bscheduler $nt $attempt $workdir
-#		run_benchmarks openmp $nt $attempt $workdir
+#		run_benchmarks bscheduler $nt $attempt $workdir
+		run_benchmarks openmp $nt $attempt $workdir
 	done
 }
 
@@ -309,16 +309,16 @@ cd arma
 nt=10000
 workdir=/var/tmp/arma
 workdir_gfs=/gfs$HOME/tmp/arma
-attempt=a9-two-nodes
-#attempt=a9-single-node
+#attempt=a9-two-nodes-direct
+attempt=a9-single-node-direct
 
 #produce_verification_data openmp
 #benchmark_opencl_vs_openmp $nt $attempt $workdir
 #for i in $(seq 10)
 #do
-#benchmark_bscheduler_vs_openmp $attempt $workdir
+benchmark_bscheduler_vs_openmp $attempt $workdir_gfs
 #done
 #benchmark_bscheduler_single_node $attempt $workdir
-benchmark_bscheduler_single_node $attempt $workdir_gfs
+#benchmark_bscheduler_single_node $attempt $workdir_gfs
 #benchmark_file_systems $nt $attempt
 exit
