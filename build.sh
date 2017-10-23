@@ -5,8 +5,10 @@ ROOT=$(pwd)
 
 get_repository() {
 	repo=https://github.com/igankevich/arma
+	# revision for failure simulation
+	rev=1e8830c2a44b7511a91980b10e314b8a81cc58e7
 	# revision for distributed Bscheduler benchmark
-	rev=ea297a2ada32407a4b7e1e40182b9245f42461dc
+	#rev=ea297a2ada32407a4b7e1e40182b9245f42461dc
 	# revision for OpenMP vs Bscheduler benchmark
 	#rev=7b84e0ca19fa735be7c3e0f902432b9f8c4b871e
 	if ! test -d arma
@@ -302,6 +304,7 @@ cd arma
 #get_repository
 #build_arma openmp
 #build_arma bscheduler
+#build_arma bscheduler bscheduler -Dsimulate_failures=true
 #build_arma opencl
 #build_arma opencl realtime "-Dwith_high_amplitude_realtime_solver=true"
 
@@ -310,15 +313,16 @@ nt=10000
 workdir=/var/tmp/arma
 workdir_gfs=/gfs$HOME/tmp/arma
 #attempt=a9-two-nodes-direct
-attempt=a9-single-node-direct
+#attempt=a9-single-node-direct
+attempt=a10-failure-direct
 
 #produce_verification_data openmp
 #benchmark_opencl_vs_openmp $nt $attempt $workdir
 #for i in $(seq 10)
 #do
-benchmark_bscheduler_vs_openmp $attempt $workdir_gfs
+#benchmark_bscheduler_vs_openmp $attempt $workdir_gfs
 #done
 #benchmark_bscheduler_single_node $attempt $workdir
-#benchmark_bscheduler_single_node $attempt $workdir_gfs
+benchmark_bscheduler_single_node $attempt $workdir_gfs
 #benchmark_file_systems $nt $attempt
 exit
