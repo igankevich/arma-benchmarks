@@ -1,0 +1,5041 @@
+       ppl: add handler
+      chld: add {pid=12941,app=0,in=21,out=20,remaining=0,available=0}, ev={fd=21,ev=r-c-}
+      chld: add {pid=12941,app=0,in=21,out=20,remaining=0,available=0}, ev={fd=20,ev=-wc-}
+evnt main 0 strt programme 8us
+      chld: min {pid=12941,app=0,in=21,out=20,remaining=0,available=0}
+      chld: process_kernels n=0
+Input file                     = input
+Output grid size               = (10000,40,40)
+Output grid patch size         = (1,1,1)
+Model                          = grid=(10000,40,40):(9999,39,39),order=(7,7,7),output=none,acf.shape=(10,10,10),transform=dist=gram_charlier,skewness=0,kurtosis=0,cdf_solver=interval=[0,1],niterations=100,acf_solver=interval=[0,1],niterations=100,interpolation_nodes=100,max_interpolation_order=12,max_expansion_order=10,noseed=0
+Velocity potential solver name = N4arma8velocity21High_amplitude_solverIdEE
+Velocity potential solver      = wnmax=from (0,0) to (0,0.25) npoints (2,2),depth=12,domain=from (10,-12) to (10,3) npoints (1,128)
+prfl nit_acf 0us
+ACF variance                   = 1
+prfl determine_coefficients 22346us
+prfl validate 121165us
+Partition size                 = (364,8,8)
+No. of parts                   = (28,5,5)
+White noise variance           = 0.000519022
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 179446us
+evnt bsc 0 end generate_surface 192462us
+      chld: process_kernels n=1
+generated part [1/700]
+      chld: process_kernels n=3
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 194934us
+evnt bsc 0 end generate_surface 211660us
+      chld: process_kernels n=1
+generated part [2/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 212966us
+evnt bsc 0 end generate_surface 229523us
+      chld: process_kernels n=1
+generated part [3/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [4/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 367126us
+evnt bsc 0 end generate_surface 378882us
+      chld: process_kernels n=1
+generated part [5/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 381707us
+generated part [6/700]
+      chld: process_kernels n=3
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 390418us
+evnt bsc 0 end generate_surface 395227us
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+generated part [7/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [8/700]
+evnt bsc 0 strt      chld: process_kernels n=1
+ generate_surface 399076us
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 410820us
+      chld: process_kernels n=1
+evnt bsc 0 end generate_surface 411275us
+      chld: process_kernels n=1
+generated part [9/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 412792us
+generated part [10/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [11/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 416183us
+evnt bsc 0 end generate_surface 424461us
+      chld: process_kernels n=1
+generated part [12/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 426519us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 432885us
+      chld: process_kernels n=1
+generated part [13/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [14/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld     evnt bsc 0 strt generate_surface 435876us
+: process_kernels n=0
+evnt bsc 0 end generate_surface 438160us
+      chld: process_kernels n=1
+generated part [15/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 440162us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [16/700]
+      chld: process_kernels n=3
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 452172us
+evnt bsc 0 end generate_surface 452911us
+      chld: process_kernels n=1
+generated part [17/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 454997us
+evnt bsc 0 end generate_surface 456732us
+      chld: process_kernels n=1
+generated part [18/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [19/700]
+evnt bsc 0 end generate_surface 466835us
+      chld: process_kernels n=1
+generated part [20/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 474694us
+      chld: process_kernels n=1
+generated part [21/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [22/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 480721us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [23/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 496824us
+evnt bsc 0 end generate_surface 497361us
+      chld: process_kernels n=1
+generated part [24/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [25/700]
+      chld: process_kernels n=3
+evnt bsc 0 end generate_surface 513316us
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [26      chld: process_kernels n=0
+/700]
+evnt bsc 0      chld: process_kernels n=0
+          strt generate_surface 515446us
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+     evnt bsc 0 strt generate_surface 516331us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [27/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 529305us
+evnt bsc 0 end generate_surface 536245us
+      chld: process_kernels n=1
+generated part [28/700]
+evnt bsc 0 end generate_surface 537226us
+      chld: process_kernels n=1
+generated part [29/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 544102us
+      chld: process_kernels n=generated part [30/700]
+1
+      chld: process_kernels n=2
+generated part [31/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+          evnt bsc chld: process_kernels n=0
+ 0 strt generate_surface 545113us
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 545572us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 560030us
+      chld: process_kernels n=1
+generated part [32/700]
+      chld: process_kernels n=3
+generated part [33/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 561652us
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [34/700]
+evnt bsc 0 strt generate_surface 562563us
+evnt bsc 0 strt generate_surface 562615us
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 577109us
+      chld: process_kernels n=1
+generated part [35/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [36/700]
+evnt bsc 0                chld: process_kernels n=1
+strt generate_surface 578946us
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 585362us
+      chld: process_kernels n=1
+generated part [37/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 590733us
+evnt bsc 0 strt generate_surface 592447us
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [38/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+generated part [39/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 595757us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [40/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 611277us
+evnt bsc 0 end generate_surface 612359us
+      chld: process_kernels n=1
+generated part [41/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 613367us
+      chld: process_kernels n=1
+generated part [42/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [43/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 627975us
+evnt       chld: process_kernels n=1
+bsc 0 strt generate_surface 628045us
+generated part [44/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [45/700]
+      chld: process_kernels n=3
+evnt bsc 0 end generate_surface 644665us
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [46/700]
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 646543us
+      chld: process_kernels n=0
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 649383us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [47/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 662579us
+evnt bsc 0 end generate_surface 670673us
+      chld: process_kernels n=1
+evnt bsc 0 end generate_surface 671092us
+      chld: process_kernels n=1
+generated part [48/700]
+generated part [49/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 673336us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [50/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 686414us
+      chld: process_kernels n=1
+generated part [51/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 688643us
+      chld: process_kernels n=0
+generated part [52/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 694057us
+evnt       chld: process_kernels n=bsc 0 strt generate_surface 694950us
+1
+generated part [53/700]
+      chld: process_kernels n=0
+generated part [54/700]
+      chld: process_kernels n=1
+evnt bsc 0 end generate_surface 709604us
+      chld: process_kernels n=0
+      chld: process_kernels n=1
+generated part [55/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 711810us
+evnt bsc 0 end generate_surface 715594us
+      chld: process_kernels n=1
+generated part [56/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [57/700]
+      chld: process_kernels n=3
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 728354us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 729211us
+evnt bsc 0 end generate_surface 733024us
+      chld: process_kernels n=1
+generated part [58/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [59/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 744153us
+evnt bsc 0 end generate_surface 749738us
+      chld: process_kernels n=1
+evnt bsc 0 end generate_surface 750131us
+      chld: process_kernels n=1
+generated part [60/700]
+      chld: process_kernels n=1
+generated part [61/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [62/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 760008us
+evnt bsc 0 end generate_surface 765146us
+      chld: process_kernels n=1
+generated part [63/700]
+evnt bsc 0 end generate_surface 772657us
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [64/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [65/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 776072us
+      chld: process_kernels n=0
+generated part [66/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 792757us
+      chld: process_kernels n=1
+generated part [67/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 793561us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [68/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 810270us
+      chld: process_kernels n=1
+generated part [69/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [70/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 824773us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [71/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 842968us
+evnt bsc 0          strt generate_surface 843037us
+      chld: process_kernels n=1
+generated part [72/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [73/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n     evnt bsc 0 strt generate_surface 857608us
+=0
+evnt bsc 0 end generate_surface 864227us
+      chld: process_kernels n=1
+generated part [74/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 866270us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 872347us
+      chld: process_kernels n=1
+generated part [75/700]
+      chld: process_kernels n=2
+generated part [76/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 875436us
+evnt bsc 0 end generate_surface 887275us
+      chld: process_kernels n=1
+generated part [77/700]
+      chld: process_kernels n=0
+generated part [78/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 891095us
+      chld: process_kernels n=0
+generated part [79/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 907773us
+evnt bsc 0 end generate_surface 908402us
+      chld: process_kernels n=1
+generated part [80/700]
+evnt bsc 0 end generate_surface 913407us
+      chld: process_kernels n=1
+generated part [81/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 922370us
+      chld: process_kernels n=1
+generated part [82/700]
+      chld: process_kernels n=1
+generated part [83/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [84/700]
+      chld: process_kernels n=3
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 941582us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 942513us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [85/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 957000us
+evnt bsc 0 end generate_surface 963588us
+      chld: process_kernels n=1
+generated part [86/700]
+evnt bsc 0 end generate_surface 964762us
+      chld: process_kernels n=1
+generated part [87/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [88/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 973672us
+evnt bsc 0 end generate_surface 977919us
+      chld: process_kernels n=1
+generated part [89/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [90/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 995008us
+      chld: process_kernels n=1
+generated part [91/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [92/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 1005279us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [93/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 1021442us
+evnt bsc 0 end generate_surface 1021997us
+      chld: process_kernels n=1
+generated part [94/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [95/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 1037887us
+evnt bsc       chld: process_kernels n=1
+         0 strt generate_surface 1037933us
+generated part [96/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [97/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 1054686us
+evnt bsc 0 end generate_surface 1056066us
+      chld: process_kernels n=1
+generated part [98/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [99/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 1072190us
+evnt bsc 0 end generate_surface 1075777us
+      chld: process_kernels n=1
+generated part [100/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [101/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 1086546us
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 1092974us
+      chld: process_kernels n=1
+generated part [102/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 1095590us
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 1101294us
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [103/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+generated part [104/700]
+      chld: process_kernels n=3
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 1105967us
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 1116548us
+evnt bsc 0 strt generate_surface 1117251us
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+generated part [105/700]
+generated part [106/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 1121042us
+evnt bsc 0 end generate_surface 1126843us
+      chld: process_kernels n=1
+generated part [107/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 1128705us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [108/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 1137899us
+      chld: process_kernels n=1
+generated part [109/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 1139929us
+evnt bsc 0 end generate_surface 1141924us
+      chld: process_kernels n=1
+generated part [110/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 1151744us
+      chld: process_kernels n=1
+generated part [111/700]
+      chld: process_kernels n=2
+generated part [112/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 1154389us
+evnt bsc 0 end generate_surface 1160833us
+      chld: process_kernels n=1
+generated part [113/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 1162741us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [114/700]
+      chld: process_kernels n=3
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 1171461us
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 1175248us
+      chld: process_kernels n=1
+generated part [115/700]
+evnt bsc 0 end generate_surface 1183592us
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+generated part [116/700]
+generated part [117/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 1187086us
+evnt bsc 0 end generate_surface 1192188us
+      chld: process_kernels n=1
+generated part [118/700]
+evnt bsc 0 end generate_surface 1198786us
+      chld: process_kernels n=1
+generated part [119/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [120/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [121/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 1218666us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [122/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 1235071us
+      chld: process_kernels n=1
+generated part [123/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 1235825us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [124/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 1252278us
+      chld: process_kernels n=1
+generated part [125/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [126/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 1267707us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [127/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 1285329us
+      chld: process_kernels n=1
+generated part [128/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 1286629us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [129/700]
+evnt bsc 0 end generate_surface 1303419us
+      chld: process_kernels n=1
+generated part [130/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [131/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 1317588us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [132/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 1333016us
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 1338269us
+      chld: process_kernels n=1
+generated part [133/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 1340333us
+evnt bsc 0 end generate_surface 1347688us
+      chld: process_kernels n=1
+generated part [134/700]
+      chld: process_kernels n=1
+generated part [135/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=3
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 1350339us
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 1350782us
+evnt bsc 0 end generate_surface 1361101us
+      chld: process_kernels n=1
+generated part [136/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 1364917us
+generated part [137/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=2
+evnt bsc 0 end generate_surface 1365111us
+generated part [138/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [139/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 1367728us
+evnt bsc 0 strt generate_surface 1367785us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [140/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 1383023us
+evnt bsc 0 end generate_surface 1384148us
+      chld: process_kernels n=1
+generated part [141/700]
+evnt bsc 0 end generate_surface 1388873us
+      chld: process_kernels n=1
+generated part [142/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [143/700]
+evnt bsc 0 end generate_surface 1403649us
+      chld: process_kernels n=1
+generated part [144/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [145/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [146/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 1431973us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [147/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 1448098us
+evnt bsc 0 end generate_surface 1452615us
+      chld: process_kernels n=1
+generated part [148/700]
+evnt bsc 0 end generate_surface 1459661us
+      chld: process_kernels n=1
+generated part [149/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [150/700]
+      chld: process_kernels n=3
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 1465342us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 1466412us
+      chld: process_kernels n=0
+generated part [151/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 1479760us
+evnt bsc 0 end generate_surface 1486560us
+      chld: process_kernels n=1
+evnt bsc 0 end generate_surface 1486860us
+      chld: process_kernels n=1
+generated part [152/700]
+generated part [153/700]
+      chld: process_kernels n=0
+generated part [154/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 1496527us
+      chld: process_kernels n=1
+generated part [155/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [156/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 1513538us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [157/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 1528961us
+evnt bsc 0 end generate_surface 1536534us
+      chld: process_kernels n=1
+generated part [158/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [159/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0evnt bsc 0 end generate_surface 1545786us
+
+      chld: process_kernels n=0
+evnt       chld: process_kernelsbsc 0 strt generate_surface 1546484us
+ n=1
+generated part [160/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [161/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 1561286us
+evnt bsc 0 end generate_surface 1567336us
+      chld: process_kernels n=1
+generated part [162/700]
+evnt bsc 0 end generate_surface 1575836us
+      chld: process_kernels n=1
+generated part [163/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [164/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 1579848us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [165/700]
+      chld: process_kernels n=3
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 1596667us
+evnt bsc 0 end generate_surface 1600258us
+      chld: process_kernels n=1
+generated part [166/700]
+      chld: process_kernels n=0
+generated part [167/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 1612260us
+evnt bsc 0 end generate_surface 1617354us
+      chld: process_kernels n=1
+generated part [168/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 1626687us
+generated part [169/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=3
+generated part [170/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 1627549us
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 1627886us
+      chld: process_kernels n=0
+     evnt bsc 0 end generate_surface 1642022us
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+generated part [171/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 1643102us
+generated part [172/700]
+      chld: process_kernels n=3
+evnt bsc 0 end generate_surface 1644152us
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [173/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+     evnt bsc 0          strt generate_surface 1645649us
+      chld: process_kernels n=0
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 1646477us
+evnt bsc 0 end generate_surface 1657552us
+      chld: process_kernels n=1
+generated part [174/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [175/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 1661040us
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [176/700]
+evnt bsc 0 strt generate_surface 1661873us
+evnt bsc 0 end generate_surface 1666540us
+      chld: process_kernels n=1
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+generated part [177/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [178/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 1678395us
+evnt bsc 0 end generate_surface 1682629us
+      chld: process_kernels n=1
+generated part [179/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [180/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 1694639us
+evnt bsc 0 end generate_surface 1699507us
+      chld: process_kernels n=1
+generated part [181/700]
+evnt bsc 0 end generate_surface 1706351us
+      chld: process_kernels n=1
+generated part [182/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [183/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 1710490us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [184/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 1726673us
+evnt bsc 0 end generate_surface 1726932us
+      chld: process_kernels n=1
+generated part [185/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [186/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 1743861us
+evnt bsc 0 end generate_surface 1744418us
+      chld: process_kernels n=1
+generated part [187/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 1745750us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [188/700]
+evnt bsc 0 end generate_surface 1762062us
+      chld: process_kernels n=1
+generated part [189/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 1764409us
+      chld: process_kernels n=1
+generated part [190/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 1766694us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [191/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 1787693us
+      chld: process_kernels n=1
+generated part [192/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [193/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 1793585us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [194/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 1809756us
+evnt bsc 0 end generate_surface 1815807us
+      chld: process_kernels n=1
+generated part [195/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [196/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 1827241us
+evnt bsc 0 end generate_surface 1830405us
+      chld: process_kernels n=1
+generated part [197/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 1833286us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [198/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 1848190us
+      chld: process_kernels n=1
+generated part [199/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 1850251us
+evnt bsc 0 end generate_surface 1853781us
+      chld: process_kernels n=1
+generated part [200/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [201/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 1859213us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [202/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 1873518us
+      chld: process_kernels n=1
+generated part [203/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 1875549us
+evnt bsc 0 end generate_surface 1879640us
+      chld: process_kernels n=1
+generated part [204/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [205/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 1891958us
+evnt bsc 0 end generate_surface 1896683us
+      chld: process_kernels n=1
+generated part [206/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [207/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 1909521us
+evnt bsc 0 end generate_surface 1912544us
+      chld: process_kernels n=1
+generated part [208/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [209/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 1930528us
+      chld: process_kernels n=1
+generated part [210/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [211/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 1939073us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 1953636us
+      chld: process_kernels n=1
+generated part [212/700]
+      chld: process_kernels n=3
+generated part [213/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+     evnt bsc 0 strt generate_surface 1957639us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [214/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 1973381us
+evnt bsc 0 end generate_surface 1978538us
+      chld: process_kernels n=1
+generated part [215/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [216/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 1994010us
+      chld: process_kernels n=1
+generated part [217/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [218/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 2004423us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [219/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 2022104us
+      chld: process_kernels n=1
+generated part [220/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 2022921us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [221/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 2039470us
+      chld: process_kernels n=1
+generated part [222/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [223/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 2053671us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [224/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 2070257us
+      chld: process_kernels n=1
+generated part [225/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 2071551us
+      chld: process_kernels n=0
+generated part [226/700]
+evnt bsc 0 end generate_surface 2088015us
+      chld: process_kernels n=1
+generated part [227/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [228/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 2102968us
+      chld: process_kernels n=0
+generated part [229/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 2125271us
+      chld: process_kernels n=1
+generated part [230/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 2127337us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [231/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 2148289us
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+generated part [232/700]
+      chld: process_kernels n=1
+generated part [233/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 2151801us
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 2152445us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [234/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 2168851us
+evnt bsc 0 end generate_surface 2172950us
+evnt bsc 0 end       chld: process_kernels n=1
+generate_surface 2172990us
+      chld: process_kernels n=1
+generated part [235/700]
+generated part [236/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [237/700]
+      chld: process_kernels n=3
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld     evnt : process_kernels n=0
+bsc 0 strt generate_surface 2185122us
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 2191948us
+      chld: process_kernels n=1
+generated part [238/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [239/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 2199829us
+evnt bsc 0 end generate_surface 2205681us
+      chld: process_kernels n=1
+generated part [240/700]
+evnt bsc 0 end generate_surface 2214398us
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+generated part [241/700]
+      chld: process_kernels n=1
+generated part [242/700]
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 2216267us
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 2230418us
+evnt bsc 0 end generate_surface 2230898us
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [243/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+generated part [244/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 2241367us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [245/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 2251176us
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+generated part [246/700]
+evnt bsc 0 strt generate_surface 2255547us
+evnt bsc 0 end generate_surface 2261936us
+      chld: process_kernels n=1
+generated part [247/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [248/700]
+      chld: process_kernels n=3
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 2267217us
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 2268911us
+generated part [249/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 2269382us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [250/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 2282323us
+      chld: process_kernels n=1
+evnt bsc 0 strt generate_surface 2282522us
+generated part [251/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 2290770us
+      chld: process_kernels n=1
+generated part [252/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [253/700]
+      chld: process_kernels n=1
+evnt bsc 0 end generate_surface 2298956us
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [254/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 2300506us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [255/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 2321202us
+      chld: process_kernels n=1
+generated part [256/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [257/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 2331900us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [258/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 2349746us
+      chld: process_kernels n=1
+generated part [259/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 2351149us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [260/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 2367996us
+      chld: process_kernels n=1
+generated part [261/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [262/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 2381613us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [263/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 2398663us
+evnt bsc 0 end generate_surface 2402454us
+      chld: process_kernels n=1
+generated part [264/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [265/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 2413930us
+evnt bsc 0 end generate_surface 2419588us
+      chld: process_kernels n=1
+generated part [266/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [267/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 2428919us
+evnt bsc 0 end generate_surface 2438040us
+      chld: process_kernels n=1
+generated part [268/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 2443461us
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [269/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 2445159us
+generated part [270/700]
+      chld: process_kernels n=3
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 2448049us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 2459788us
+      chld: process_kernels n=1
+generated part [271/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [272/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 2462261us
+evnt bsc 0 end generate_surface 2469102us
+      chld: process_kernels n=1
+generated part [273/700]
+evnt bsc 0 end generate_surface 2476789us
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [274/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 2478484us
+generated part [275/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 2481332us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 2492826us
+      chld: process_kernels n=1
+generated part [276/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 2493660us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [277/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 2502179us
+      chld: process_kernels n=1
+generated part [278/700]
+evnt bsc 0 end generate_surface 2508193us
+      chld: process_kernels n=1
+generated part [279/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 2509072us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [280/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 2514348us
+evnt bsc 0 end generate_surface 2524283us
+      chld: process_kernels n=1
+generated part [281/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [282/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 2530341us
+evnt bsc 0 end generate_surface 2535443us
+      chld: process_kernels n=1
+generated part [283/700]
+evnt bsc 0 end generate_surface 2541997us
+      chld: process_kernels n=1
+generated part [284/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [285/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 2546267us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [286/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+     evnt bsc 0 end generate_surface 2562960us
+evnt bsc 0 strt generate_surface      chld: process_kernels n=1 2563453us
+
+generated part [287/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 2566396us
+      chld: process_kernels n=0
+generated part [288/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 2578844us
+evnt bsc 0 end generate_surface 2584284us
+      chld: process_kernels n=1
+generated part [289/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [290/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 2594449us
+evnt bsc 0 end generate_surface 2594918us
+      chld: process_kernels n=1
+evnt bsc 0 end generate_surface 2595142us
+      chld: process_kernels n=1
+generated part [291/700]
+generated part [292/700]
+evnt bsc 0 end generate_surface 2609322us
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [293/700]
+generated part [294/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 2611656us
+evnt bsc 0 end generate_surface 2626536us
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [295/700]
+generated part [296/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 2631260us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [297/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 2652678us
+      chld: process_kernels n=1
+generated part [298/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [299/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 2661244us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [300/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 2682636us
+      chld: process_kernels n=1
+generated part [301/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 2684716us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [302/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 2694805us
+evnt bsc 0 end generate_surface 2706689us
+      chld: process_kernels n=1
+generated part [303/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [304/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 2715500us
+      chld: process_kernels n=1
+generated part [305/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [306/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 2726726us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [307/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 2743504us
+evnt bsc 0 end generate_surface 2749131us
+      chld: process_kernels n=1
+generated part [308/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [309/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 2764053us
+      chld: process_kernels n=1
+generated part [310/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [311/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 2775776us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [312/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 2797157us
+      chld: process_kernels n=1
+generated part [313/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [314/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 2808551us
+evnt bsc 0 end generate_surface 2814082us
+      chld: process_kernels n=1
+generated part [315/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [316/700]
+      chld: process_kernels n=3
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+       evnt bsc 0 strt generate_surface 2825432us
+    chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [317/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 2840683us
+evnt bsc 0 end generate_surface 2846332us
+      chld: process_kernels n=1
+generated part [318/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [319/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 2856571us
+evnt bsc 0 end generate_surface 2857292us
+      chld: process_kernels n=1
+generated part [320/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [321/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=evnt bsc 0 end generate_surface 2873000us
+0
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [322/700]
+evnt bsc 0 strt generate_surface 2874039us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [323/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 2895455us
+      chld: process_kernels n=1
+generated part [324/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [325/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 2905058us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0          end generate_surface 2919625us
+      chld: process_kernels n=0
+      chld: process_kernels n=1
+generated part [326/700]
+      chld: process_kernels n=2
+generated part [327/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 2923148us
+evnt bsc 0 strt generate_surface 2923218us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [328/700]
+      chld: process_kernels n=1
+evnt bsc 0 end generate_surface 2937828us
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [329/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 2938936us
+evnt bsc 0 end generate_surface 2944150us
+      chld: process_kernels n=1
+generated part [330/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 2953505us
+      chld: process_kernels n=1
+generated part [331/700]
+      chld: process_kernels n=2
+generated part [332/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 2955827us
+evnt bsc 0 strt generate_surface 2955917us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 2970536us
+      chld: process_kernels n=1
+generated part [333/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+generated part [334/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 2972266us
+evnt bsc 0 end generate_surface 2977018us
+      chld: process_kernels n=1
+generated part [335/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [336/700]
+      chld: process_kernels n=3
+     evnt bsc 0 end generate_surface 2986838us
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [337/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 2989275us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 2990160us
+      chld: process_kernels n=0
+generated part [338/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 3006737us
+evnt bsc 0 end generate_surface 3010340us
+      chld: process_kernels n=1
+generated part [339/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 3012320us
+      chld: process_kernels n=1
+generated part [340/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 3014550us
+      chld: process_kernels n=0
+generated part [341/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 3022656us
+evnt bsc 0 end generate_surface 3027473us
+      chld: process_kernels n=1
+generated part [342/700]
+      chld: process_kernels n=0
+generated part [343/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 3037910us
+      chld: process_kernels n=1
+generated part [344/700]
+evnt bsc 0 end generate_surface 3043444us
+      chld: process_kernels n=1
+generated part [345/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [346/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 3055983us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [347/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 3072383us
+evnt bsc 0 end generate_surface 3076622us
+      chld: process_kernels n=1
+generated part [348/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [349/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 3088990us
+evnt bsc 0 end generate_surface 3092999us
+      chld: process_kernels n=1
+generated part [350/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 3094933us
+      chld: process_kernels n=0
+generated part [351/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 3106648us
+      chld: process_kernels n=1
+generated part [352/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 3107954us
+evnt bsc 0 end generate_surface 3115506us
+      chld: process_kernels n=1
+generated part [353/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [354/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 3124508us
+      chld: process_kernels n=1
+generated part [355/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 3125798us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [356/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 3142576us
+      chld: process_kernels n=1
+generated part [357/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 3143967us
+      chld: process_kernels n=0
+generated part [358/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 3162053us
+      chld: process_kernels n=1
+generated part [359/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 3163754us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [360/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 3180175us
+      chld: process_kernels n=1
+generated part [361/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 3181606us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [362/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 3189455us
+      chld: process_kernels n=1
+generated part [363/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [364/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 3201954us
+evnt bsc 0 end generate_surface 3216453us
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+generated part [365/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+generated part [366/700]
+evnt bsc 0 strt generate_surface 3230407us
+      chld: process_kernels n=1
+generated part [367/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 3236052us
+evnt bsc 0 end generate_surface 3246645us
+      chld: process_kernels n=1
+generated part [368/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [369/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 3251901us
+evnt bsc 0 end generate_surface 3257260us
+      chld: process_kernels n=1
+generated part [370/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [371/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 3268754us
+evnt bsc 0 end generate_surface 3272968us
+      chld: process_kernels n=1
+generated part [372/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [373/700]
+      chld: process_kernels n=3
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 3287287us
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 3288108us
+evnt bsc 0 end generate_surface 3289423us
+      chld: process_kernels n=1
+generated part [374/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [375/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 3300414us
+evnt bsc 0 end generate_surface 3308727us
+      chld: process_kernels n=1
+generated part [376/700]
+evnt bsc 0 end generate_surface 3310661us
+      chld: process_kernels n=1
+generated part [377/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 3313751us
+evnt bsc 0 end generate_surface 3314932us
+      chld: process_kernels n=1
+generated part [378/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [379/700]
+      chld: process_kernels n=3
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 3320879us
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 3321607us
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 3334584us
+generated part [380/700]
+      chld: process_kernels n=2
+generated part [381/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 3342412us
+      chld: process_kernels n=1
+generated part [382/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 3344500us
+evnt bsc 0 end generate_surface 3344870us
+      chld: process_kernels n=1
+generated part [383/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 3347775us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [384/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 3365197us
+      chld: process_kernels n=1
+generated part [385/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [386/700]
+      chld: process_kernels n=1
+evnt bsc 0 end generate_surface 3368483us
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+generated part [387/700]
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 3369914us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [388/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 3392040us
+      chld: process_kernels n=1
+generated part [389/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [390/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 3399975us
+      chld: process_kernels n=0
+generated part [391/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 3416527us
+      chld: process_kernels n=1
+generated part [392/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 3417594us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [393/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 3434313us
+evnt bsc 0 strt generate_surface 3434489us
+      chld: process_kernels n=1
+generated part [394/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [395/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 3451097us
+evnt bsc 0 end generate_surface 3455766us
+      chld: process_kernels n=1
+generated part [396/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [397/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 3471858us
+      chld: process_kernels n=1
+generated part [398/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 3474060us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [399/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 3495269us
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+generated part [400/700]
+generated part [401/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 3497124us
+evnt bsc 0 end generate_surface 3511689us
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [402/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+generated part [403/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 3515080us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [404/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 3536364us
+      chld: process_kernels n=1
+generated part [405/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 3538535us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [406/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 3559871us
+      chld: process_kernels n=1
+generated part [407/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [408/700]
+evnt bsc 0 strt generate_surface 3562512us
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 3573833us
+      chld: process_kernels n=0
+generated part [409/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 3585352us
+      chld: process_kernels n=1
+generated part [410/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [411/700]
+evnt bsc 0 end generate_surface 3595057us
+      chld: process_kernels n=1
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 3595494us
+generated part [412/700]
+evnt bsc 0 end generate_surface 3602394us
+      chld: process_kernels n=1
+generated part [413/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [414/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 3614188us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [415/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 3635430us
+      chld: process_kernels n=1
+generated part [416/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [417/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 3646551us
+      chld: process_kernels n=0
+generated part [418/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 3661725us
+evnt bsc 0 end generate_surface 3667326us
+      chld: process_kernels n=1
+generated part [419/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [420/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 3678394us
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [421/700]
+evnt bsc 0 strt generate_surface 3679710us
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [422/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 3693951us
+evnt bsc 0 end generate_surface 3700365us
+      chld: process_kernels n=1
+generated part [423/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 3710602us
+      chld: process_kernels n=1
+generated part [424/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+generated part [425/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 3711968us
+      chld: process_kernels n=0
+generated part [426/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 3729567us
+      chld: process_kernels n=1
+generated part [427/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 3730385us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [428/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 3745228us
+evnt bsc 0 end generate_surface 3746946us
+      chld: process_kernels n=1
+generated part [429/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [430/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 3759116us
+evnt bsc 0 end generate_surface 3765801us
+      chld: process_kernels n=1
+generated part [431/700]
+evnt bsc 0 end generate_surface 3773725us
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [432/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+generated part [433/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 3777019us
+      chld: process_kernels n=0
+generated part [434/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 3799339us
+      chld: process_kernels n=1
+generated part [435/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 3801452us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [436/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 3810231us
+evnt bsc 0 end generate_surface 3822262us
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+generated part [437/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [438/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 3831015us
+      chld: process_kernels n=1
+generated part [439/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [440/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 3842387us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [441/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 3858322us
+evnt bsc 0 end generate_surface 3863113us
+      chld: process_kernels n=1
+generated part [442/700]
+      chld: process_kernels n=0
+generated part [443/700]
+      chld: process_kernels n=3
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 3875502us
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 3880805us
+      chld: process_kernels n=1
+generated part [444/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 3882800us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [445/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 3892155us
+evnt bsc 0 end generate_surface 3896120us
+      chld: process_kernels n=1
+generated part [446/700]
+evnt bsc 0 end generate_surface 3903493us
+      chld: process_kernels n=1
+generated part [447/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [448/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 3907886us
+evnt bsc 0 end generate_surface 3913175us
+      chld: process_kernels n=1
+generated part [449/700]
+      chld: process_kernels n=0
+generated part [450/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 3931130us
+      chld: process_kernels n=1
+generated part [451/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 3933270us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [452/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 3943309us
+evnt bsc 0 end generate_surface 3954218us
+      chld: process_kernels n=1
+generated part [453/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [454/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 3957918us
+evnt bsc 0 end generate_surface 3964364us
+      chld: process_kernels n=1
+generated part [455/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [456/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 3978566us
+      chld: process_kernels n=1
+generated part [457/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [458/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 3988818us
+      chld: process_kernels n=0
+generated part [459/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 4006822us
+evnt bsc 0 strt      chld: process_kernels n= generate_surface 4006870us
+1
+generated part [460/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [461/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 4027479us
+      chld: process_kernels n=1
+generated part [462/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [463/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 4037798us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 4052427us
+      chld: process_kernels n=1
+generated part [464/700]
+      chld: process_kernels n=2
+generated part [465/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 4056106us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [466/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 4071470us
+evnt bsc 0 end generate_surface 4076654us
+      chld: process_kernels n=1
+generated part [467/700]
+      chld: process_kernels n=0
+generated part [468/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 4092110us
+      chld: process_kernels n=1
+generated part [469/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 4094280us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [470/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 4106281us
+evnt bsc 0 end generate_surface 4115013us
+      chld: process_kernels n=1
+generated part [471/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [472/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 4120382us
+evnt bsc 0 end generate_surface 4127127us
+      chld: process_kernels n=1
+generated part [473/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [474/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 4137978us
+evnt bsc 0 end generate_surface 4140876us
+      chld: process_kernels n=1
+generated part [475/700]
+      chld: process_kernels n=0
+generated part [476/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 4158610us
+      chld: process_kernels n=1
+generated part [477/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 4160759us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [478/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 4181245us
+      chld: process_kernels n=1
+generated part [479/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [480/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt       chld: process_kernelsgenerate_surface 4185699us
+ n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 4200468us
+      chld: process_kernels n=1
+generated part [481/700]
+      chld: process_kernels n=2
+generated part [482/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 4203957us
+evnt bsc 0 strt generate_surface 4204018us
+      chld: process_kernels n=0
+generated part [483/700]
+      chld: process_kernels n=2
+evnt bsc 0 end generate_surface 4218419us
+      chld: process_kernels n=0
+evnt bsc      chld: process_kernels n=1
+ 0 strt generate_surface 4218531us
+generated part [484/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 4224513us
+      chld: process_kernels n=1
+generated part [485/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 4226565us
+      chld: process_kernels n=0
+generated part [486/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 4235055us
+      chld: process_kernels n=1
+generated part [487/700]
+evnt bsc 0 end generate_surface 4247072us
+      chld: process_kernels n=1
+generated part [488/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld     evnt bsc 0 strt : process_kernels n=0
+generate_surface 4249249us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [489/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [490/700]
+evnt bsc 0 end generate_surface 4269844us
+      chld: process_kernels n=1
+generated part [491/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [492/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 4276735us
+      chld: process_kernels n=0
+generated part [493/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 4292749us
+evnt bsc 0 end generate_surface 4297358us
+      chld: process_kernels n=1
+generated part [494/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [495/700]
+      chld: process_kernels n=3
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 4309873us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 4310842us
+evnt bsc 0 end generate_surface 4313362us
+      chld: process_kernels n=1
+generated part [496/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [497/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 4325868us
+evnt bsc 0 end generate_surface 4330363us
+      chld: process_kernels n=1
+generated part [498/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface       chld: process_kernels4331544us
+ n=0
+      chld: process_kernels n=1
+generated part [499/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 4333976us
+      chld: process_kernels n=0
+generated part [500/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 4344445us
+evnt bsc 0 end generate_surface 4346369us
+      chld: process_kernels n=1
+generated part [501/700]
+evnt bsc 0 end generate_surface 4354530us
+      chld: process_kernels n=1
+generated part [502/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [503/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 4365040us
+      chld: process_kernels n=1
+generated part [504/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 4367104us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [505/700]
+      chld: process_kernels n=3
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 4378166us
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 4387893us
+      chld: process_kernels n=1
+generated part [506/700]
+      chld: process_kernels n=0
+generated part [507/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 4391255us
+evnt bsc 0 end generate_surface 4401798us
+      chld: process_kernels n=1
+generated part [508/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [509/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 4411682us
+      chld: process_kernels n=1
+generated part [510/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 4413873us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [511/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 4423612us
+evnt bsc 0 end generate_surface 4434420us
+      chld: process_kernels n=1
+generated part [512/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 4440041us
+      chld: process_kernels n=1
+generated part [513/700]
+      chld: process_kernels n=2
+generated part [514/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 4443101us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [515/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 4456282us
+evnt bsc 0 end generate_surface 4463540us
+      chld: process_kernels n=1
+generated part [516/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 4470816us
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [517/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 4472333us
+generated part [518/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 4486795us
+      chld: process_kernels n=1
+generated part [519/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 4488724us
+generated part [520/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 4495598us
+      chld: process_kernels n=1
+generated part [521/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [522/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 4507693us
+      chld: process_kernels n=0
+generated part [523/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 4528781us
+      chld: process_kernels n=1
+generated part [524/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 4531004us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [525/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 4552265us
+      chld: process_kernels n=1
+generated part [526/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld     evnt bsc 0: process_kernels n=0
+ strt generate_surface 4554191us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [527/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 4558147us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 4564115us
+      chld: process_kernels n=1
+generated part [528/700]
+generated part [529/700]
+evnt bsc 0 end generate_surface 4579344us
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=generated part [530/700]
+0
+      chld: process_kernels n=0
+generated part [531/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 4583907us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [532/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 4598438us
+evnt bsc 0 end generate_surface 4604656us
+      chld: process_kernels n=1
+generated part [533/700]
+      chld: process_kernels n=0
+generated part [534/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 4619287us
+      chld: process_kernels n=1
+generated part [535/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [536/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 4630178us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [537/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 4645715us
+evnt bsc 0 end generate_surface 4650874us
+      chld: process_kernels n=1
+generated part [538/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [539/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 4662342us
+      chld: process_kernels n=1
+generated part [540/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [541/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 4679466us
+      chld: process_kernels n=0
+generated part [542/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 4695101us
+evnt bsc 0 end generate_surface 4702444us
+      chld: process_kernels n=1
+generated part [543/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [544/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 4712512us
+evnt bsc 0 end generate_surface 4715853us
+      chld: process_kernels n=1
+generated part [545/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [546/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 4728263us
+evnt bsc 0 end generate_surface 4733326us
+      chld: process_kernels n=1
+generated part [547/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [548/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 4749012us
+      chld: process_kernels n=1
+generated part [549/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 4751002us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [550/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 4771684us
+      chld: process_kernels n=1
+generated part [551/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 4773858us
+      chld: process_kernels n=0
+generated part [552/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 4781848us
+      chld: process_kernels n=0
+generated part [553/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 4794759us
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [554/700]
+      chld: process_kernels n=1
+evnt bsc 0 strt generate_surface 4796165us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 4802444us
+      chld: process_kernels n=1
+generated part [555/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [556/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 4810825us
+evnt bsc 0 end generate_surface 4816889us
+      chld: process_kernels n=1
+generated part [557/700]
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 4825369us
+      chld: process_kernels n=1
+generated part [558/700]
+      chld: process_kernels n=3
+generated part [559/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 4829104us
+evnt bsc 0 strt generate_surface 4829163us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 4843679us
+      chld: process_kernels n=1
+generated part [560/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [561/700]
+evnt bsc 0 strt      chld: process_kernels n=1
+ generate_surface 4844470us
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 4849836us
+      chld: process_kernels n=1
+generated part [562/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [563/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 4859961us
+evnt bsc 0 end generate_surface 4861267us
+      chld: process_kernels n=1
+generated part [564/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [565/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 4880410us
+      chld: process_kernels n=1
+generated part [566/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 4882652us
+      chld: process_kernels n=0
+generated part [567/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 4895820us
+evnt bsc 0 end generate_surface 4903242us
+      chld: process_kernels n=1
+generated part [568/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [569/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 4916266us
+      chld: process_kernels n=1
+generated part [570/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [571/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 4926155us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [572/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 4946628us
+      chld: process_kernels n=1
+generated part [573/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [574/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [575/700]
+      chld: process_kernels n=3
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 4967448us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 4968248us
+      chld: process_kernels n=0
+generated part [576/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 4984271us
+evnt bsc 0 end generate_surface 4988739us
+      chld: process_kernels n=1
+generated part [577/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 4990665us
+      chld: process_kernels n=1
+generated part [578/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 4993106us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [579/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 5002030us
+evnt bsc 0 end generate_surface 5005306us
+      chld: process_kernels n=1
+generated part [580/700]
+evnt bsc 0 end generate_surface 5013744us
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [581/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+generated part [582/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 5015954us
+evnt bsc 0 end generate_surface 5022599us
+      chld: process_kernels n=1
+generated part [583/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 5024351us
+evnt bsc 0 end generate_surface 5026986us
+      chld: process_kernels n=1
+generated part [584/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [585/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 5032698us
+evnt bsc 0 end generate_surface 5044991us
+      chld: process_kernels n=1
+generated part [586/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [587/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld:      evnt bsc 0 end generate_surface 5049166us
+process_kernels n=0
+evnt bsc 0      chld: process_kernels n=1
+          strt generate_surface 5049752us
+generated part [588/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [589/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 5070158us
+      chld: process_kernels n=1
+generated part [590/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 5072288us
+      chld: process_kernels n=0
+generated part [591/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 5085738us
+evnt bsc 0 end generate_surface 5093282us
+      chld: process_kernels n=1
+generated part [592/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [593/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 5099154us
+evnt bsc 0 end generate_surface 5106770us
+      chld: process_kernels n=1
+generated part [594/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [595/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 5119878us
+      chld: process_kernels n=1
+generated part [596/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 5122171us
+      chld: process_kernels n=0
+generated part [597/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 5142981us
+      chld: process_kernels n=1
+generated part [598/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 5145048us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [599/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 5151618us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [600/700]
+evnt bsc 0 end generate_surface 5167816us
+      chld: process_kernels n=1
+generated part [601/700]
+evnt bsc 0 end generate_surface 5172070us
+      chld: process_kernels n=1
+generated part [602/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [603/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 5182930us
+      chld: process_kernels n=0
+generated part [604/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 5203736us
+      chld: process_kernels n=1
+generated part [605/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 5205147us
+generated part [606/700]
+evnt bsc 0 end generate_surface 5212239us
+      chld: process_kernels n=1
+generated part [607/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [608/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [609/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 5238908us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [610/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 5259575us
+      chld: process_kernels n=1
+generated part [611/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 5261585us
+      chld: process_kernels n=0
+generated part [612/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 5272080us
+evnt bsc 0 end generate_surface 5282413us
+      chld: process_kernels n=1
+generated part [613/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [614/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 5288486us
+evnt bsc 0 end generate_surface 5292965us
+      chld: process_kernels n=1
+generated part [615/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [616/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 5304273us
+evnt bsc 0 end generate_surface 5309088us
+      chld: process_kernels n=1
+generated part [617/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [618/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 5321461us
+evnt bsc 0 end generate_surface 5327203us
+      chld: process_kernels n=1
+generated part [619/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [620/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 5339625us
+evnt bsc 0 end generate_surface 5342108us
+      chld: process_kernels n=1
+generated part [621/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 5351419us
+generated part [622/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 5360308us
+      chld: process_kernels n=1
+generated part [623/700]
+evnt bsc 0 end generate_surface      chld:  5361527us
+process_kernels n=2
+generated part [624/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=1
+generated part [625/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 5364502us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [626/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 5379610us
+evnt bsc 0 end generate_surface 5387559us
+      chld: process_kernels n=1
+generated part [627/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [628/700]
+evnt bsc 0 end generate_surface 5400080us
+      chld: process_kernels n=1
+generated part [629/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [630/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=     evnt bsc 0 strt generate_surface 5411902us
+0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [631/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 5427324us
+evnt bsc 0 end generate_surface 5434830us
+      chld: process_kernels n=1
+generated part [632/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 5437070us
+      chld: process_kernels n=1
+generated part [633/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [634/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 5444222us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [635/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 5467048us
+      chld: process_kernels n=1
+generated part [636/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 5469051us
+      chld: process_kernels n=0
+generated part [637/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 5490248us
+      chld: process_kernels n=1
+generated part [638/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [639/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 5494341us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [640/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 5500229us
+evnt bsc 0 end generate_surface 5511366us
+      chld: process_kernels n=1
+generated part [641/700]
+evnt bsc 0 end generate_surface 5515041us
+      chld: process_kernels n=1
+generated part [642/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [643/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 5519315us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [644/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 5542132us
+      chld: process_kernels n=1
+generated part [645/700]
+      chld: process_kernels n=0
+generated part [646/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 5552022us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [647/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 5572886us
+      chld: process_kernels n=1
+generated part [648/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 5574887us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [649/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 5584482us
+evnt bsc 0 end generate_surface 5595763us
+      chld: process_kernels n=1
+generated part [650/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [651/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 5605132us
+      chld: process_kernels n=1
+generated part [652/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [653/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 5616763us
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 5638531us
+      chld: process_kernels n=1
+generated part [654/700]
+      chld: process_kernels n=2
+generated part [655/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 5642124us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [656/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 5653051us
+evnt bsc 0 end generate_surface 5662935us
+      chld: process_kernels n=1
+generated part [657/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [658/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 5671892us
+evnt bsc 0 end generate_surface 5673713us
+      chld: process_kernels n=1
+generated part [659/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [660/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+     evnt bsc 0 strt generate_surface 5685776us
+      chld: process_kernels n=0
+generated part [661/700]
+evnt bsc 0 end generate_surface 5692764us
+      chld: process_kernels n=1
+generated part [662/700]
+evnt bsc 0 end generate_surface 5696960us
+      chld: process_kernels n=1
+generated part [663/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [664/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 5711507us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [665/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 5727414us
+evnt bsc 0 end generate_surface 5732243us
+      chld: process_kernels n=1
+generated part [666/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [667/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 5745905us
+evnt bsc 0 end generate_surface 5748188us
+      chld: process_kernels n=1
+generated part [668/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [669/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 5760034us
+evnt bsc 0 end generate_surface 5766648us
+      chld: process_kernels n=1
+generated part [670/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 5769828us
+      chld: process_kernels n=1
+generated part [671/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [672/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 5776531us
+evnt bsc 0 end generate_surface 5786454us
+      chld: process_kernels n=1
+generated part [673/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [674/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 5794262us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [675/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 5815301us
+      chld: process_kernels n=1
+generated part [676/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [677/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 5826114us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [678/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 5847003us
+      chld: process_kernels n=1
+generated part [679/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 5849123us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [680/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 5859856us
+evnt bsc 0 end generate_surface 5872776us
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [681/700]
+generated part [682/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 5880595us
+      chld: process_kernels n=1
+generated part [683/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [684/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 5901190us
+evnt bsc 0 end generate_surface 5911768us
+      chld: process_kernels n=1
+generated part [685/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [686/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+     evnt bsc 0      chld: process_kernels n= strt generate_surface 5917890us
+0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [687/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 5934156us
+evnt bsc 0 end generate_surface 5938912us
+      chld: process_kernels n=1
+generated part [688/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 5956602us
+      chld: process_kernels n=1
+generated part [689/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [690/700]
+evnt bsc 0 strt generate_surface       chld: process_kernels n=1
+5958930us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 end generate_surface 5970302us
+      chld: process_kernels n=1
+generated part [691/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [692/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 5976436us
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [693/700]
+evnt bsc 0 end generate_surface 5998878us
+      chld: process_kernels n=1
+generated part [694/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [695/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 6005801us
+evnt bsc 0 end generate_surface 6026711us
+      chld: process_kernels n=1
+generated part [696/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [697/700]
+      chld: process_kernels n=2
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+evnt bsc 0 strt generate_surface 6063659us
+evnt bsc 0 end generate_surface 6084938us
+      chld: process_kernels n=1
+generated part [698/700]
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [699/700]
+      chld: process_kernels n=1
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+      chld: process_kernels n=0
+generated part [700/700]
+prfl write_all 0us
+      chld: process_kernels n=0
+prfl bsc_marshalling = 465562us
+prfl bsc_copy = 404604us
+prfl harts_g2 = 230us
+prfl harts_g1 = 29089us
+prfl harts_fft = 19977us
+prfl harts_copy_to_host = 0us
+prfl copy_to_host = 0us
+prfl write_surface = 0us
+evnt main 0 end programme 6396739us
