@@ -1,0 +1,9 @@
+Input file                     = ../input/propagating-wave-slice.arma
+Output grid size               = (100,100,100)
+Output grid patch size         = (0.394737,0.384615,0.9375)
+Model                          = grid=(100,100,100):(39.0789,38.0769,92.8125),order=(20,40,5),output=acf,csv,blitz,surface,acf.shape=(20,40,5),transform=dist=gram_charlier,skewness=0,kurtosis=0,cdf_solver=interval=[0,1],niterations=100,acf_solver=interval=[0,1],niterations=100,interpolation_nodes=100,max_interpolation_order=12,max_expansion_order=10,noseed=1
+Velocity potential solver name = N4arma8velocity21High_amplitude_solverIdEE
+Velocity potential solver      = wnmax=from (0,0) to (0,0) npoints (0,0),depth=12,domain=from (10,-12) to (10,3) npoints (1,128)
+ACF variance                   = 1
+White noise variance           = 0.00021719
+this->_zeta.grid()=(100,100,100):(39.0789,38.0769,92.8125)
