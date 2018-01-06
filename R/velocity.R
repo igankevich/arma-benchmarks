@@ -54,8 +54,10 @@ for (test_no in c('velocity')) {
 
 		phi_range <- range(phi_slice[phi_slice$z <= zeta_slice$z, "phi"])
 		print(phi_range)
+		large_phi_slice <- phi_slice[phi_slice$z <= zeta_slice$z & phi_slice$phi > 13.5490,]
+		print(large_phi_slice)
 
-		nlevels <- 21
+		nlevels <- 81
 		levels <- pretty(c(-25,25), nlevels)
 		palette <- colorRampPalette(c("blue", "lightyellow", "red"))
 		col <- palette(nlevels-1)
@@ -73,28 +75,26 @@ for (test_no in c('velocity')) {
 		
 		contour(
 			x, z, u,
-			levels=levels,
+			nlevels=nlevels,
 			asp=1,
 			drawlabels=TRUE,
-			add=TRUE
+			add=TRUE,
+			vfont=c('sans serif', 'bold'),
+			labcex=0.8
 		)
-
-# plot the image
-#par(pty="s")
-#	contour(
-#		x, z, u,
-#		levels=pretty(phi_range, 20),
-#		asp=1,
-#		xlim=range(c(x, 40))
-##	color.palette=colorRampPalette( c("blue", "white", "red") )
-#	)
 
 		top_area_x <- c(left_top_x*0.99, zeta_slice$x, right_top_x*1.01)
 		top_area_z <- c(left_top_z*1.10, zeta_slice$z, right_top_z*1.10)
-		polygon(top_area_x, top_area_z, lwd=4, border='white', col='white')
-		lines(zeta_slice$x, zeta_slice$z, lwd=4)
+		polygon(top_area_x, top_area_z, lwd=2, border='white', col='white')
+		lines(zeta_slice$x, zeta_slice$z, lwd=2)
+		points(
+			large_phi_slice$x,
+			large_phi_slice$z,
+			col='black',
+			bg='black',
+			pch=19
+		)
 		title(main=conf[[test_case]][["title"]], xlab='x', ylab='z')
-#image(x, z, u, c(-2,2), col=heat.colors(128))
 		box()
 	}
 	dev.off()
