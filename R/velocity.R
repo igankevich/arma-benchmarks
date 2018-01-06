@@ -87,13 +87,13 @@ for (test_no in c('velocity')) {
 		top_area_z <- c(left_top_z*1.10, zeta_slice$z, right_top_z*1.10)
 		polygon(top_area_x, top_area_z, lwd=2, border='white', col='white')
 		lines(zeta_slice$x, zeta_slice$z, lwd=2)
-		points(
-			large_phi_slice$x,
-			large_phi_slice$z,
-			col='black',
-			bg='black',
-			pch=19
-		)
+		#points(
+		#	large_phi_slice$x,
+		#	large_phi_slice$z,
+		#	col='black',
+		#	bg='black',
+		#	pch=19
+		#)
 		title(main=conf[[test_case]][["title"]], xlab='x', ylab='z')
 		box()
 	}
