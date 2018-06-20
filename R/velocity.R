@@ -4,7 +4,7 @@ middle_element <- function (x) {
 	x[round(length(x) + 0.5)/2]
 }
 
-for (test_no in c('velocity')) {
+for (test_no in c('velocity-2')) {
 	cairo_pdf(filename=paste(test_no,".pdf",sep=""), width=7, height=8)
 	par(mfrow=c(2,1))
 	root <- file.path('verification', test_no)
@@ -15,6 +15,7 @@ for (test_no in c('velocity')) {
 	conf[["our-formula"]][["title"]] <- "Our formula"
 	print(conf)
 
+	old_phi_range <- NULL
 	for (test_case in c('linear', 'our-formula')) {
 		phi <- read.csv(file.path(root, test_case, 'phi.csv'))
 		left_top_x <- 0
@@ -53,8 +54,11 @@ for (test_no in c('velocity')) {
 
 
 		phi_range <- range(phi_slice[phi_slice$z <= zeta_slice$z, "phi"])
+		if (test_case == 'linear') {
+			old_phi_range <- phi_range
+		}
 		print(phi_range)
-		large_phi_slice <- phi_slice[phi_slice$z <= zeta_slice$z & phi_slice$phi > 13.5490,]
+		large_phi_slice <- phi_slice[phi_slice$z <= zeta_slice$z & (phi_slice$phi < old_phi_range[[1]] | phi_slice$phi > old_phi_range[[2]]),]
 		print(large_phi_slice)
 
 		nlevels <- 81
@@ -66,11 +70,11 @@ for (test_no in c('velocity')) {
 		plot.window(xlim=range(x),ylim=range(z),asp=1)
 		axis(1); axis(2); box()
 		
-#	.filled.contour(
-#		x, z, u,
-#		levels=levels,
-#		col=col
-#	)
+	.filled.contour(
+		x, z, u,
+		levels=levels,
+		col=col
+	)
 		
 		
 		contour(
@@ -87,13 +91,13 @@ for (test_no in c('velocity')) {
 		top_area_z <- c(left_top_z*1.10, zeta_slice$z, right_top_z*1.10)
 		polygon(top_area_x, top_area_z, lwd=2, border='white', col='white')
 		lines(zeta_slice$x, zeta_slice$z, lwd=2)
-		#points(
-		#	large_phi_slice$x,
-		#	large_phi_slice$z,
-		#	col='black',
-		#	bg='black',
-		#	pch=19
-		#)
+		points(
+			large_phi_slice$x,
+			large_phi_slice$z,
+			col='black',
+			bg='black',
+			pch=19
+		)
 		title(main=conf[[test_case]][["title"]], xlab='x', ylab='z')
 		box()
 	}
