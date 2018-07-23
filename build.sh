@@ -3,34 +3,7 @@
 set -e
 ROOT=$(pwd)
 
-get_repository() {
-	repo=https://github.com/igankevich/bscheduler
-	rev=72f9df50ecc493b58e065d424cdc3e560e9deb78
-	if ! test -d bscheduler
-	then
-		echo "Cloning repository..."
-		git clone -q $repo bscheduler
-	fi
-	cd bscheduler
-	git checkout master
-	git pull
-	git checkout -q $rev
-	echo "Repository: $(git remote get-url origin)"
-	echo "Revision: $(git rev-parse HEAD)"
-}
-
-build_bscheduler() {
-	dir=$1
-	options=$2
-	echo "Building with $options ..."
-	if ! test -d $dir
-	then
-		meson --buildtype=release . $dir
-	fi
-	mesonconf $dir $options
-	ninja -C $dir
-#	ninja -C $dir test
-}
+. $ROOT/common.sh
 
 benchmark() {
 	nodes=$1
@@ -85,8 +58,11 @@ benchmark() {
 	cd $ROOT
 }
 
-get_repository
-#build_bscheduler node-discovery "-Dprofile_node_discovery=true"
+repositry_build \
+	https://github.com/igankevich/bscheduler \
+	72f9df50ecc493b58e065d424cdc3e560e9deb78 \
+	node-discovery \
+	"-Dprofile_node_discovery=true"
 #benchmark 1 512 enp2s0 # storm
 
 # ant

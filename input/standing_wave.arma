@@ -1,0 +1,22 @@
+model = AR {
+	out_grid = (20,100,100)
+	acf = {
+		func = standing_wave
+#		func = cos
+		amplitude = 3
+		alpha = (2,0.2,1)
+		velocity = 0.50
+		beta = (0.0625,0)
+		nwaves = (1.85,16,1)
+		shape = (32,32,32)
+	}
+	algorithm = choi_recursive
+	order = (7,7,7)
+#	algorithm = gauss_elimination
+	output = surface,blitz
+	validate = 0
+}
+velocity_potential_solver = high_amplitude {
+	depth = 12
+	domain = from (0,-12) to (19,3) npoints (20,128)
+}

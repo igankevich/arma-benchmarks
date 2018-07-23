@@ -1,0 +1,20 @@
+model = MA {
+	out_grid = (20,100,100)
+	acf = {
+		func = cos
+		amplitude = 2
+		alpha = (1,0,0)
+		velocity = 0.01
+		beta = (0.1,0)
+		nwaves = (12.5,12.5,12.5)
+		shape = (32,1,1)
+	}
+	order = (20,1,1)
+	algorithm = fixed_point_iteration
+	output = surface,blitz
+	validate = 0
+}
+velocity_potential_solver = high_amplitude {
+	depth = 12
+	domain = from (0,-12) to (19,3) npoints (20,128)
+}

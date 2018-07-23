@@ -1,0 +1,23 @@
+#!/bin/sh
+
+set -e
+
+root=$(pwd)
+
+. $root/scripts/common.sh
+
+repository_build \
+	git@github.com:igankevich/arma \
+	07e175d61558d7adb63f61de99a2de02a97951e4 \
+	build \
+	"-Dframework=openmp -Db_sanitize=none -Dreal_type=double"
+
+for testname in propagating_wave standing_wave
+do
+	wd=$root/verification-full/$testname
+	rm -rf $wd
+	mkdir -p $wd
+	cd $wd
+	cp $root/input/mt.dat .
+	$root/arma/build/src/arma $root/input/$testname.arma
+done
